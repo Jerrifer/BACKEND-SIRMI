@@ -11,7 +11,7 @@ const getItems = async (req, res) => {
   try {
     const listAll = await userModel.find();
 if(listAll.length > 0) { 
-  estructureApi.toResponse(listAll)
+  estructureApi.setResult(listAll)
 
 }else{
   estructureApi.setState('message : no existe ningun producto ')
@@ -19,6 +19,7 @@ if(listAll.length > 0) {
   } catch (error) {
     httpError(res, error);
   }
+  res.send(estructureApi.toResponse())
 };
 // list one user
 

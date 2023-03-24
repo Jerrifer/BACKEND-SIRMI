@@ -3,10 +3,10 @@ const router = express.Router()
 
 const { index, create } = require('../controller/prueba')
 
-router.post('/pruebacreate', create)
+router.post('/create', create)
 
 
-router.get('/pruebafind', index)
+router.get('/index', index)
 
 
 module.exports = router

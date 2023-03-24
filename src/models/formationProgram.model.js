@@ -7,6 +7,19 @@ const formationProgramSchema = new mongoose.Schema({
         unique: true,
     },
 
+    program_code: {
+        type: String,
+        unique: true,
+    },
+
+    program_version: {
+        type: String,
+    },
+
+    duration: {
+        type: String,
+    },
+
     area: [{
         ref: "Area",
         type: mongoose.Schema.Types.ObjectId
@@ -24,7 +37,7 @@ const formationProgramSchema = new mongoose.Schema({
 
     trainingcenters: [{
         ref: "TrainingCenter",
-        type: mongoose.Schema.Types.ObjectId
+        type: mongoose.Schema.Types.String
     }]
 
 }, {

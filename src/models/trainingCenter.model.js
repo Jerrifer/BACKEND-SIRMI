@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 
 const trainingCenterSchema = new mongoose.Schema({
 
+
     name: {
         type: String,
         unique: true,
@@ -9,7 +10,7 @@ const trainingCenterSchema = new mongoose.Schema({
 
     municipalitie: [{
         ref: "Municipalitie",
-        type: mongoose.Schema.Types.ObjectId
+        type: mongoose.Schema.Types.Number
     }],
 
     formationprograms: [{
