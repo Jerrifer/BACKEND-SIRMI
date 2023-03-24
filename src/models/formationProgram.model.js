@@ -2,10 +2,10 @@ const mongoose = require('mongoose');
 
 const formationProgramSchema = new mongoose.Schema({
 
-    _id: {
-        type: mongoose.Schema.Types.String,
-        unique: true,
-    },
+    // _id: {
+    //     type: mongoose.Schema.Types.String,
+    //     unique: true,
+    // },
 
     program_name: {
         type: String

@@ -1,18 +1,18 @@
 const express = require('express');
 const router = express.Router();
-const {  createknowledgeNetwork,getknowledgeNetwork  } = require('../controller/knowledgeNetwork.controller');
+const { createknowledgeNetwork, getknowledgeNetwork, getknowledgeNetworks,updateknowledgeNetwork,deleteknowledgeNetwork } = require('../controller/knowledgeNetwork.controller');
 
- router.get('/', getknowledgeNetwork)
+router.get('/', getknowledgeNetwork)
 
-// router.get('/:id', getItem)
+router.get('/:id', getknowledgeNetworks)
 
 
 router.post('/', createknowledgeNetwork)
 
 
-// router.put('/:id', updateItems)
+router.put('/:id', updateknowledgeNetwork)
 
 
-// router.delete('/:id', deleteItems)
+router.delete('/:id', deleteknowledgeNetwork)
 
 module.exports = router

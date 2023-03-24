@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const knowledgeNetworkSchema = new mongoose.Schema({
 
     _id: {
-        type: mongoose.Schema.Types.String,
+        type: mongoose.Schema.Types.Number,
         unique: true,
     },
 
