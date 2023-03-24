@@ -14,7 +14,7 @@ const trainingCenterSchema = new mongoose.Schema({
     }],
 
     formationprograms: [{
-        ref: "FormationProgram",
+        ref: "Formation_Program",
         type: mongoose.Schema.Types.ObjectId
     }]
 
@@ -23,4 +23,4 @@ const trainingCenterSchema = new mongoose.Schema({
     versionKey: false
 })
 
-module.exports = mongoose.model('TrainingCenter', trainingCenterSchema);
+module.exports = mongoose.model('Training_Center', trainingCenterSchema);

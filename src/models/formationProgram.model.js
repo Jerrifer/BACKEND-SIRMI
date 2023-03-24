@@ -2,41 +2,42 @@ const mongoose = require('mongoose');
 
 const formationProgramSchema = new mongoose.Schema({
 
-    name: {
-        type: String,
+    _id: {
+        type: mongoose.Schema.Types.String,
         unique: true,
+    },
+
+    program_name: {
+        type: String
     },
 
     program_code: {
-        type: String,
-        unique: true,
+        type: String
+    },
+
+    total_duration: {
+        type: String
     },
 
     program_version: {
-        type: String,
+        type: String
+    },
+    
+    typeprogram: {
+        type: String
     },
 
-    duration: {
-        type: String,
+    thematic_line: {
+        ref: "Thematic_Line",
+        type: mongoose.Schema.Types.String
     },
-
-    area: [{
-        ref: "Area",
-        type: mongoose.Schema.Types.ObjectId
-    }],
-
-    typeprogram: [{
-        ref: "TypeProgram",
-        type: mongoose.Schema.Types.ObjectId
-    }],
-
-    typecertification: [{
-        ref: "TypeCertification",
-        type: mongoose.Schema.Types.ObjectId
-    }],
+    type_certification: {
+        ref: "Type_Certification",
+        type: mongoose.Schema.Types.String
+    },
 
     trainingcenters: [{
-        ref: "TrainingCenter",
+        ref: "Training_Center",
         type: mongoose.Schema.Types.String
     }]
 

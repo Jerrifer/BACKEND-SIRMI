@@ -4,7 +4,7 @@ const resposeApi = require("../helpers/responseApi");
 const knowledgeNetworkModel = require("../models/knowledgeNetwork.model");
 const typeCertificationModel = require("../models/typeCertification.model");
 const typeProgramModel = require("../models/typeProgram.model");
-const areaModel = require("../models/area.model");
+const thematicLineModel = require("../models/thematicLine.model");
 
 // list all formation programs
 const getFormationPrograms = async (req, res) => {
@@ -52,7 +52,7 @@ const createFormationProgram = async (req, res) => {
 
     const { name, program_code, program_version, duration, area, typeprogram, typecertification } = req.body;
 
-    const areaFP = await areaModel.findById(area);
+    const areaFP = await thematicLineModel.findById(area);
 
     if(!areaFP) {
         structureApi.setState("200", "success", "El área que ingresaste no existe");
@@ -94,7 +94,7 @@ const updateFormationProgram = async (req, res) => {
 
     const { area, typeprogram, typecertification } = req.body;
 
-    const areaFP = await areaModel.findById(area);
+    const areaFP = await thematicLineModel.findById(area);
 
     if(!areaFP) {
         structureApi.setState("200", "success", "El área que ingresaste no existe");
