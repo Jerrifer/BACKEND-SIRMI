@@ -52,4 +52,4 @@ const formationProgramSchema = new mongoose.Schema({
     versionKey: false
 })
 
-module.exports = mongoose.model('FormationProgram', formationProgramSchema);
+module.exports = mongoose.model('Formation_Program', formationProgramSchema);

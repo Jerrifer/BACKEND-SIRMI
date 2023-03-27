@@ -1,7 +1,7 @@
 const { httpError } = require("../helpers/hanledeError");
 
 
-const Competences = require("../models/competences.model")
+const Competences = require("../models/competence.model")
 
 
 

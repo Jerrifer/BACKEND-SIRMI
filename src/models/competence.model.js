@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 
-const competencesSchema = new mongoose.Schema({
+const competenceSchema = new mongoose.Schema({
 
     _id: {
         type: mongoose.Schema.Types.Number,
@@ -27,14 +27,11 @@ const competencesSchema = new mongoose.Schema({
 
     },
 
-    formationprograms: [{
+    formationprograms: {
         ref: "Formation_Program",
         type: mongoose.Schema.Types.Array
-    },
-    {
-        ref: "Formation_Program",
-        type: mongoose.Schema.Types.Number
-    }]
+    
+    }
 
 
 }, 
@@ -44,4 +41,4 @@ const competencesSchema = new mongoose.Schema({
     versionKey: false
 });
 
-module.exports = mongoose.model('competences', competencesSchema);
+module.exports = mongoose.model('competence', competenceSchema);
