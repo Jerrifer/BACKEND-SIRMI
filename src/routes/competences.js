@@ -1,19 +1,21 @@
+const express = require("express");
+const router = express.Router();
 
+const {
+  createcompetences,
+  getcompetences,
+  updatecompones,
+  deletecompones,
+  getcompetence,
+} = require("../controller/competences.controller");
 
+router.get("/", getcompetences);
 
-const express = require('express')
-const router = express.Router()
+router.get("/:id", getcompetence);
+router.post("/", createcompetences);
 
-const { createcompetences } = require('../controller/competences.controller')
+router.put("/:id", updatecompones);
 
+router.delete("/:id", deletecompones);
 
-
-router.post('/', createcompetences)
-
-
-// router.get('/register', signup)
-
-
-
-module.exports = router
-
+module.exports = router;

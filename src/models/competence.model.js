@@ -18,7 +18,8 @@ const competenceSchema = new mongoose.Schema({
     },
 
     competition_code: {
-        type: String
+        type: String,
+        unique: true,
     },
 
 
