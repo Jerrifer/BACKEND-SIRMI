@@ -29,7 +29,11 @@ const competencesSchema = new mongoose.Schema({
 
     formationprograms: [{
         ref: "Formation_Program",
-        type: mongoose.Schema.Types.ObjectId
+        type: mongoose.Schema.Types.Array
+    },
+    {
+        ref: "Formation_Program",
+        type: mongoose.Schema.Types.Number
     }]
 
 
