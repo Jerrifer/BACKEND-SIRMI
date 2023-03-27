@@ -39,6 +39,12 @@ const formationProgramSchema = new mongoose.Schema({
     trainingcenters: [{
         ref: "Training_Center",
         type: mongoose.Schema.Types.String
+    }],
+
+    competences:[{
+        ref: "Competence",
+        type: mongoose.Schema.Types.String
+
     }]
 
 }, {
