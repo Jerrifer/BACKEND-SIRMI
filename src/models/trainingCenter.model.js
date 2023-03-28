@@ -2,21 +2,28 @@ const mongoose = require('mongoose');
 
 const trainingCenterSchema = new mongoose.Schema({
 
-
-    name: {
-        type: String,
+    _id: {
+        type: mongoose.Schema.Types.Number,
         unique: true,
     },
 
-    municipalitie: [{
+    training_center: {
+        type: String,
+    },
+
+    training_center_address: {
+        type: String,
+    },
+
+    municipalitie: {
         ref: "Municipalitie",
         type: mongoose.Schema.Types.Number
-    }],
+    },
 
-    formationprograms: [{
+    formationprograms: {
         ref: "Formation_Program",
-        type: mongoose.Schema.Types.ObjectId
-    }]
+        type: mongoose.Schema.Types.Array
+    }
 
 }, {
     timestamps: true,

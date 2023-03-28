@@ -23,29 +23,29 @@ const formationProgramSchema = new mongoose.Schema({
         type: String
     },
     
-    typeprogram: {
-        type: String
+    type_program: {
+        ref: "Type_Program",
+        type: mongoose.Schema.Types.String
     },
 
     thematic_line: {
         ref: "Thematic_Line",
         type: mongoose.Schema.Types.String
     },
-    type_certification: {
-        ref: "Type_Certification",
+    program_level: {
+        ref: "Program_Level",
         type: mongoose.Schema.Types.String
     },
 
-    trainingcenters: [{
+    // competences:{
+    //     ref: "Competence",
+    //     type: mongoose.Schema.Types.Array
+    // },
+
+    training_centers: {
         ref: "Training_Center",
-        type: mongoose.Schema.Types.String
-    }],
-
-    competences:[{
-        ref: "Competence",
-        type: mongoose.Schema.Types.String
-
-    }]
+        type: mongoose.Schema.Types.Array
+    },
 
 }, {
     timestamps: true,

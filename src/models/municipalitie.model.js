@@ -7,15 +7,15 @@ const municipalitieSchema = new mongoose.Schema({
         unique: true,
     },
 
-    name: {
+    municipalitie: {
         type: String,
         unique: true,
     },
 
-    regionale: [{
+    regionale: {
         ref: "Regionale",
         type: mongoose.Schema.Types.Number,
-    }]
+    }
 
 }, {
     timestamps: true,

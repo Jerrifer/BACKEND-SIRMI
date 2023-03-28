@@ -1,15 +1,14 @@
 const mongoose = require('mongoose');
 
-const typeCertificationSchema = new mongoose.Schema({
+const TypeProgramSchema = new mongoose.Schema({
 
     _id: {
         type: mongoose.Schema.Types.String,
         unique: true,
     },
 
-    program_level: {
+    type_program: {
         type: String,
-        unique: true,
     },
 
 }, {
@@ -17,4 +16,4 @@ const typeCertificationSchema = new mongoose.Schema({
     versionKey: false
 })
 
-module.exports = mongoose.model('Type_Certification', typeCertificationSchema);
+module.exports = mongoose.model('Type_Program', TypeProgramSchema);

@@ -7,7 +7,7 @@ const regionaleSchema = new mongoose.Schema({
         unique: true,
     },
     
-    name: {
+    regionale: {
         type: String,
         unique: true,
     }

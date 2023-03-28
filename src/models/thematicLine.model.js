@@ -15,10 +15,10 @@ const ThematicLineSchema = new mongoose.Schema({
         type: String,
     },
 
-    knowledge_network: [{
+    knowledge_network: {
         ref: "Knowledge_Network",
         type: mongoose.Schema.Types.Array
-    }]
+    }
 
 }, {
     timestamps: true,
