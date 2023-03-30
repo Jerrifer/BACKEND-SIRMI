@@ -4,8 +4,7 @@ const mongoose = require('mongoose');
 const competenceSchema = new mongoose.Schema({
 
     _id: {
-        type: mongoose.Schema.Types.String,
-        unique: true,
+        type: mongoose.Schema.Types.Number,
     },
     
     labor_competence_code: {
@@ -22,14 +21,13 @@ const competenceSchema = new mongoose.Schema({
     },
 
     duration:{
-        type: String
+        type: Number
     },
 
     formation_programs: {
         ref: "Formation_Program",
         type: mongoose.Schema.Types.Array
     }
-
 
 }, 
 
@@ -38,4 +36,4 @@ const competenceSchema = new mongoose.Schema({
     versionKey: false
 });
 
-module.exports = mongoose.model('competence', competenceSchema);
+module.exports = mongoose.model('Competence', competenceSchema);

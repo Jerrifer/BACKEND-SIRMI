@@ -15,8 +15,6 @@ app.use(express.json());
 
 app.use("/api/v1", require("./src/routes"));
 
-app.use("/prueba", require("./src/routes/prueba"));
-
 app.use("/auth", require("./src/routes/auth"));
 
 

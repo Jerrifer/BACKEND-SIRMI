@@ -4,7 +4,6 @@ const knowledgeNetworkSchema = new mongoose.Schema({
 
     _id: {
         type: mongoose.Schema.Types.Number,
-        unique: true,
     },
 
     knowledge_network: {

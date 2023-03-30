@@ -4,7 +4,6 @@ const trainingCenterSchema = new mongoose.Schema({
 
     _id: {
         type: mongoose.Schema.Types.Number,
-        unique: true,
     },
 
     training_center: {

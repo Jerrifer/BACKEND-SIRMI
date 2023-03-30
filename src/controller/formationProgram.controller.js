@@ -8,20 +8,19 @@ const ThematicLineModel = require("../models/thematicLine.model");
 const getFormationPrograms = async (req, res) => {
   const structureApi = new resposeApi();
   try {
-    const listAll = await FormationProgramModel.find().populate([
+    const allFormationProgram = await FormationProgramModel.find().populate([
       'training_centers', 'type_program', 'thematic_line', 'program_level'
     ]);
-    if (listAll.length > 0) {
+    if (allFormationProgram.length > 0) {
       structureApi.setState("200", "success", "Programas de formacion encontrados");
-      structureApi.setResult(listAll);
+      structureApi.setResult(allFormationProgram);
     } else {
       structureApi.setState("200", "success", "No hay programas de formación registrados");
     }
   } catch (error) {
-    structureApi.setState("500", "error", "Error");
+    structureApi.setState("500", "error", "Error en la solicitud");
     structureApi.setResult(error);
   }
-
   res.json(structureApi.toResponse());
 };
 
@@ -34,13 +33,13 @@ const getFormationProgram = async (req, res) => {
       //, 'type_program', 'thematic_line', 'program_level'
     ).populate(['training_centers', 'type_program', 'thematic_line', 'program_level']);
     if (formationProgram) {
-        structureApi.setState("200", "success", "Programa de formacion encontrado exitosamente");
-    structureApi.setResult(formationProgram);
+      structureApi.setState("200", "success", "Programa de formacion encontrado exitosamente");
+      structureApi.setResult(formationProgram);
     } else {
-        structureApi.setState("200", "success", "No existe el programa de formación");
+      structureApi.setState("200", "success", "No existe el programa de formación");
     }
   } catch (error) {
-    structureApi.setState("500", "error", "Error");
+    structureApi.setState("500", "error", "Error en la solicitud");
     structureApi.setResult(error);
   }
   res.json(structureApi.toResponse());
@@ -50,40 +49,14 @@ const getFormationProgram = async (req, res) => {
 const createFormationProgram = async (req, res) => {
   const structureApi = new resposeApi();
   try {
-
-    const { program_name, program_code, program_version, total_duration, thematic_line, type_program, program_level, training_centers } = req.body;
-
-    const ThematicLineVal = await ThematicLineModel.findById(thematic_line);
-    if(!ThematicLineVal) {
-        structureApi.setState("200", "success", "La línea tématica que ingresaste no existe");
-        return  res.json(structureApi.toResponse());
-    }
-
-    const programLevelVal = await ProgramLevelModel.findById(program_level);
-    if(!programLevelVal) {
-        structureApi.setState("200", "success", "El nivel del programa que ingresaste no existe");
-        return  res.json(structureApi.toResponse());
-    }
-
-    const typeProgramVal = await TypeProgramModel.findById(type_program);
-    if(!typeProgramVal) {
-        structureApi.setState("200", "success", "El tipo de programa que ingresaste no existe");
-        return  res.json(structureApi.toResponse());
-    }
-
-        const newFormationProgram = await FormationProgramModel.create({
-            program_name, program_code, program_version, total_duration,
-            thematic_line,
-            type_program,
-            program_level,
-            training_centers
-        });
-         structureApi.setState("200", "success", "Programa de formacion registrado exitosamente");
-         structureApi.setResult(newFormationProgram);              
+        const newFormationProgram = await FormationProgramModel.create(req.body);
+        structureApi.setState("200", "success", "Programa de formacion registrado exitosamente");
+        structureApi.setResult(newFormationProgram);
 
   } catch (error) {
-    structureApi.setState("500", "error", "Error");
+    structureApi.setState("500", "error", "Error en la solicitud");
     structureApi.setResult(error);
+    console.log(error);
   }
   res.json(structureApi.toResponse());
 };
@@ -94,26 +67,6 @@ const updateFormationProgram = async (req, res) => {
   try {
 
     //program_name, program_code, program_version, total_duration, 
-    const { thematic_line, type_program, program_level } = req.body;
-
-    const ThematicLineVal = await ThematicLineModel.findById(thematic_line);
-    if(!ThematicLineVal) {
-        structureApi.setState("200", "success", "La línea tématica que ingresaste no existe");
-        return  res.json(structureApi.toResponse());
-    }
-
-    const programLevelVal = await ProgramLevelModel.findById(program_level);
-    if(!programLevelVal) {
-        structureApi.setState("200", "success", "El nivel del programa que ingresaste no existe");
-        return  res.json(structureApi.toResponse());
-    }
-
-    const typeProgramVal = await TypeProgramModel.findById(type_program);
-    if(!typeProgramVal) {
-        structureApi.setState("200", "success", "El tipo de programa que ingresaste no existe");
-        return  res.json(structureApi.toResponse());
-    }
-
 
     const formationProgram = await FormationProgramModel.findByIdAndUpdate(
       req.params.id,
@@ -123,7 +76,7 @@ const updateFormationProgram = async (req, res) => {
     structureApi.setState("200", "success", "Programa de formacion actualizado exitosamente");
     structureApi.setResult(formationProgram);
   } catch (error) {
-    structureApi.setState("500", "error", "Error");
+    structureApi.setState("500", "error", "Error en la solicitud");
     structureApi.setResult(error);
     console.log(error);
 
@@ -141,7 +94,7 @@ const deleteFormationProgram = async (req, res) => {
     structureApi.setState("200", "success", "Programa de formacion eliminado exitosamente");
     structureApi.setResult(formationProgram);
   } catch (error) {
-    structureApi.setState("500", "error", "Error");
+    structureApi.setState("500", "error", "Error en la solicitud");
     structureApi.setResult(error);
   }
   res.json(structureApi.toResponse());

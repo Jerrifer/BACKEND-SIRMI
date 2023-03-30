@@ -3,8 +3,7 @@ const mongoose = require('mongoose');
 const learningResultSchema = new mongoose.Schema({
 
     _id: {
-        type: mongoose.Schema.Types.String,
-        unique: true
+        type: mongoose.Schema.Types.Number,
     },
 
     learning_result: {
@@ -13,7 +12,7 @@ const learningResultSchema = new mongoose.Schema({
 
     competence:{
         ref: "Competence",
-        type: mongoose.Schema.Types.String
+        type: mongoose.Schema.Types.Number
     }
 
 }, {

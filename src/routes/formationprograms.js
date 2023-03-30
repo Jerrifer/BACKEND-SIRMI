@@ -1,15 +1,16 @@
 const express = require('express');
 const router = express.Router();
-const { getFormationPrograms, getFormationProgram, createFormationProgram, updateFormationProgram, deleteFormationProgram } = require('../controller/formationProgram.controller');
+const formationProgramController = require('../controller/formationProgram.controller');
+const { validateFormationProgram, validateFormationProgramById } = require('../validators/formationPrograms.validator')
 
-router.get('/', getFormationPrograms)
+router.get('/', formationProgramController.getFormationPrograms)
 
-router.get('/:id', getFormationProgram)
+router.get('/:id', validateFormationProgramById, formationProgramController.getFormationProgram)
 
-router.post('/', createFormationProgram)
+router.post('/', validateFormationProgram, formationProgramController.createFormationProgram)
 
-router.put('/:id', updateFormationProgram)
+router.put('/:id', validateFormationProgramById, validateFormationProgram, formationProgramController.updateFormationProgram)
 
-router.delete('/:id', deleteFormationProgram)
+router.delete('/:id', validateFormationProgramById, formationProgramController.deleteFormationProgram)
 
 module.exports = router

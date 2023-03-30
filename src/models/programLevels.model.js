@@ -4,7 +4,6 @@ const programLevelSchema = new mongoose.Schema({
 
     _id: {
         type: mongoose.Schema.Types.String,
-        unique: true,
     },
 
     program_level: {
