@@ -1,38 +1,38 @@
-class responseApi{
+class responseApi {
 
 
     structure = {
-        status  :'success',
-        message :'',
-        code    :'200',
-        results : null,
+        status: 'success',
+        message: '',
+        code: '200',
+        results: null,
     }
 
- constructor(){
- }
-    setState = (code, status, message)=>{
+    constructor() {
+    }
+    setState = (code, status, message) => {
 
-        this.structure.code    = code;
-        this.structure.status  = status;
+        this.structure.code = code;
+        this.structure.status = status;
         this.structure.message = message;
     }
 
 
-    setResult = (results)=>{
+    setResult = (results) => {
 
         this.structure.results = results;
     }
 
 
-    toResponse = ()=>{
+    toResponse = () => {
 
-        return{
-            status  : this.structure.status,
-            message : this.structure.message,
-            code    : this.structure.code,
-            results : this.structure.results
+        return {
+            status: this.structure.status,
+            message: this.structure.message,
+            code: this.structure.code,
+            results: this.structure.results
         }
-        
+
     }
 
 

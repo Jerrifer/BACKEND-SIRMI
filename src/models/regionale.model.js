@@ -2,10 +2,14 @@ const mongoose = require('mongoose');
 
 const regionaleSchema = new mongoose.Schema({
 
-    name: {
+    _id: {
+        type: mongoose.Schema.Types.Number,
+    },
+    
+    regionale: {
         type: String,
         unique: true,
-    },
+    }
 
 
 }, {

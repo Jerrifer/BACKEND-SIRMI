@@ -1,13 +1,14 @@
 const mongoose = require('mongoose');
 
-const TypeProgramSchema = new mongoose.Schema({
+const programLevelSchema = new mongoose.Schema({
 
     _id: {
         type: mongoose.Schema.Types.String,
     },
 
-    type_program: {
+    program_level: {
         type: String,
+        unique: true,
     },
 
 }, {
@@ -15,4 +16,4 @@ const TypeProgramSchema = new mongoose.Schema({
     versionKey: false
 })
 
-module.exports = mongoose.model('Type_Program', TypeProgramSchema);
+module.exports = mongoose.model('Program_Level', programLevelSchema);

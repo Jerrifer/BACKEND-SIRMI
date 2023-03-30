@@ -2,15 +2,19 @@ const mongoose = require('mongoose');
 
 const municipalitieSchema = new mongoose.Schema({
 
-    name: {
+    _id: {
+        type: mongoose.Schema.Types.Number,
+    },
+
+    municipalitie: {
         type: String,
         unique: true,
     },
 
-    regionale: [{
+    regionale: {
         ref: "Regionale",
-        type: Number
-    }]
+        type: mongoose.Schema.Types.Number,
+    }
 
 }, {
     timestamps: true,
