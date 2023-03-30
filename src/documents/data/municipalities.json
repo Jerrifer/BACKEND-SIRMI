@@ -1,0 +1,5617 @@
+[
+        {
+            "_id": 5001,
+            "municipalitie": "Medellín",
+            "regionale": 5
+        },
+        {
+            "_id": 5002,
+            "municipalitie": "Abejorral",
+            "regionale": 5
+        },
+        {
+            "_id": 5004,
+            "municipalitie": "Abriaquí",
+            "regionale": 5
+        },
+        {
+            "_id": 5021,
+            "municipalitie": "Alejandría",
+            "regionale": 5
+        },
+        {
+            "_id": 5030,
+            "municipalitie": "Amagá",
+            "regionale": 5
+        },
+        {
+            "_id": 5031,
+            "municipalitie": "Amalfi",
+            "regionale": 5
+        },
+        {
+            "_id": 5034,
+            "municipalitie": "Andes",
+            "regionale": 5
+        },
+        {
+            "_id": 5036,
+            "municipalitie": "Angelópolis",
+            "regionale": 5
+        },
+        {
+            "_id": 5038,
+            "municipalitie": "Angostura",
+            "regionale": 5
+        },
+        {
+            "_id": 5040,
+            "municipalitie": "Anorí",
+            "regionale": 5
+        },
+        {
+            "_id": 5042,
+            "municipalitie": "Santafé de Antioquia",
+            "regionale": 5
+        },
+        {
+            "_id": 5044,
+            "municipalitie": "Anza",
+            "regionale": 5
+        },
+        {
+            "_id": 5045,
+            "municipalitie": "Apartadó",
+            "regionale": 5
+        },
+        {
+            "_id": 5051,
+            "municipalitie": "Arboletes",
+            "regionale": 5
+        },
+        {
+            "_id": 5055,
+            "municipalitie": "Argelia",
+            "regionale": 5
+        },
+        {
+            "_id": 5059,
+            "municipalitie": "Armenia",
+            "regionale": 5
+        },
+        {
+            "_id": 5079,
+            "municipalitie": "Barbosa",
+            "regionale": 5
+        },
+        {
+            "_id": 5086,
+            "municipalitie": "Belmira",
+            "regionale": 5
+        },
+        {
+            "_id": 5088,
+            "municipalitie": "Bello",
+            "regionale": 5
+        },
+        {
+            "_id": 5091,
+            "municipalitie": "Betania",
+            "regionale": 5
+        },
+        {
+            "_id": 5093,
+            "municipalitie": "Betulia",
+            "regionale": 5
+        },
+        {
+            "_id": 5101,
+            "municipalitie": "Ciudad Bolívar",
+            "regionale": 5
+        },
+        {
+            "_id": 5107,
+            "municipalitie": "Briceño",
+            "regionale": 5
+        },
+        {
+            "_id": 5113,
+            "municipalitie": "Buriticá",
+            "regionale": 5
+        },
+        {
+            "_id": 5120,
+            "municipalitie": "Cáceres",
+            "regionale": 5
+        },
+        {
+            "_id": 5125,
+            "municipalitie": "Caicedo",
+            "regionale": 5
+        },
+        {
+            "_id": 5129,
+            "municipalitie": "Caldas",
+            "regionale": 5
+        },
+        {
+            "_id": 5134,
+            "municipalitie": "Campamento",
+            "regionale": 5
+        },
+        {
+            "_id": 5138,
+            "municipalitie": "Cañasgordas",
+            "regionale": 5
+        },
+        {
+            "_id": 5142,
+            "municipalitie": "Caracolí",
+            "regionale": 5
+        },
+        {
+            "_id": 5145,
+            "municipalitie": "Caramanta",
+            "regionale": 5
+        },
+        {
+            "_id": 5147,
+            "municipalitie": "Carepa",
+            "regionale": 5
+        },
+        {
+            "_id": 5148,
+            "municipalitie": "El Carmen de Viboral",
+            "regionale": 5
+        },
+        {
+            "_id": 5150,
+            "municipalitie": "Carolina",
+            "regionale": 5
+        },
+        {
+            "_id": 5154,
+            "municipalitie": "Caucasia",
+            "regionale": 5
+        },
+        {
+            "_id": 5172,
+            "municipalitie": "Chigorodó",
+            "regionale": 5
+        },
+        {
+            "_id": 5190,
+            "municipalitie": "Cisneros",
+            "regionale": 5
+        },
+        {
+            "_id": 5197,
+            "municipalitie": "Cocorná",
+            "regionale": 5
+        },
+        {
+            "_id": 5206,
+            "municipalitie": "Concepción",
+            "regionale": 5
+        },
+        {
+            "_id": 5209,
+            "municipalitie": "Concordia",
+            "regionale": 5
+        },
+        {
+            "_id": 5212,
+            "municipalitie": "Copacabana",
+            "regionale": 5
+        },
+        {
+            "_id": 5234,
+            "municipalitie": "Dabeiba",
+            "regionale": 5
+        },
+        {
+            "_id": 5237,
+            "municipalitie": "Don Matías",
+            "regionale": 5
+        },
+        {
+            "_id": 5240,
+            "municipalitie": "Ebéjico",
+            "regionale": 5
+        },
+        {
+            "_id": 5250,
+            "municipalitie": "El Bagre",
+            "regionale": 5
+        },
+        {
+            "_id": 5264,
+            "municipalitie": "Entrerrios",
+            "regionale": 5
+        },
+        {
+            "_id": 5266,
+            "municipalitie": "Envigado",
+            "regionale": 5
+        },
+        {
+            "_id": 5282,
+            "municipalitie": "Fredonia",
+            "regionale": 5
+        },
+        {
+            "_id": 5284,
+            "municipalitie": "Frontino",
+            "regionale": 5
+        },
+        {
+            "_id": 5306,
+            "municipalitie": "Giraldo",
+            "regionale": 5
+        },
+        {
+            "_id": 5308,
+            "municipalitie": "Girardota",
+            "regionale": 5
+        },
+        {
+            "_id": 5310,
+            "municipalitie": "Gómez Plata",
+            "regionale": 5
+        },
+        {
+            "_id": 5313,
+            "municipalitie": "Granada",
+            "regionale": 5
+        },
+        {
+            "_id": 5315,
+            "municipalitie": "Guadalupe",
+            "regionale": 5
+        },
+        {
+            "_id": 5318,
+            "municipalitie": "Guarne",
+            "regionale": 5
+        },
+        {
+            "_id": 5321,
+            "municipalitie": "Guatapé",
+            "regionale": 5
+        },
+        {
+            "_id": 5347,
+            "municipalitie": "Heliconia",
+            "regionale": 5
+        },
+        {
+            "_id": 5353,
+            "municipalitie": "Hispania",
+            "regionale": 5
+        },
+        {
+            "_id": 5360,
+            "municipalitie": "Itagui",
+            "regionale": 5
+        },
+        {
+            "_id": 5361,
+            "municipalitie": "Ituango",
+            "regionale": 5
+        },
+        {
+            "_id": 5364,
+            "municipalitie": "Jardín",
+            "regionale": 5
+        },
+        {
+            "_id": 5368,
+            "municipalitie": "Jericó",
+            "regionale": 5
+        },
+        {
+            "_id": 5376,
+            "municipalitie": "La Ceja",
+            "regionale": 5
+        },
+        {
+            "_id": 5380,
+            "municipalitie": "La Estrella",
+            "regionale": 5
+        },
+        {
+            "_id": 5390,
+            "municipalitie": "La Pintada",
+            "regionale": 5
+        },
+        {
+            "_id": 5400,
+            "municipalitie": "La Unión",
+            "regionale": 5
+        },
+        {
+            "_id": 5411,
+            "municipalitie": "Liborina",
+            "regionale": 5
+        },
+        {
+            "_id": 5425,
+            "municipalitie": "Maceo",
+            "regionale": 5
+        },
+        {
+            "_id": 5440,
+            "municipalitie": "Marinilla",
+            "regionale": 5
+        },
+        {
+            "_id": 5467,
+            "municipalitie": "Montebello",
+            "regionale": 5
+        },
+        {
+            "_id": 5475,
+            "municipalitie": "Murindó",
+            "regionale": 5
+        },
+        {
+            "_id": 5480,
+            "municipalitie": "Mutatá",
+            "regionale": 5
+        },
+        {
+            "_id": 5483,
+            "municipalitie": "Nariño",
+            "regionale": 5
+        },
+        {
+            "_id": 5490,
+            "municipalitie": "Necoclí",
+            "regionale": 5
+        },
+        {
+            "_id": 5495,
+            "municipalitie": "Nechí",
+            "regionale": 5
+        },
+        {
+            "_id": 5501,
+            "municipalitie": "Olaya",
+            "regionale": 5
+        },
+        {
+            "_id": 5541,
+            "municipalitie": "Peñol",
+            "regionale": 5
+        },
+        {
+            "_id": 5543,
+            "municipalitie": "Peque",
+            "regionale": 5
+        },
+        {
+            "_id": 5576,
+            "municipalitie": "Pueblorrico",
+            "regionale": 5
+        },
+        {
+            "_id": 5579,
+            "municipalitie": "Puerto Berrío",
+            "regionale": 5
+        },
+        {
+            "_id": 5585,
+            "municipalitie": "Puerto Nare",
+            "regionale": 5
+        },
+        {
+            "_id": 5591,
+            "municipalitie": "Puerto Triunfo",
+            "regionale": 5
+        },
+        {
+            "_id": 5604,
+            "municipalitie": "Remedios",
+            "regionale": 5
+        },
+        {
+            "_id": 5607,
+            "municipalitie": "Retiro",
+            "regionale": 5
+        },
+        {
+            "_id": 5615,
+            "municipalitie": "Rionegro",
+            "regionale": 5
+        },
+        {
+            "_id": 5628,
+            "municipalitie": "Sabanalarga",
+            "regionale": 5
+        },
+        {
+            "_id": 5631,
+            "municipalitie": "Sabaneta",
+            "regionale": 5
+        },
+        {
+            "_id": 5642,
+            "municipalitie": "Salgar",
+            "regionale": 5
+        },
+        {
+            "_id": 5647,
+            "municipalitie": "San Andrés de Cuerquía",
+            "regionale": 5
+        },
+        {
+            "_id": 5649,
+            "municipalitie": "San Carlos",
+            "regionale": 5
+        },
+        {
+            "_id": 5652,
+            "municipalitie": "San Francisco",
+            "regionale": 5
+        },
+        {
+            "_id": 5656,
+            "municipalitie": "San Jerónimo",
+            "regionale": 5
+        },
+        {
+            "_id": 5658,
+            "municipalitie": "San José de La Montaña",
+            "regionale": 5
+        },
+        {
+            "_id": 5659,
+            "municipalitie": "San Juan de Urabá",
+            "regionale": 5
+        },
+        {
+            "_id": 5660,
+            "municipalitie": "San Luis",
+            "regionale": 5
+        },
+        {
+            "_id": 5664,
+            "municipalitie": "San Pedro",
+            "regionale": 5
+        },
+        {
+            "_id": 5665,
+            "municipalitie": "San Pedro de Uraba",
+            "regionale": 5
+        },
+        {
+            "_id": 5667,
+            "municipalitie": "San Rafael",
+            "regionale": 5
+        },
+        {
+            "_id": 5670,
+            "municipalitie": "San Roque",
+            "regionale": 5
+        },
+        {
+            "_id": 5674,
+            "municipalitie": "San Vicente",
+            "regionale": 5
+        },
+        {
+            "_id": 5679,
+            "municipalitie": "Santa Bárbara",
+            "regionale": 5
+        },
+        {
+            "_id": 5686,
+            "municipalitie": "Santa Rosa de Osos",
+            "regionale": 5
+        },
+        {
+            "_id": 5690,
+            "municipalitie": "Santo Domingo",
+            "regionale": 5
+        },
+        {
+            "_id": 5697,
+            "municipalitie": "El Santuario",
+            "regionale": 5
+        },
+        {
+            "_id": 5736,
+            "municipalitie": "Segovia",
+            "regionale": 5
+        },
+        {
+            "_id": 5756,
+            "municipalitie": "Sonsón",
+            "regionale": 5
+        },
+        {
+            "_id": 5761,
+            "municipalitie": "Sopetrán",
+            "regionale": 5
+        },
+        {
+            "_id": 5789,
+            "municipalitie": "Támesis",
+            "regionale": 5
+        },
+        {
+            "_id": 5790,
+            "municipalitie": "Tarazá",
+            "regionale": 5
+        },
+        {
+            "_id": 5792,
+            "municipalitie": "Tarso",
+            "regionale": 5
+        },
+        {
+            "_id": 5809,
+            "municipalitie": "Titiribí",
+            "regionale": 5
+        },
+        {
+            "_id": 5819,
+            "municipalitie": "Toledo",
+            "regionale": 5
+        },
+        {
+            "_id": 5837,
+            "municipalitie": "Turbo",
+            "regionale": 5
+        },
+        {
+            "_id": 5842,
+            "municipalitie": "Uramita",
+            "regionale": 5
+        },
+        {
+            "_id": 5847,
+            "municipalitie": "Urrao",
+            "regionale": 5
+        },
+        {
+            "_id": 5854,
+            "municipalitie": "Valdivia",
+            "regionale": 5
+        },
+        {
+            "_id": 5856,
+            "municipalitie": "Valparaíso",
+            "regionale": 5
+        },
+        {
+            "_id": 5858,
+            "municipalitie": "Vegachí",
+            "regionale": 5
+        },
+        {
+            "_id": 5861,
+            "municipalitie": "Venecia",
+            "regionale": 5
+        },
+        {
+            "_id": 5873,
+            "municipalitie": "Vigía del Fuerte",
+            "regionale": 5
+        },
+        {
+            "_id": 5885,
+            "municipalitie": "Yalí",
+            "regionale": 5
+        },
+        {
+            "_id": 5887,
+            "municipalitie": "Yarumal",
+            "regionale": 5
+        },
+        {
+            "_id": 5890,
+            "municipalitie": "Yolombó",
+            "regionale": 5
+        },
+        {
+            "_id": 5893,
+            "municipalitie": "Yondó",
+            "regionale": 5
+        },
+        {
+            "_id": 5895,
+            "municipalitie": "Zaragoza",
+            "regionale": 5
+        },
+        {
+            "_id": 8001,
+            "municipalitie": "Barranquilla",
+            "regionale": 8
+        },
+        {
+            "_id": 8078,
+            "municipalitie": "Baranoa",
+            "regionale": 8
+        },
+        {
+            "_id": 8137,
+            "municipalitie": "Campo de La Cruz",
+            "regionale": 8
+        },
+        {
+            "_id": 8141,
+            "municipalitie": "Candelaria",
+            "regionale": 8
+        },
+        {
+            "_id": 8296,
+            "municipalitie": "Galapa",
+            "regionale": 8
+        },
+        {
+            "_id": 8372,
+            "municipalitie": "Juan de Acosta",
+            "regionale": 8
+        },
+        {
+            "_id": 8421,
+            "municipalitie": "Luruaco",
+            "regionale": 8
+        },
+        {
+            "_id": 8433,
+            "municipalitie": "Malambo",
+            "regionale": 8
+        },
+        {
+            "_id": 8436,
+            "municipalitie": "Manatí",
+            "regionale": 8
+        },
+        {
+            "_id": 8520,
+            "municipalitie": "Palmar de Varela",
+            "regionale": 8
+        },
+        {
+            "_id": 8549,
+            "municipalitie": "Piojó",
+            "regionale": 8
+        },
+        {
+            "_id": 8558,
+            "municipalitie": "Polonuevo",
+            "regionale": 8
+        },
+        {
+            "_id": 8560,
+            "municipalitie": "Ponedera",
+            "regionale": 8
+        },
+        {
+            "_id": 8573,
+            "municipalitie": "Puerto Colombia",
+            "regionale": 8
+        },
+        {
+            "_id": 8606,
+            "municipalitie": "Repelón",
+            "regionale": 8
+        },
+        {
+            "_id": 8634,
+            "municipalitie": "Sabanagrande",
+            "regionale": 8
+        },
+        {
+            "_id": 8638,
+            "municipalitie": "Sabanalarga",
+            "regionale": 8
+        },
+        {
+            "_id": 8675,
+            "municipalitie": "Santa Lucía",
+            "regionale": 8
+        },
+        {
+            "_id": 8685,
+            "municipalitie": "Santo Tomás",
+            "regionale": 8
+        },
+        {
+            "_id": 8758,
+            "municipalitie": "Soledad",
+            "regionale": 8
+        },
+        {
+            "_id": 8770,
+            "municipalitie": "Suan",
+            "regionale": 8
+        },
+        {
+            "_id": 8832,
+            "municipalitie": "Tubará",
+            "regionale": 8
+        },
+        {
+            "_id": 8849,
+            "municipalitie": "Usiacurí",
+            "regionale": 8
+        },
+        {
+            "_id": 11001,
+            "municipalitie": "Bogotá D.C.",
+            "regionale": 11
+        },
+        {
+            "_id": 13001,
+            "municipalitie": "Cartagena",
+            "regionale": 13
+        },
+        {
+            "_id": 13006,
+            "municipalitie": "Achí",
+            "regionale": 13
+        },
+        {
+            "_id": 13030,
+            "municipalitie": "Altos del Rosario",
+            "regionale": 13
+        },
+        {
+            "_id": 13042,
+            "municipalitie": "Arenal",
+            "regionale": 13
+        },
+        {
+            "_id": 13052,
+            "municipalitie": "Arjona",
+            "regionale": 13
+        },
+        {
+            "_id": 13062,
+            "municipalitie": "Arroyohondo",
+            "regionale": 13
+        },
+        {
+            "_id": 13074,
+            "municipalitie": "Barranco de Loba",
+            "regionale": 13
+        },
+        {
+            "_id": 13140,
+            "municipalitie": "Calamar",
+            "regionale": 13
+        },
+        {
+            "_id": 13160,
+            "municipalitie": "Cantagallo",
+            "regionale": 13
+        },
+        {
+            "_id": 13188,
+            "municipalitie": "Cicuco",
+            "regionale": 13
+        },
+        {
+            "_id": 13212,
+            "municipalitie": "Córdoba",
+            "regionale": 13
+        },
+        {
+            "_id": 13222,
+            "municipalitie": "Clemencia",
+            "regionale": 13
+        },
+        {
+            "_id": 13244,
+            "municipalitie": "El Carmen de Bolívar",
+            "regionale": 13
+        },
+        {
+            "_id": 13248,
+            "municipalitie": "El Guamo",
+            "regionale": 13
+        },
+        {
+            "_id": 13268,
+            "municipalitie": "El Peñón",
+            "regionale": 13
+        },
+        {
+            "_id": 13300,
+            "municipalitie": "Hatillo de Loba",
+            "regionale": 13
+        },
+        {
+            "_id": 13430,
+            "municipalitie": "Magangué",
+            "regionale": 13
+        },
+        {
+            "_id": 13433,
+            "municipalitie": "Mahates",
+            "regionale": 13
+        },
+        {
+            "_id": 13440,
+            "municipalitie": "Margarita",
+            "regionale": 13
+        },
+        {
+            "_id": 13442,
+            "municipalitie": "María la Baja",
+            "regionale": 13
+        },
+        {
+            "_id": 13458,
+            "municipalitie": "Montecristo",
+            "regionale": 13
+        },
+        {
+            "_id": 13468,
+            "municipalitie": "Mompós",
+            "regionale": 13
+        },
+        {
+            "_id": 13473,
+            "municipalitie": "Morales",
+            "regionale": 13
+        },
+        {
+            "_id": 13490,
+            "municipalitie": "Norosí",
+            "regionale": 13
+        },
+        {
+            "_id": 13549,
+            "municipalitie": "Pinillos",
+            "regionale": 13
+        },
+        {
+            "_id": 13580,
+            "municipalitie": "Regidor",
+            "regionale": 13
+        },
+        {
+            "_id": 13600,
+            "municipalitie": "Río Viejo",
+            "regionale": 13
+        },
+        {
+            "_id": 13620,
+            "municipalitie": "San Cristóbal",
+            "regionale": 13
+        },
+        {
+            "_id": 13647,
+            "municipalitie": "San Estanislao",
+            "regionale": 13
+        },
+        {
+            "_id": 13650,
+            "municipalitie": "San Fernando",
+            "regionale": 13
+        },
+        {
+            "_id": 13654,
+            "municipalitie": "San Jacinto",
+            "regionale": 13
+        },
+        {
+            "_id": 13655,
+            "municipalitie": "San Jacinto del Cauca",
+            "regionale": 13
+        },
+        {
+            "_id": 13657,
+            "municipalitie": "San Juan Nepomuceno",
+            "regionale": 13
+        },
+        {
+            "_id": 13667,
+            "municipalitie": "San Martín de Loba",
+            "regionale": 13
+        },
+        {
+            "_id": 13670,
+            "municipalitie": "San Pablo de Borbur",
+            "regionale": 13
+        },
+        {
+            "_id": 13673,
+            "municipalitie": "Santa Catalina",
+            "regionale": 13
+        },
+        {
+            "_id": 13683,
+            "municipalitie": "Santa Rosa",
+            "regionale": 13
+        },
+        {
+            "_id": 13688,
+            "municipalitie": "Santa Rosa del Sur",
+            "regionale": 13
+        },
+        {
+            "_id": 13744,
+            "municipalitie": "Simití",
+            "regionale": 13
+        },
+        {
+            "_id": 13760,
+            "municipalitie": "Soplaviento",
+            "regionale": 13
+        },
+        {
+            "_id": 13780,
+            "municipalitie": "Talaigua Nuevo",
+            "regionale": 13
+        },
+        {
+            "_id": 13810,
+            "municipalitie": "Tiquisio",
+            "regionale": 13
+        },
+        {
+            "_id": 13836,
+            "municipalitie": "Turbaco",
+            "regionale": 13
+        },
+        {
+            "_id": 13838,
+            "municipalitie": "Turbaná",
+            "regionale": 13
+        },
+        {
+            "_id": 13873,
+            "municipalitie": "Villanueva",
+            "regionale": 13
+        },
+        {
+            "_id": 13894,
+            "municipalitie": "Zambrano",
+            "regionale": 13
+        },
+        {
+            "_id": 15001,
+            "municipalitie": "Tunja",
+            "regionale": 15
+        },
+        {
+            "_id": 15022,
+            "municipalitie": "Almeida",
+            "regionale": 15
+        },
+        {
+            "_id": 15047,
+            "municipalitie": "Aquitania",
+            "regionale": 15
+        },
+        {
+            "_id": 15051,
+            "municipalitie": "Arcabuco",
+            "regionale": 15
+        },
+        {
+            "_id": 15087,
+            "municipalitie": "Belén",
+            "regionale": 15
+        },
+        {
+            "_id": 15090,
+            "municipalitie": "Berbeo",
+            "regionale": 15
+        },
+        {
+            "_id": 15092,
+            "municipalitie": "Betéitiva",
+            "regionale": 15
+        },
+        {
+            "_id": 15097,
+            "municipalitie": "Boavita",
+            "regionale": 15
+        },
+        {
+            "_id": 15104,
+            "municipalitie": "Boyacá",
+            "regionale": 15
+        },
+        {
+            "_id": 15106,
+            "municipalitie": "Briceño",
+            "regionale": 15
+        },
+        {
+            "_id": 15109,
+            "municipalitie": "Buena Vista",
+            "regionale": 15
+        },
+        {
+            "_id": 15114,
+            "municipalitie": "Busbanzá",
+            "regionale": 15
+        },
+        {
+            "_id": 15131,
+            "municipalitie": "Caldas",
+            "regionale": 15
+        },
+        {
+            "_id": 15135,
+            "municipalitie": "Campohermoso",
+            "regionale": 15
+        },
+        {
+            "_id": 15162,
+            "municipalitie": "Cerinza",
+            "regionale": 15
+        },
+        {
+            "_id": 15172,
+            "municipalitie": "Chinavita",
+            "regionale": 15
+        },
+        {
+            "_id": 15176,
+            "municipalitie": "Chiquinquirá",
+            "regionale": 15
+        },
+        {
+            "_id": 15180,
+            "municipalitie": "Chiscas",
+            "regionale": 15
+        },
+        {
+            "_id": 15183,
+            "municipalitie": "Chita",
+            "regionale": 15
+        },
+        {
+            "_id": 15185,
+            "municipalitie": "Chitaraque",
+            "regionale": 15
+        },
+        {
+            "_id": 15187,
+            "municipalitie": "Chivatá",
+            "regionale": 15
+        },
+        {
+            "_id": 15189,
+            "municipalitie": "Ciénega",
+            "regionale": 15
+        },
+        {
+            "_id": 15204,
+            "municipalitie": "Cómbita",
+            "regionale": 15
+        },
+        {
+            "_id": 15212,
+            "municipalitie": "Coper",
+            "regionale": 15
+        },
+        {
+            "_id": 15215,
+            "municipalitie": "Corrales",
+            "regionale": 15
+        },
+        {
+            "_id": 15218,
+            "municipalitie": "Covarachía",
+            "regionale": 15
+        },
+        {
+            "_id": 15223,
+            "municipalitie": "Cubará",
+            "regionale": 15
+        },
+        {
+            "_id": 15224,
+            "municipalitie": "Cucaita",
+            "regionale": 15
+        },
+        {
+            "_id": 15226,
+            "municipalitie": "Cuítiva",
+            "regionale": 15
+        },
+        {
+            "_id": 15232,
+            "municipalitie": "Chíquiza",
+            "regionale": 15
+        },
+        {
+            "_id": 15236,
+            "municipalitie": "Chivor",
+            "regionale": 15
+        },
+        {
+            "_id": 15238,
+            "municipalitie": "Duitama",
+            "regionale": 15
+        },
+        {
+            "_id": 15244,
+            "municipalitie": "El Cocuy",
+            "regionale": 15
+        },
+        {
+            "_id": 15248,
+            "municipalitie": "El Espino",
+            "regionale": 15
+        },
+        {
+            "_id": 15272,
+            "municipalitie": "Firavitoba",
+            "regionale": 15
+        },
+        {
+            "_id": 15276,
+            "municipalitie": "Floresta",
+            "regionale": 15
+        },
+        {
+            "_id": 15293,
+            "municipalitie": "Gachantivá",
+            "regionale": 15
+        },
+        {
+            "_id": 15296,
+            "municipalitie": "Gameza",
+            "regionale": 15
+        },
+        {
+            "_id": 15299,
+            "municipalitie": "Garagoa",
+            "regionale": 15
+        },
+        {
+            "_id": 15317,
+            "municipalitie": "Guacamayas",
+            "regionale": 15
+        },
+        {
+            "_id": 15322,
+            "municipalitie": "Guateque",
+            "regionale": 15
+        },
+        {
+            "_id": 15325,
+            "municipalitie": "Guayatá",
+            "regionale": 15
+        },
+        {
+            "_id": 15332,
+            "municipalitie": "Güicán",
+            "regionale": 15
+        },
+        {
+            "_id": 15362,
+            "municipalitie": "Iza",
+            "regionale": 15
+        },
+        {
+            "_id": 15367,
+            "municipalitie": "Jenesano",
+            "regionale": 15
+        },
+        {
+            "_id": 15368,
+            "municipalitie": "Jericó",
+            "regionale": 15
+        },
+        {
+            "_id": 15377,
+            "municipalitie": "Labranzagrande",
+            "regionale": 15
+        },
+        {
+            "_id": 15380,
+            "municipalitie": "La Capilla",
+            "regionale": 15
+        },
+        {
+            "_id": 15401,
+            "municipalitie": "La Victoria",
+            "regionale": 15
+        },
+        {
+            "_id": 15403,
+            "municipalitie": "La Uvita",
+            "regionale": 15
+        },
+        {
+            "_id": 15407,
+            "municipalitie": "Villa de Leyva",
+            "regionale": 15
+        },
+        {
+            "_id": 15425,
+            "municipalitie": "Macanal",
+            "regionale": 15
+        },
+        {
+            "_id": 15442,
+            "municipalitie": "Maripí",
+            "regionale": 15
+        },
+        {
+            "_id": 15455,
+            "municipalitie": "Miraflores",
+            "regionale": 15
+        },
+        {
+            "_id": 15464,
+            "municipalitie": "Mongua",
+            "regionale": 15
+        },
+        {
+            "_id": 15466,
+            "municipalitie": "Monguí",
+            "regionale": 15
+        },
+        {
+            "_id": 15469,
+            "municipalitie": "Moniquirá",
+            "regionale": 15
+        },
+        {
+            "_id": 15476,
+            "municipalitie": "Motavita",
+            "regionale": 15
+        },
+        {
+            "_id": 15480,
+            "municipalitie": "Muzo",
+            "regionale": 15
+        },
+        {
+            "_id": 15491,
+            "municipalitie": "Nobsa",
+            "regionale": 15
+        },
+        {
+            "_id": 15494,
+            "municipalitie": "Nuevo Colón",
+            "regionale": 15
+        },
+        {
+            "_id": 15500,
+            "municipalitie": "Oicatá",
+            "regionale": 15
+        },
+        {
+            "_id": 15507,
+            "municipalitie": "Otanche",
+            "regionale": 15
+        },
+        {
+            "_id": 15511,
+            "municipalitie": "Pachavita",
+            "regionale": 15
+        },
+        {
+            "_id": 15514,
+            "municipalitie": "Páez",
+            "regionale": 15
+        },
+        {
+            "_id": 15516,
+            "municipalitie": "Paipa",
+            "regionale": 15
+        },
+        {
+            "_id": 15518,
+            "municipalitie": "Pajarito",
+            "regionale": 15
+        },
+        {
+            "_id": 15522,
+            "municipalitie": "Panqueba",
+            "regionale": 15
+        },
+        {
+            "_id": 15531,
+            "municipalitie": "Pauna",
+            "regionale": 15
+        },
+        {
+            "_id": 15533,
+            "municipalitie": "Paya",
+            "regionale": 15
+        },
+        {
+            "_id": 15537,
+            "municipalitie": "Paz de Río",
+            "regionale": 15
+        },
+        {
+            "_id": 15542,
+            "municipalitie": "Pesca",
+            "regionale": 15
+        },
+        {
+            "_id": 15550,
+            "municipalitie": "Pisba",
+            "regionale": 15
+        },
+        {
+            "_id": 15572,
+            "municipalitie": "Puerto Boyacá",
+            "regionale": 15
+        },
+        {
+            "_id": 15580,
+            "municipalitie": "Quípama",
+            "regionale": 15
+        },
+        {
+            "_id": 15599,
+            "municipalitie": "Ramiriquí",
+            "regionale": 15
+        },
+        {
+            "_id": 15600,
+            "municipalitie": "Ráquira",
+            "regionale": 15
+        },
+        {
+            "_id": 15621,
+            "municipalitie": "Rondón",
+            "regionale": 15
+        },
+        {
+            "_id": 15632,
+            "municipalitie": "Saboyá",
+            "regionale": 15
+        },
+        {
+            "_id": 15638,
+            "municipalitie": "Sáchica",
+            "regionale": 15
+        },
+        {
+            "_id": 15646,
+            "municipalitie": "Samacá",
+            "regionale": 15
+        },
+        {
+            "_id": 15660,
+            "municipalitie": "San Eduardo",
+            "regionale": 15
+        },
+        {
+            "_id": 15664,
+            "municipalitie": "San José de Pare",
+            "regionale": 15
+        },
+        {
+            "_id": 15667,
+            "municipalitie": "San Luis de Gaceno",
+            "regionale": 15
+        },
+        {
+            "_id": 15673,
+            "municipalitie": "San Mateo",
+            "regionale": 15
+        },
+        {
+            "_id": 15676,
+            "municipalitie": "San Miguel de Sema",
+            "regionale": 15
+        },
+        {
+            "_id": 15681,
+            "municipalitie": "San Pablo de Borbur",
+            "regionale": 15
+        },
+        {
+            "_id": 15686,
+            "municipalitie": "Santana",
+            "regionale": 15
+        },
+        {
+            "_id": 15690,
+            "municipalitie": "Santa María",
+            "regionale": 15
+        },
+        {
+            "_id": 15693,
+            "municipalitie": "Santa Rosa de Viterbo",
+            "regionale": 15
+        },
+        {
+            "_id": 15696,
+            "municipalitie": "Santa Sofía",
+            "regionale": 15
+        },
+        {
+            "_id": 15720,
+            "municipalitie": "Sativanorte",
+            "regionale": 15
+        },
+        {
+            "_id": 15723,
+            "municipalitie": "Sativasur",
+            "regionale": 15
+        },
+        {
+            "_id": 15740,
+            "municipalitie": "Siachoque",
+            "regionale": 15
+        },
+        {
+            "_id": 15753,
+            "municipalitie": "Soatá",
+            "regionale": 15
+        },
+        {
+            "_id": 15755,
+            "municipalitie": "Socotá",
+            "regionale": 15
+        },
+        {
+            "_id": 15757,
+            "municipalitie": "Socha",
+            "regionale": 15
+        },
+        {
+            "_id": 15759,
+            "municipalitie": "Sogamoso",
+            "regionale": 15
+        },
+        {
+            "_id": 15761,
+            "municipalitie": "Somondoco",
+            "regionale": 15
+        },
+        {
+            "_id": 15762,
+            "municipalitie": "Sora",
+            "regionale": 15
+        },
+        {
+            "_id": 15763,
+            "municipalitie": "Sotaquirá",
+            "regionale": 15
+        },
+        {
+            "_id": 15764,
+            "municipalitie": "Soracá",
+            "regionale": 15
+        },
+        {
+            "_id": 15774,
+            "municipalitie": "Susacón",
+            "regionale": 15
+        },
+        {
+            "_id": 15776,
+            "municipalitie": "Sutamarchán",
+            "regionale": 15
+        },
+        {
+            "_id": 15778,
+            "municipalitie": "Sutatenza",
+            "regionale": 15
+        },
+        {
+            "_id": 15790,
+            "municipalitie": "Tasco",
+            "regionale": 15
+        },
+        {
+            "_id": 15798,
+            "municipalitie": "Tenza",
+            "regionale": 15
+        },
+        {
+            "_id": 15804,
+            "municipalitie": "Tibaná",
+            "regionale": 15
+        },
+        {
+            "_id": 15806,
+            "municipalitie": "Tibasosa",
+            "regionale": 15
+        },
+        {
+            "_id": 15808,
+            "municipalitie": "Tinjacá",
+            "regionale": 15
+        },
+        {
+            "_id": 15810,
+            "municipalitie": "Tipacoque",
+            "regionale": 15
+        },
+        {
+            "_id": 15814,
+            "municipalitie": "Toca",
+            "regionale": 15
+        },
+        {
+            "_id": 15816,
+            "municipalitie": "Togüí",
+            "regionale": 15
+        },
+        {
+            "_id": 15820,
+            "municipalitie": "Tópaga",
+            "regionale": 15
+        },
+        {
+            "_id": 15822,
+            "municipalitie": "Tota",
+            "regionale": 15
+        },
+        {
+            "_id": 15832,
+            "municipalitie": "Tununguá",
+            "regionale": 15
+        },
+        {
+            "_id": 15835,
+            "municipalitie": "Turmequé",
+            "regionale": 15
+        },
+        {
+            "_id": 15837,
+            "municipalitie": "Tuta",
+            "regionale": 15
+        },
+        {
+            "_id": 15839,
+            "municipalitie": "Tutazá",
+            "regionale": 15
+        },
+        {
+            "_id": 15842,
+            "municipalitie": "Umbita",
+            "regionale": 15
+        },
+        {
+            "_id": 15861,
+            "municipalitie": "Ventaquemada",
+            "regionale": 15
+        },
+        {
+            "_id": 15879,
+            "municipalitie": "Viracachá",
+            "regionale": 15
+        },
+        {
+            "_id": 15897,
+            "municipalitie": "Zetaquira",
+            "regionale": 15
+        },
+        {
+            "_id": 17001,
+            "municipalitie": "Manizales",
+            "regionale": 17
+        },
+        {
+            "_id": 17013,
+            "municipalitie": "Aguadas",
+            "regionale": 17
+        },
+        {
+            "_id": 17042,
+            "municipalitie": "Anserma",
+            "regionale": 17
+        },
+        {
+            "_id": 17050,
+            "municipalitie": "Aranzazu",
+            "regionale": 17
+        },
+        {
+            "_id": 17088,
+            "municipalitie": "Belalcázar",
+            "regionale": 17
+        },
+        {
+            "_id": 17174,
+            "municipalitie": "Chinchiná",
+            "regionale": 17
+        },
+        {
+            "_id": 17272,
+            "municipalitie": "Filadelfia",
+            "regionale": 17
+        },
+        {
+            "_id": 17380,
+            "municipalitie": "La Dorada",
+            "regionale": 17
+        },
+        {
+            "_id": 17388,
+            "municipalitie": "La Merced",
+            "regionale": 17
+        },
+        {
+            "_id": 17433,
+            "municipalitie": "Manzanares",
+            "regionale": 17
+        },
+        {
+            "_id": 17442,
+            "municipalitie": "Marmato",
+            "regionale": 17
+        },
+        {
+            "_id": 17444,
+            "municipalitie": "Marquetalia",
+            "regionale": 17
+        },
+        {
+            "_id": 17446,
+            "municipalitie": "Marulanda",
+            "regionale": 17
+        },
+        {
+            "_id": 17486,
+            "municipalitie": "Neira",
+            "regionale": 17
+        },
+        {
+            "_id": 17495,
+            "municipalitie": "Norcasia",
+            "regionale": 17
+        },
+        {
+            "_id": 17513,
+            "municipalitie": "Pácora",
+            "regionale": 17
+        },
+        {
+            "_id": 17524,
+            "municipalitie": "Palestina",
+            "regionale": 17
+        },
+        {
+            "_id": 17541,
+            "municipalitie": "Pensilvania",
+            "regionale": 17
+        },
+        {
+            "_id": 17614,
+            "municipalitie": "Riosucio",
+            "regionale": 17
+        },
+        {
+            "_id": 17616,
+            "municipalitie": "Risaralda",
+            "regionale": 17
+        },
+        {
+            "_id": 17653,
+            "municipalitie": "Salamina",
+            "regionale": 17
+        },
+        {
+            "_id": 17662,
+            "municipalitie": "Samaná",
+            "regionale": 17
+        },
+        {
+            "_id": 17665,
+            "municipalitie": "San José",
+            "regionale": 17
+        },
+        {
+            "_id": 17777,
+            "municipalitie": "Supía",
+            "regionale": 17
+        },
+        {
+            "_id": 17867,
+            "municipalitie": "Victoria",
+            "regionale": 17
+        },
+        {
+            "_id": 17873,
+            "municipalitie": "Villamaría",
+            "regionale": 17
+        },
+        {
+            "_id": 17877,
+            "municipalitie": "Viterbo",
+            "regionale": 17
+        },
+        {
+            "_id": 18001,
+            "municipalitie": "Florencia",
+            "regionale": 18
+        },
+        {
+            "_id": 18029,
+            "municipalitie": "Albania",
+            "regionale": 18
+        },
+        {
+            "_id": 18094,
+            "municipalitie": "Belén de Los Andaquies",
+            "regionale": 18
+        },
+        {
+            "_id": 18150,
+            "municipalitie": "Cartagena del Chairá",
+            "regionale": 18
+        },
+        {
+            "_id": 18205,
+            "municipalitie": "Curillo",
+            "regionale": 18
+        },
+        {
+            "_id": 18247,
+            "municipalitie": "El Doncello",
+            "regionale": 18
+        },
+        {
+            "_id": 18256,
+            "municipalitie": "El Paujil",
+            "regionale": 18
+        },
+        {
+            "_id": 18410,
+            "municipalitie": "La Montañita",
+            "regionale": 18
+        },
+        {
+            "_id": 18460,
+            "municipalitie": "Milán",
+            "regionale": 18
+        },
+        {
+            "_id": 18479,
+            "municipalitie": "Morelia",
+            "regionale": 18
+        },
+        {
+            "_id": 18592,
+            "municipalitie": "Puerto Rico",
+            "regionale": 18
+        },
+        {
+            "_id": 18610,
+            "municipalitie": "San José del Fragua",
+            "regionale": 18
+        },
+        {
+            "_id": 18753,
+            "municipalitie": "San Vicente del Caguán",
+            "regionale": 18
+        },
+        {
+            "_id": 18756,
+            "municipalitie": "Solano",
+            "regionale": 18
+        },
+        {
+            "_id": 18785,
+            "municipalitie": "Solita",
+            "regionale": 18
+        },
+        {
+            "_id": 18860,
+            "municipalitie": "Valparaíso",
+            "regionale": 18
+        },
+        {
+            "_id": 19001,
+            "municipalitie": "Popayán",
+            "regionale": 19
+        },
+        {
+            "_id": 19022,
+            "municipalitie": "Almaguer",
+            "regionale": 19
+        },
+        {
+            "_id": 19050,
+            "municipalitie": "Argelia",
+            "regionale": 19
+        },
+        {
+            "_id": 19075,
+            "municipalitie": "Balboa",
+            "regionale": 19
+        },
+        {
+            "_id": 19100,
+            "municipalitie": "Bolívar",
+            "regionale": 19
+        },
+        {
+            "_id": 19110,
+            "municipalitie": "Buenos Aires",
+            "regionale": 19
+        },
+        {
+            "_id": 19130,
+            "municipalitie": "Cajibío",
+            "regionale": 19
+        },
+        {
+            "_id": 19137,
+            "municipalitie": "Caldono",
+            "regionale": 19
+        },
+        {
+            "_id": 19142,
+            "municipalitie": "Caloto",
+            "regionale": 19
+        },
+        {
+            "_id": 19212,
+            "municipalitie": "Corinto",
+            "regionale": 19
+        },
+        {
+            "_id": 19256,
+            "municipalitie": "El Tambo",
+            "regionale": 19
+        },
+        {
+            "_id": 19290,
+            "municipalitie": "Florencia",
+            "regionale": 19
+        },
+        {
+            "_id": 19300,
+            "municipalitie": "Guachené",
+            "regionale": 19
+        },
+        {
+            "_id": 19318,
+            "municipalitie": "Guapi",
+            "regionale": 19
+        },
+        {
+            "_id": 19355,
+            "municipalitie": "Inzá",
+            "regionale": 19
+        },
+        {
+            "_id": 19364,
+            "municipalitie": "Jambaló",
+            "regionale": 19
+        },
+        {
+            "_id": 19392,
+            "municipalitie": "La Sierra",
+            "regionale": 19
+        },
+        {
+            "_id": 19397,
+            "municipalitie": "La Vega",
+            "regionale": 19
+        },
+        {
+            "_id": 19418,
+            "municipalitie": "López",
+            "regionale": 19
+        },
+        {
+            "_id": 19450,
+            "municipalitie": "Mercaderes",
+            "regionale": 19
+        },
+        {
+            "_id": 19455,
+            "municipalitie": "Miranda",
+            "regionale": 19
+        },
+        {
+            "_id": 19473,
+            "municipalitie": "Morales",
+            "regionale": 19
+        },
+        {
+            "_id": 19513,
+            "municipalitie": "Padilla",
+            "regionale": 19
+        },
+        {
+            "_id": 19517,
+            "municipalitie": "Páez",
+            "regionale": 19
+        },
+        {
+            "_id": 19532,
+            "municipalitie": "Patía",
+            "regionale": 19
+        },
+        {
+            "_id": 19533,
+            "municipalitie": "Piamonte",
+            "regionale": 19
+        },
+        {
+            "_id": 19548,
+            "municipalitie": "Piendamó",
+            "regionale": 19
+        },
+        {
+            "_id": 19573,
+            "municipalitie": "Puerto Tejada",
+            "regionale": 19
+        },
+        {
+            "_id": 19585,
+            "municipalitie": "Puracé",
+            "regionale": 19
+        },
+        {
+            "_id": 19622,
+            "municipalitie": "Rosas",
+            "regionale": 19
+        },
+        {
+            "_id": 19693,
+            "municipalitie": "San Sebastián",
+            "regionale": 19
+        },
+        {
+            "_id": 19698,
+            "municipalitie": "Santander de Quilichao",
+            "regionale": 19
+        },
+        {
+            "_id": 19701,
+            "municipalitie": "Santa Rosa",
+            "regionale": 19
+        },
+        {
+            "_id": 19743,
+            "municipalitie": "Silvia",
+            "regionale": 19
+        },
+        {
+            "_id": 19760,
+            "municipalitie": "Sotara",
+            "regionale": 19
+        },
+        {
+            "_id": 19780,
+            "municipalitie": "Suárez",
+            "regionale": 19
+        },
+        {
+            "_id": 19785,
+            "municipalitie": "Sucre",
+            "regionale": 19
+        },
+        {
+            "_id": 19807,
+            "municipalitie": "Timbío",
+            "regionale": 19
+        },
+        {
+            "_id": 19809,
+            "municipalitie": "Timbiquí",
+            "regionale": 19
+        },
+        {
+            "_id": 19821,
+            "municipalitie": "Toribio",
+            "regionale": 19
+        },
+        {
+            "_id": 19824,
+            "municipalitie": "Totoró",
+            "regionale": 19
+        },
+        {
+            "_id": 19845,
+            "municipalitie": "Villa Rica",
+            "regionale": 19
+        },
+        {
+            "_id": 20001,
+            "municipalitie": "Valledupar",
+            "regionale": 20
+        },
+        {
+            "_id": 20011,
+            "municipalitie": "Aguachica",
+            "regionale": 20
+        },
+        {
+            "_id": 20013,
+            "municipalitie": "Agustín Codazzi",
+            "regionale": 20
+        },
+        {
+            "_id": 20032,
+            "municipalitie": "Astrea",
+            "regionale": 20
+        },
+        {
+            "_id": 20045,
+            "municipalitie": "Becerril",
+            "regionale": 20
+        },
+        {
+            "_id": 20060,
+            "municipalitie": "Bosconia",
+            "regionale": 20
+        },
+        {
+            "_id": 20175,
+            "municipalitie": "Chimichagua",
+            "regionale": 20
+        },
+        {
+            "_id": 20178,
+            "municipalitie": "Chiriguaná",
+            "regionale": 20
+        },
+        {
+            "_id": 20228,
+            "municipalitie": "Curumaní",
+            "regionale": 20
+        },
+        {
+            "_id": 20238,
+            "municipalitie": "El Copey",
+            "regionale": 20
+        },
+        {
+            "_id": 20250,
+            "municipalitie": "El Paso",
+            "regionale": 20
+        },
+        {
+            "_id": 20295,
+            "municipalitie": "Gamarra",
+            "regionale": 20
+        },
+        {
+            "_id": 20310,
+            "municipalitie": "González",
+            "regionale": 20
+        },
+        {
+            "_id": 20383,
+            "municipalitie": "La Gloria",
+            "regionale": 20
+        },
+        {
+            "_id": 20400,
+            "municipalitie": "La Jagua de Ibirico",
+            "regionale": 20
+        },
+        {
+            "_id": 20443,
+            "municipalitie": "Manaure",
+            "regionale": 20
+        },
+        {
+            "_id": 20517,
+            "municipalitie": "Pailitas",
+            "regionale": 20
+        },
+        {
+            "_id": 20550,
+            "municipalitie": "Pelaya",
+            "regionale": 20
+        },
+        {
+            "_id": 20570,
+            "municipalitie": "Pueblo Bello",
+            "regionale": 20
+        },
+        {
+            "_id": 20614,
+            "municipalitie": "Río de Oro",
+            "regionale": 20
+        },
+        {
+            "_id": 20621,
+            "municipalitie": "La Paz",
+            "regionale": 20
+        },
+        {
+            "_id": 20710,
+            "municipalitie": "San Alberto",
+            "regionale": 20
+        },
+        {
+            "_id": 20750,
+            "municipalitie": "San Diego",
+            "regionale": 20
+        },
+        {
+            "_id": 20770,
+            "municipalitie": "San Martín",
+            "regionale": 20
+        },
+        {
+            "_id": 20787,
+            "municipalitie": "Tamalameque",
+            "regionale": 20
+        },
+        {
+            "_id": 23001,
+            "municipalitie": "Montería",
+            "regionale": 23
+        },
+        {
+            "_id": 23068,
+            "municipalitie": "Ayapel",
+            "regionale": 23
+        },
+        {
+            "_id": 23079,
+            "municipalitie": "Buenavista",
+            "regionale": 23
+        },
+        {
+            "_id": 23090,
+            "municipalitie": "Canalete",
+            "regionale": 23
+        },
+        {
+            "_id": 23162,
+            "municipalitie": "Cereté",
+            "regionale": 23
+        },
+        {
+            "_id": 23168,
+            "municipalitie": "Chimá",
+            "regionale": 23
+        },
+        {
+            "_id": 23182,
+            "municipalitie": "Chinú",
+            "regionale": 23
+        },
+        {
+            "_id": 23189,
+            "municipalitie": "Ciénaga de Oro",
+            "regionale": 23
+        },
+        {
+            "_id": 23300,
+            "municipalitie": "Cotorra",
+            "regionale": 23
+        },
+        {
+            "_id": 23350,
+            "municipalitie": "La Apartada",
+            "regionale": 23
+        },
+        {
+            "_id": 23417,
+            "municipalitie": "Lorica",
+            "regionale": 23
+        },
+        {
+            "_id": 23419,
+            "municipalitie": "Los Córdobas",
+            "regionale": 23
+        },
+        {
+            "_id": 23464,
+            "municipalitie": "Momil",
+            "regionale": 23
+        },
+        {
+            "_id": 23466,
+            "municipalitie": "Montelíbano",
+            "regionale": 23
+        },
+        {
+            "_id": 23500,
+            "municipalitie": "Moñitos",
+            "regionale": 23
+        },
+        {
+            "_id": 23555,
+            "municipalitie": "Planeta Rica",
+            "regionale": 23
+        },
+        {
+            "_id": 23570,
+            "municipalitie": "Pueblo Nuevo",
+            "regionale": 23
+        },
+        {
+            "_id": 23574,
+            "municipalitie": "Puerto Escondido",
+            "regionale": 23
+        },
+        {
+            "_id": 23580,
+            "municipalitie": "Puerto Libertador",
+            "regionale": 23
+        },
+        {
+            "_id": 23586,
+            "municipalitie": "Purísima",
+            "regionale": 23
+        },
+        {
+            "_id": 23660,
+            "municipalitie": "Sahagún",
+            "regionale": 23
+        },
+        {
+            "_id": 23670,
+            "municipalitie": "San Andrés Sotavento",
+            "regionale": 23
+        },
+        {
+            "_id": 23672,
+            "municipalitie": "San Antero",
+            "regionale": 23
+        },
+        {
+            "_id": 23675,
+            "municipalitie": "San Bernardo del Viento",
+            "regionale": 23
+        },
+        {
+            "_id": 23678,
+            "municipalitie": "San Carlos",
+            "regionale": 23
+        },
+        {
+            "_id": 23682,
+            "municipalitie": "San José de Uré",
+            "regionale": 23
+        },
+        {
+            "_id": 23686,
+            "municipalitie": "San Pelayo",
+            "regionale": 23
+        },
+        {
+            "_id": 23807,
+            "municipalitie": "Tierralta",
+            "regionale": 23
+        },
+        {
+            "_id": 23815,
+            "municipalitie": "Tuchín",
+            "regionale": 23
+        },
+        {
+            "_id": 23855,
+            "municipalitie": "Valencia",
+            "regionale": 23
+        },
+        {
+            "_id": 25001,
+            "municipalitie": "Agua de Dios",
+            "regionale": 25
+        },
+        {
+            "_id": 25019,
+            "municipalitie": "Albán",
+            "regionale": 25
+        },
+        {
+            "_id": 25035,
+            "municipalitie": "Anapoima",
+            "regionale": 25
+        },
+        {
+            "_id": 25040,
+            "municipalitie": "Anolaima",
+            "regionale": 25
+        },
+        {
+            "_id": 25053,
+            "municipalitie": "Arbeláez",
+            "regionale": 25
+        },
+        {
+            "_id": 25086,
+            "municipalitie": "Beltrán",
+            "regionale": 25
+        },
+        {
+            "_id": 25095,
+            "municipalitie": "Bituima",
+            "regionale": 25
+        },
+        {
+            "_id": 25099,
+            "municipalitie": "Bojacá",
+            "regionale": 25
+        },
+        {
+            "_id": 25120,
+            "municipalitie": "Cabrera",
+            "regionale": 25
+        },
+        {
+            "_id": 25123,
+            "municipalitie": "Cachipay",
+            "regionale": 25
+        },
+        {
+            "_id": 25126,
+            "municipalitie": "Cajicá",
+            "regionale": 25
+        },
+        {
+            "_id": 25148,
+            "municipalitie": "Caparrapí",
+            "regionale": 25
+        },
+        {
+            "_id": 25151,
+            "municipalitie": "Caqueza",
+            "regionale": 25
+        },
+        {
+            "_id": 25154,
+            "municipalitie": "Carmen de Carupa",
+            "regionale": 25
+        },
+        {
+            "_id": 25168,
+            "municipalitie": "Chaguaní",
+            "regionale": 25
+        },
+        {
+            "_id": 25175,
+            "municipalitie": "Chía",
+            "regionale": 25
+        },
+        {
+            "_id": 25178,
+            "municipalitie": "Chipaque",
+            "regionale": 25
+        },
+        {
+            "_id": 25181,
+            "municipalitie": "Choachí",
+            "regionale": 25
+        },
+        {
+            "_id": 25183,
+            "municipalitie": "Chocontá",
+            "regionale": 25
+        },
+        {
+            "_id": 25200,
+            "municipalitie": "Cogua",
+            "regionale": 25
+        },
+        {
+            "_id": 25214,
+            "municipalitie": "Cota",
+            "regionale": 25
+        },
+        {
+            "_id": 25224,
+            "municipalitie": "Cucunubá",
+            "regionale": 25
+        },
+        {
+            "_id": 25245,
+            "municipalitie": "El Colegio",
+            "regionale": 25
+        },
+        {
+            "_id": 25258,
+            "municipalitie": "El Peñón",
+            "regionale": 25
+        },
+        {
+            "_id": 25260,
+            "municipalitie": "El Rosal",
+            "regionale": 25
+        },
+        {
+            "_id": 25269,
+            "municipalitie": "Facatativá",
+            "regionale": 25
+        },
+        {
+            "_id": 25279,
+            "municipalitie": "Fomeque",
+            "regionale": 25
+        },
+        {
+            "_id": 25281,
+            "municipalitie": "Fosca",
+            "regionale": 25
+        },
+        {
+            "_id": 25286,
+            "municipalitie": "Funza",
+            "regionale": 25
+        },
+        {
+            "_id": 25288,
+            "municipalitie": "Fúquene",
+            "regionale": 25
+        },
+        {
+            "_id": 25290,
+            "municipalitie": "Fusagasugá",
+            "regionale": 25
+        },
+        {
+            "_id": 25293,
+            "municipalitie": "Gachala",
+            "regionale": 25
+        },
+        {
+            "_id": 25295,
+            "municipalitie": "Gachancipá",
+            "regionale": 25
+        },
+        {
+            "_id": 25297,
+            "municipalitie": "Gachetá",
+            "regionale": 25
+        },
+        {
+            "_id": 25299,
+            "municipalitie": "Gama",
+            "regionale": 25
+        },
+        {
+            "_id": 25307,
+            "municipalitie": "Girardot",
+            "regionale": 25
+        },
+        {
+            "_id": 25312,
+            "municipalitie": "Granada",
+            "regionale": 25
+        },
+        {
+            "_id": 25317,
+            "municipalitie": "Guachetá",
+            "regionale": 25
+        },
+        {
+            "_id": 25320,
+            "municipalitie": "Guaduas",
+            "regionale": 25
+        },
+        {
+            "_id": 25322,
+            "municipalitie": "Guasca",
+            "regionale": 25
+        },
+        {
+            "_id": 25324,
+            "municipalitie": "Guataquí",
+            "regionale": 25
+        },
+        {
+            "_id": 25326,
+            "municipalitie": "Guatavita",
+            "regionale": 25
+        },
+        {
+            "_id": 25328,
+            "municipalitie": "Guayabal de Siquima",
+            "regionale": 25
+        },
+        {
+            "_id": 25335,
+            "municipalitie": "Guayabetal",
+            "regionale": 25
+        },
+        {
+            "_id": 25339,
+            "municipalitie": "Gutiérrez",
+            "regionale": 25
+        },
+        {
+            "_id": 25368,
+            "municipalitie": "Jerusalén",
+            "regionale": 25
+        },
+        {
+            "_id": 25372,
+            "municipalitie": "Junín",
+            "regionale": 25
+        },
+        {
+            "_id": 25377,
+            "municipalitie": "La Calera",
+            "regionale": 25
+        },
+        {
+            "_id": 25386,
+            "municipalitie": "La Mesa",
+            "regionale": 25
+        },
+        {
+            "_id": 25394,
+            "municipalitie": "La Palma",
+            "regionale": 25
+        },
+        {
+            "_id": 25398,
+            "municipalitie": "La Peña",
+            "regionale": 25
+        },
+        {
+            "_id": 25402,
+            "municipalitie": "La Vega",
+            "regionale": 25
+        },
+        {
+            "_id": 25407,
+            "municipalitie": "Lenguazaque",
+            "regionale": 25
+        },
+        {
+            "_id": 25426,
+            "municipalitie": "Macheta",
+            "regionale": 25
+        },
+        {
+            "_id": 25430,
+            "municipalitie": "Madrid",
+            "regionale": 25
+        },
+        {
+            "_id": 25436,
+            "municipalitie": "Manta",
+            "regionale": 25
+        },
+        {
+            "_id": 25438,
+            "municipalitie": "Medina",
+            "regionale": 25
+        },
+        {
+            "_id": 25473,
+            "municipalitie": "Mosquera",
+            "regionale": 25
+        },
+        {
+            "_id": 25483,
+            "municipalitie": "Nariño",
+            "regionale": 25
+        },
+        {
+            "_id": 25486,
+            "municipalitie": "Nemocón",
+            "regionale": 25
+        },
+        {
+            "_id": 25488,
+            "municipalitie": "Nilo",
+            "regionale": 25
+        },
+        {
+            "_id": 25489,
+            "municipalitie": "Nimaima",
+            "regionale": 25
+        },
+        {
+            "_id": 25491,
+            "municipalitie": "Nocaima",
+            "regionale": 25
+        },
+        {
+            "_id": 25506,
+            "municipalitie": "Venecia",
+            "regionale": 25
+        },
+        {
+            "_id": 25513,
+            "municipalitie": "Pacho",
+            "regionale": 25
+        },
+        {
+            "_id": 25518,
+            "municipalitie": "Paime",
+            "regionale": 25
+        },
+        {
+            "_id": 25524,
+            "municipalitie": "Pandi",
+            "regionale": 25
+        },
+        {
+            "_id": 25530,
+            "municipalitie": "Paratebueno",
+            "regionale": 25
+        },
+        {
+            "_id": 25535,
+            "municipalitie": "Pasca",
+            "regionale": 25
+        },
+        {
+            "_id": 25572,
+            "municipalitie": "Puerto Salgar",
+            "regionale": 25
+        },
+        {
+            "_id": 25580,
+            "municipalitie": "Pulí",
+            "regionale": 25
+        },
+        {
+            "_id": 25592,
+            "municipalitie": "Quebradanegra",
+            "regionale": 25
+        },
+        {
+            "_id": 25594,
+            "municipalitie": "Quetame",
+            "regionale": 25
+        },
+        {
+            "_id": 25596,
+            "municipalitie": "Quipile",
+            "regionale": 25
+        },
+        {
+            "_id": 25599,
+            "municipalitie": "Apulo",
+            "regionale": 25
+        },
+        {
+            "_id": 25612,
+            "municipalitie": "Ricaurte",
+            "regionale": 25
+        },
+        {
+            "_id": 25645,
+            "municipalitie": "San Antonio del Tequendama",
+            "regionale": 25
+        },
+        {
+            "_id": 25649,
+            "municipalitie": "San Bernardo",
+            "regionale": 25
+        },
+        {
+            "_id": 25653,
+            "municipalitie": "San Cayetano",
+            "regionale": 25
+        },
+        {
+            "_id": 25658,
+            "municipalitie": "San Francisco",
+            "regionale": 25
+        },
+        {
+            "_id": 25662,
+            "municipalitie": "San Juan de Río Seco",
+            "regionale": 25
+        },
+        {
+            "_id": 25718,
+            "municipalitie": "Sasaima",
+            "regionale": 25
+        },
+        {
+            "_id": 25736,
+            "municipalitie": "Sesquilé",
+            "regionale": 25
+        },
+        {
+            "_id": 25740,
+            "municipalitie": "Sibaté",
+            "regionale": 25
+        },
+        {
+            "_id": 25743,
+            "municipalitie": "Silvania",
+            "regionale": 25
+        },
+        {
+            "_id": 25745,
+            "municipalitie": "Simijaca",
+            "regionale": 25
+        },
+        {
+            "_id": 25754,
+            "municipalitie": "Soacha",
+            "regionale": 25
+        },
+        {
+            "_id": 25758,
+            "municipalitie": "Sopó",
+            "regionale": 25
+        },
+        {
+            "_id": 25769,
+            "municipalitie": "Subachoque",
+            "regionale": 25
+        },
+        {
+            "_id": 25772,
+            "municipalitie": "Suesca",
+            "regionale": 25
+        },
+        {
+            "_id": 25777,
+            "municipalitie": "Supatá",
+            "regionale": 25
+        },
+        {
+            "_id": 25779,
+            "municipalitie": "Susa",
+            "regionale": 25
+        },
+        {
+            "_id": 25781,
+            "municipalitie": "Sutatausa",
+            "regionale": 25
+        },
+        {
+            "_id": 25785,
+            "municipalitie": "Tabio",
+            "regionale": 25
+        },
+        {
+            "_id": 25793,
+            "municipalitie": "Tausa",
+            "regionale": 25
+        },
+        {
+            "_id": 25797,
+            "municipalitie": "Tena",
+            "regionale": 25
+        },
+        {
+            "_id": 25799,
+            "municipalitie": "Tenjo",
+            "regionale": 25
+        },
+        {
+            "_id": 25805,
+            "municipalitie": "Tibacuy",
+            "regionale": 25
+        },
+        {
+            "_id": 25807,
+            "municipalitie": "Tibirita",
+            "regionale": 25
+        },
+        {
+            "_id": 25815,
+            "municipalitie": "Tocaima",
+            "regionale": 25
+        },
+        {
+            "_id": 25817,
+            "municipalitie": "Tocancipá",
+            "regionale": 25
+        },
+        {
+            "_id": 25823,
+            "municipalitie": "Topaipí",
+            "regionale": 25
+        },
+        {
+            "_id": 25839,
+            "municipalitie": "Ubalá",
+            "regionale": 25
+        },
+        {
+            "_id": 25841,
+            "municipalitie": "Ubaque",
+            "regionale": 25
+        },
+        {
+            "_id": 25843,
+            "municipalitie": "Villa de San Diego de Ubate",
+            "regionale": 25
+        },
+        {
+            "_id": 25845,
+            "municipalitie": "Une",
+            "regionale": 25
+        },
+        {
+            "_id": 25851,
+            "municipalitie": "Útica",
+            "regionale": 25
+        },
+        {
+            "_id": 25862,
+            "municipalitie": "Vergara",
+            "regionale": 25
+        },
+        {
+            "_id": 25867,
+            "municipalitie": "Vianí",
+            "regionale": 25
+        },
+        {
+            "_id": 25871,
+            "municipalitie": "Villagómez",
+            "regionale": 25
+        },
+        {
+            "_id": 25873,
+            "municipalitie": "Villapinzón",
+            "regionale": 25
+        },
+        {
+            "_id": 25875,
+            "municipalitie": "Villeta",
+            "regionale": 25
+        },
+        {
+            "_id": 25878,
+            "municipalitie": "Viotá",
+            "regionale": 25
+        },
+        {
+            "_id": 25885,
+            "municipalitie": "Yacopí",
+            "regionale": 25
+        },
+        {
+            "_id": 25898,
+            "municipalitie": "Zipacón",
+            "regionale": 25
+        },
+        {
+            "_id": 25899,
+            "municipalitie": "Zipaquirá",
+            "regionale": 25
+        },
+        {
+            "_id": 27001,
+            "municipalitie": "Quibdó",
+            "regionale": 27
+        },
+        {
+            "_id": 27006,
+            "municipalitie": "Acandí",
+            "regionale": 27
+        },
+        {
+            "_id": 27025,
+            "municipalitie": "Alto Baudo",
+            "regionale": 27
+        },
+        {
+            "_id": 27050,
+            "municipalitie": "Atrato",
+            "regionale": 27
+        },
+        {
+            "_id": 27073,
+            "municipalitie": "Bagadó",
+            "regionale": 27
+        },
+        {
+            "_id": 27075,
+            "municipalitie": "Bahía Solano",
+            "regionale": 27
+        },
+        {
+            "_id": 27077,
+            "municipalitie": "Bajo Baudó",
+            "regionale": 27
+        },
+        {
+            "_id": 27086,
+            "municipalitie": "Belén de Bajira",
+            "regionale": 27
+        },
+        {
+            "_id": 27099,
+            "municipalitie": "Bojaya",
+            "regionale": 27
+        },
+        {
+            "_id": 27135,
+            "municipalitie": "El Cantón del San Pablo",
+            "regionale": 27
+        },
+        {
+            "_id": 27150,
+            "municipalitie": "Carmen del Darien",
+            "regionale": 27
+        },
+        {
+            "_id": 27160,
+            "municipalitie": "Cértegui",
+            "regionale": 27
+        },
+        {
+            "_id": 27205,
+            "municipalitie": "Condoto",
+            "regionale": 27
+        },
+        {
+            "_id": 27245,
+            "municipalitie": "El Carmen de Atrato",
+            "regionale": 27
+        },
+        {
+            "_id": 27250,
+            "municipalitie": "El Litoral del San Juan",
+            "regionale": 27
+        },
+        {
+            "_id": 27361,
+            "municipalitie": "Istmina",
+            "regionale": 27
+        },
+        {
+            "_id": 27372,
+            "municipalitie": "Juradó",
+            "regionale": 27
+        },
+        {
+            "_id": 27413,
+            "municipalitie": "Lloró",
+            "regionale": 27
+        },
+        {
+            "_id": 27425,
+            "municipalitie": "Medio Atrato",
+            "regionale": 27
+        },
+        {
+            "_id": 27430,
+            "municipalitie": "Medio Baudó",
+            "regionale": 27
+        },
+        {
+            "_id": 27450,
+            "municipalitie": "Medio San Juan",
+            "regionale": 27
+        },
+        {
+            "_id": 27491,
+            "municipalitie": "Nóvita",
+            "regionale": 27
+        },
+        {
+            "_id": 27495,
+            "municipalitie": "Nuquí",
+            "regionale": 27
+        },
+        {
+            "_id": 27580,
+            "municipalitie": "Río Iro",
+            "regionale": 27
+        },
+        {
+            "_id": 27600,
+            "municipalitie": "Río Quito",
+            "regionale": 27
+        },
+        {
+            "_id": 27615,
+            "municipalitie": "Riosucio",
+            "regionale": 27
+        },
+        {
+            "_id": 27660,
+            "municipalitie": "San José del Palmar",
+            "regionale": 27
+        },
+        {
+            "_id": 27745,
+            "municipalitie": "Sipí",
+            "regionale": 27
+        },
+        {
+            "_id": 27787,
+            "municipalitie": "Tadó",
+            "regionale": 27
+        },
+        {
+            "_id": 27800,
+            "municipalitie": "Unguía",
+            "regionale": 27
+        },
+        {
+            "_id": 27810,
+            "municipalitie": "Unión Panamericana",
+            "regionale": 27
+        },
+        {
+            "_id": 41001,
+            "municipalitie": "Neiva",
+            "regionale": 41
+        },
+        {
+            "_id": 41006,
+            "municipalitie": "Acevedo",
+            "regionale": 41
+        },
+        {
+            "_id": 41013,
+            "municipalitie": "Agrado",
+            "regionale": 41
+        },
+        {
+            "_id": 41016,
+            "municipalitie": "Aipe",
+            "regionale": 41
+        },
+        {
+            "_id": 41020,
+            "municipalitie": "Algeciras",
+            "regionale": 41
+        },
+        {
+            "_id": 41026,
+            "municipalitie": "Altamira",
+            "regionale": 41
+        },
+        {
+            "_id": 41078,
+            "municipalitie": "Baraya",
+            "regionale": 41
+        },
+        {
+            "_id": 41132,
+            "municipalitie": "Campoalegre",
+            "regionale": 41
+        },
+        {
+            "_id": 41206,
+            "municipalitie": "Colombia",
+            "regionale": 41
+        },
+        {
+            "_id": 41244,
+            "municipalitie": "Elías",
+            "regionale": 41
+        },
+        {
+            "_id": 41298,
+            "municipalitie": "Garzón",
+            "regionale": 41
+        },
+        {
+            "_id": 41306,
+            "municipalitie": "Gigante",
+            "regionale": 41
+        },
+        {
+            "_id": 41319,
+            "municipalitie": "Guadalupe",
+            "regionale": 41
+        },
+        {
+            "_id": 41349,
+            "municipalitie": "Hobo",
+            "regionale": 41
+        },
+        {
+            "_id": 41357,
+            "municipalitie": "Iquira",
+            "regionale": 41
+        },
+        {
+            "_id": 41359,
+            "municipalitie": "Isnos",
+            "regionale": 41
+        },
+        {
+            "_id": 41378,
+            "municipalitie": "La Argentina",
+            "regionale": 41
+        },
+        {
+            "_id": 41396,
+            "municipalitie": "La Plata",
+            "regionale": 41
+        },
+        {
+            "_id": 41483,
+            "municipalitie": "Nátaga",
+            "regionale": 41
+        },
+        {
+            "_id": 41503,
+            "municipalitie": "Oporapa",
+            "regionale": 41
+        },
+        {
+            "_id": 41518,
+            "municipalitie": "Paicol",
+            "regionale": 41
+        },
+        {
+            "_id": 41524,
+            "municipalitie": "Palermo",
+            "regionale": 41
+        },
+        {
+            "_id": 41530,
+            "municipalitie": "Palestina",
+            "regionale": 41
+        },
+        {
+            "_id": 41548,
+            "municipalitie": "Pital",
+            "regionale": 41
+        },
+        {
+            "_id": 41551,
+            "municipalitie": "Pitalito",
+            "regionale": 41
+        },
+        {
+            "_id": 41615,
+            "municipalitie": "Rivera",
+            "regionale": 41
+        },
+        {
+            "_id": 41660,
+            "municipalitie": "Saladoblanco",
+            "regionale": 41
+        },
+        {
+            "_id": 41668,
+            "municipalitie": "San Agustín",
+            "regionale": 41
+        },
+        {
+            "_id": 41676,
+            "municipalitie": "Santa María",
+            "regionale": 41
+        },
+        {
+            "_id": 41770,
+            "municipalitie": "Suaza",
+            "regionale": 41
+        },
+        {
+            "_id": 41791,
+            "municipalitie": "Tarqui",
+            "regionale": 41
+        },
+        {
+            "_id": 41797,
+            "municipalitie": "Tesalia",
+            "regionale": 41
+        },
+        {
+            "_id": 41799,
+            "municipalitie": "Tello",
+            "regionale": 41
+        },
+        {
+            "_id": 41801,
+            "municipalitie": "Teruel",
+            "regionale": 41
+        },
+        {
+            "_id": 41807,
+            "municipalitie": "Timaná",
+            "regionale": 41
+        },
+        {
+            "_id": 41872,
+            "municipalitie": "Villavieja",
+            "regionale": 41
+        },
+        {
+            "_id": 41885,
+            "municipalitie": "Yaguará",
+            "regionale": 41
+        },
+        {
+            "_id": 44001,
+            "municipalitie": "Riohacha",
+            "regionale": 44
+        },
+        {
+            "_id": 44035,
+            "municipalitie": "Albania",
+            "regionale": 44
+        },
+        {
+            "_id": 44078,
+            "municipalitie": "Barrancas",
+            "regionale": 44
+        },
+        {
+            "_id": 44090,
+            "municipalitie": "Dibula",
+            "regionale": 44
+        },
+        {
+            "_id": 44098,
+            "municipalitie": "Distracción",
+            "regionale": 44
+        },
+        {
+            "_id": 44110,
+            "municipalitie": "El Molino",
+            "regionale": 44
+        },
+        {
+            "_id": 44279,
+            "municipalitie": "Fonseca",
+            "regionale": 44
+        },
+        {
+            "_id": 44378,
+            "municipalitie": "Hatonuevo",
+            "regionale": 44
+        },
+        {
+            "_id": 44420,
+            "municipalitie": "La Jagua del Pilar",
+            "regionale": 44
+        },
+        {
+            "_id": 44430,
+            "municipalitie": "Maicao",
+            "regionale": 44
+        },
+        {
+            "_id": 44560,
+            "municipalitie": "Manaure",
+            "regionale": 44
+        },
+        {
+            "_id": 44650,
+            "municipalitie": "San Juan del Cesar",
+            "regionale": 44
+        },
+        {
+            "_id": 44847,
+            "municipalitie": "Uribia",
+            "regionale": 44
+        },
+        {
+            "_id": 44855,
+            "municipalitie": "Urumita",
+            "regionale": 44
+        },
+        {
+            "_id": 44874,
+            "municipalitie": "Villanueva",
+            "regionale": 44
+        },
+        {
+            "_id": 47001,
+            "municipalitie": "Santa Marta",
+            "regionale": 47
+        },
+        {
+            "_id": 47030,
+            "municipalitie": "Algarrobo",
+            "regionale": 47
+        },
+        {
+            "_id": 47053,
+            "municipalitie": "Aracataca",
+            "regionale": 47
+        },
+        {
+            "_id": 47058,
+            "municipalitie": "Ariguaní",
+            "regionale": 47
+        },
+        {
+            "_id": 47161,
+            "municipalitie": "Cerro San Antonio",
+            "regionale": 47
+        },
+        {
+            "_id": 47170,
+            "municipalitie": "Chivolo",
+            "regionale": 47
+        },
+        {
+            "_id": 47189,
+            "municipalitie": "Ciénaga",
+            "regionale": 47
+        },
+        {
+            "_id": 47205,
+            "municipalitie": "Concordia",
+            "regionale": 47
+        },
+        {
+            "_id": 47245,
+            "municipalitie": "El Banco",
+            "regionale": 47
+        },
+        {
+            "_id": 47258,
+            "municipalitie": "El Piñon",
+            "regionale": 47
+        },
+        {
+            "_id": 47268,
+            "municipalitie": "El Retén",
+            "regionale": 47
+        },
+        {
+            "_id": 47288,
+            "municipalitie": "Fundación",
+            "regionale": 47
+        },
+        {
+            "_id": 47318,
+            "municipalitie": "Guamal",
+            "regionale": 47
+        },
+        {
+            "_id": 47460,
+            "municipalitie": "Nueva Granada",
+            "regionale": 47
+        },
+        {
+            "_id": 47541,
+            "municipalitie": "Pedraza",
+            "regionale": 47
+        },
+        {
+            "_id": 47545,
+            "municipalitie": "Pijiño del Carmen",
+            "regionale": 47
+        },
+        {
+            "_id": 47551,
+            "municipalitie": "Pivijay",
+            "regionale": 47
+        },
+        {
+            "_id": 47555,
+            "municipalitie": "Plato",
+            "regionale": 47
+        },
+        {
+            "_id": 47570,
+            "municipalitie": "Pueblo Viejo",
+            "regionale": 47
+        },
+        {
+            "_id": 47605,
+            "municipalitie": "Remolino",
+            "regionale": 47
+        },
+        {
+            "_id": 47660,
+            "municipalitie": "Sabanas de San Angel",
+            "regionale": 47
+        },
+        {
+            "_id": 47675,
+            "municipalitie": "Salamina",
+            "regionale": 47
+        },
+        {
+            "_id": 47692,
+            "municipalitie": "San Sebastián de Buenavista",
+            "regionale": 47
+        },
+        {
+            "_id": 47703,
+            "municipalitie": "San Zenón",
+            "regionale": 47
+        },
+        {
+            "_id": 47707,
+            "municipalitie": "Santa Ana",
+            "regionale": 47
+        },
+        {
+            "_id": 47720,
+            "municipalitie": "Santa Bárbara de Pinto",
+            "regionale": 47
+        },
+        {
+            "_id": 47745,
+            "municipalitie": "Sitionuevo",
+            "regionale": 47
+        },
+        {
+            "_id": 47798,
+            "municipalitie": "Tenerife",
+            "regionale": 47
+        },
+        {
+            "_id": 47960,
+            "municipalitie": "Zapayán",
+            "regionale": 47
+        },
+        {
+            "_id": 47980,
+            "municipalitie": "Zona Bananera",
+            "regionale": 47
+        },
+        {
+            "_id": 50001,
+            "municipalitie": "Villavicencio",
+            "regionale": 50
+        },
+        {
+            "_id": 50006,
+            "municipalitie": "Acacias",
+            "regionale": 50
+        },
+        {
+            "_id": 50110,
+            "municipalitie": "Barranca de Upía",
+            "regionale": 50
+        },
+        {
+            "_id": 50124,
+            "municipalitie": "Cabuyaro",
+            "regionale": 50
+        },
+        {
+            "_id": 50150,
+            "municipalitie": "Castilla la Nueva",
+            "regionale": 50
+        },
+        {
+            "_id": 50223,
+            "municipalitie": "Cubarral",
+            "regionale": 50
+        },
+        {
+            "_id": 50226,
+            "municipalitie": "Cumaral",
+            "regionale": 50
+        },
+        {
+            "_id": 50245,
+            "municipalitie": "El Calvario",
+            "regionale": 50
+        },
+        {
+            "_id": 50251,
+            "municipalitie": "El Castillo",
+            "regionale": 50
+        },
+        {
+            "_id": 50270,
+            "municipalitie": "El Dorado",
+            "regionale": 50
+        },
+        {
+            "_id": 50287,
+            "municipalitie": "Fuente de Oro",
+            "regionale": 50
+        },
+        {
+            "_id": 50313,
+            "municipalitie": "Granada",
+            "regionale": 50
+        },
+        {
+            "_id": 50318,
+            "municipalitie": "Guamal",
+            "regionale": 50
+        },
+        {
+            "_id": 50325,
+            "municipalitie": "Mapiripán",
+            "regionale": 50
+        },
+        {
+            "_id": 50330,
+            "municipalitie": "Mesetas",
+            "regionale": 50
+        },
+        {
+            "_id": 50350,
+            "municipalitie": "La Macarena",
+            "regionale": 50
+        },
+        {
+            "_id": 50370,
+            "municipalitie": "Uribe",
+            "regionale": 50
+        },
+        {
+            "_id": 50400,
+            "municipalitie": "Lejanías",
+            "regionale": 50
+        },
+        {
+            "_id": 50450,
+            "municipalitie": "Puerto Concordia",
+            "regionale": 50
+        },
+        {
+            "_id": 50568,
+            "municipalitie": "Puerto Gaitán",
+            "regionale": 50
+        },
+        {
+            "_id": 50573,
+            "municipalitie": "Puerto López",
+            "regionale": 50
+        },
+        {
+            "_id": 50577,
+            "municipalitie": "Puerto Lleras",
+            "regionale": 50
+        },
+        {
+            "_id": 50590,
+            "municipalitie": "Puerto Rico",
+            "regionale": 50
+        },
+        {
+            "_id": 50606,
+            "municipalitie": "Restrepo",
+            "regionale": 50
+        },
+        {
+            "_id": 50680,
+            "municipalitie": "San Carlos de Guaroa",
+            "regionale": 50
+        },
+        {
+            "_id": 50683,
+            "municipalitie": "San Juan de Arama",
+            "regionale": 50
+        },
+        {
+            "_id": 50686,
+            "municipalitie": "San Juanito",
+            "regionale": 50
+        },
+        {
+            "_id": 50689,
+            "municipalitie": "San Martín",
+            "regionale": 50
+        },
+        {
+            "_id": 50711,
+            "municipalitie": "Vista Hermosa",
+            "regionale": 50
+        },
+        {
+            "_id": 52001,
+            "municipalitie": "Pasto",
+            "regionale": 52
+        },
+        {
+            "_id": 52019,
+            "municipalitie": "Albán",
+            "regionale": 52
+        },
+        {
+            "_id": 52022,
+            "municipalitie": "Aldana",
+            "regionale": 52
+        },
+        {
+            "_id": 52036,
+            "municipalitie": "Ancuyá",
+            "regionale": 52
+        },
+        {
+            "_id": 52051,
+            "municipalitie": "Arboleda",
+            "regionale": 52
+        },
+        {
+            "_id": 52079,
+            "municipalitie": "Barbacoas",
+            "regionale": 52
+        },
+        {
+            "_id": 52083,
+            "municipalitie": "Belén",
+            "regionale": 52
+        },
+        {
+            "_id": 52110,
+            "municipalitie": "Buesaco",
+            "regionale": 52
+        },
+        {
+            "_id": 52203,
+            "municipalitie": "Colón",
+            "regionale": 52
+        },
+        {
+            "_id": 52207,
+            "municipalitie": "Consaca",
+            "regionale": 52
+        },
+        {
+            "_id": 52210,
+            "municipalitie": "Contadero",
+            "regionale": 52
+        },
+        {
+            "_id": 52215,
+            "municipalitie": "Córdoba",
+            "regionale": 52
+        },
+        {
+            "_id": 52224,
+            "municipalitie": "Cuaspud",
+            "regionale": 52
+        },
+        {
+            "_id": 52227,
+            "municipalitie": "Cumbal",
+            "regionale": 52
+        },
+        {
+            "_id": 52233,
+            "municipalitie": "Cumbitara",
+            "regionale": 52
+        },
+        {
+            "_id": 52240,
+            "municipalitie": "Chachagüí",
+            "regionale": 52
+        },
+        {
+            "_id": 52250,
+            "municipalitie": "El Charco",
+            "regionale": 52
+        },
+        {
+            "_id": 52254,
+            "municipalitie": "El Peñol",
+            "regionale": 52
+        },
+        {
+            "_id": 52256,
+            "municipalitie": "El Rosario",
+            "regionale": 52
+        },
+        {
+            "_id": 52258,
+            "municipalitie": "El Tablón de Gómez",
+            "regionale": 52
+        },
+        {
+            "_id": 52260,
+            "municipalitie": "El Tambo",
+            "regionale": 52
+        },
+        {
+            "_id": 52287,
+            "municipalitie": "Funes",
+            "regionale": 52
+        },
+        {
+            "_id": 52317,
+            "municipalitie": "Guachucal",
+            "regionale": 52
+        },
+        {
+            "_id": 52320,
+            "municipalitie": "Guaitarilla",
+            "regionale": 52
+        },
+        {
+            "_id": 52323,
+            "municipalitie": "Gualmatán",
+            "regionale": 52
+        },
+        {
+            "_id": 52352,
+            "municipalitie": "Iles",
+            "regionale": 52
+        },
+        {
+            "_id": 52354,
+            "municipalitie": "Imués",
+            "regionale": 52
+        },
+        {
+            "_id": 52356,
+            "municipalitie": "Ipiales",
+            "regionale": 52
+        },
+        {
+            "_id": 52378,
+            "municipalitie": "La Cruz",
+            "regionale": 52
+        },
+        {
+            "_id": 52381,
+            "municipalitie": "La Florida",
+            "regionale": 52
+        },
+        {
+            "_id": 52385,
+            "municipalitie": "La Llanada",
+            "regionale": 52
+        },
+        {
+            "_id": 52390,
+            "municipalitie": "La Tola",
+            "regionale": 52
+        },
+        {
+            "_id": 52399,
+            "municipalitie": "La Unión",
+            "regionale": 52
+        },
+        {
+            "_id": 52405,
+            "municipalitie": "Leiva",
+            "regionale": 52
+        },
+        {
+            "_id": 52411,
+            "municipalitie": "Linares",
+            "regionale": 52
+        },
+        {
+            "_id": 52418,
+            "municipalitie": "Los Andes",
+            "regionale": 52
+        },
+        {
+            "_id": 52427,
+            "municipalitie": "Magüí",
+            "regionale": 52
+        },
+        {
+            "_id": 52435,
+            "municipalitie": "Mallama",
+            "regionale": 52
+        },
+        {
+            "_id": 52473,
+            "municipalitie": "Mosquera",
+            "regionale": 52
+        },
+        {
+            "_id": 52480,
+            "municipalitie": "Nariño",
+            "regionale": 52
+        },
+        {
+            "_id": 52490,
+            "municipalitie": "Olaya Herrera",
+            "regionale": 52
+        },
+        {
+            "_id": 52506,
+            "municipalitie": "Ospina",
+            "regionale": 52
+        },
+        {
+            "_id": 52520,
+            "municipalitie": "Francisco Pizarro",
+            "regionale": 52
+        },
+        {
+            "_id": 52540,
+            "municipalitie": "Policarpa",
+            "regionale": 52
+        },
+        {
+            "_id": 52560,
+            "municipalitie": "Potosí",
+            "regionale": 52
+        },
+        {
+            "_id": 52565,
+            "municipalitie": "Providencia",
+            "regionale": 52
+        },
+        {
+            "_id": 52573,
+            "municipalitie": "Puerres",
+            "regionale": 52
+        },
+        {
+            "_id": 52585,
+            "municipalitie": "Pupiales",
+            "regionale": 52
+        },
+        {
+            "_id": 52612,
+            "municipalitie": "Ricaurte",
+            "regionale": 52
+        },
+        {
+            "_id": 52621,
+            "municipalitie": "Roberto Payán",
+            "regionale": 52
+        },
+        {
+            "_id": 52678,
+            "municipalitie": "Samaniego",
+            "regionale": 52
+        },
+        {
+            "_id": 52683,
+            "municipalitie": "Sandoná",
+            "regionale": 52
+        },
+        {
+            "_id": 52685,
+            "municipalitie": "San Bernardo",
+            "regionale": 52
+        },
+        {
+            "_id": 52687,
+            "municipalitie": "San Lorenzo",
+            "regionale": 52
+        },
+        {
+            "_id": 52693,
+            "municipalitie": "San Pablo",
+            "regionale": 52
+        },
+        {
+            "_id": 52694,
+            "municipalitie": "San Pedro de Cartago",
+            "regionale": 52
+        },
+        {
+            "_id": 52696,
+            "municipalitie": "Santa Bárbara",
+            "regionale": 52
+        },
+        {
+            "_id": 52699,
+            "municipalitie": "Santacruz",
+            "regionale": 52
+        },
+        {
+            "_id": 52720,
+            "municipalitie": "Sapuyes",
+            "regionale": 52
+        },
+        {
+            "_id": 52786,
+            "municipalitie": "Taminango",
+            "regionale": 52
+        },
+        {
+            "_id": 52788,
+            "municipalitie": "Tangua",
+            "regionale": 52
+        },
+        {
+            "_id": 52835,
+            "municipalitie": "San Andrés de Tumaco",
+            "regionale": 52
+        },
+        {
+            "_id": 52838,
+            "municipalitie": "Túquerres",
+            "regionale": 52
+        },
+        {
+            "_id": 52885,
+            "municipalitie": "Yacuanquer",
+            "regionale": 52
+        },
+        {
+            "_id": 54001,
+            "municipalitie": "Cúcuta",
+            "regionale": 54
+        },
+        {
+            "_id": 54003,
+            "municipalitie": "Abrego",
+            "regionale": 54
+        },
+        {
+            "_id": 54051,
+            "municipalitie": "Arboledas",
+            "regionale": 54
+        },
+        {
+            "_id": 54099,
+            "municipalitie": "Bochalema",
+            "regionale": 54
+        },
+        {
+            "_id": 54109,
+            "municipalitie": "Bucarasica",
+            "regionale": 54
+        },
+        {
+            "_id": 54125,
+            "municipalitie": "Cácota",
+            "regionale": 54
+        },
+        {
+            "_id": 54128,
+            "municipalitie": "Cachirá",
+            "regionale": 54
+        },
+        {
+            "_id": 54172,
+            "municipalitie": "Chinácota",
+            "regionale": 54
+        },
+        {
+            "_id": 54174,
+            "municipalitie": "Chitagá",
+            "regionale": 54
+        },
+        {
+            "_id": 54206,
+            "municipalitie": "Convención",
+            "regionale": 54
+        },
+        {
+            "_id": 54223,
+            "municipalitie": "Cucutilla",
+            "regionale": 54
+        },
+        {
+            "_id": 54239,
+            "municipalitie": "Durania",
+            "regionale": 54
+        },
+        {
+            "_id": 54245,
+            "municipalitie": "El Carmen",
+            "regionale": 54
+        },
+        {
+            "_id": 54250,
+            "municipalitie": "El Tarra",
+            "regionale": 54
+        },
+        {
+            "_id": 54261,
+            "municipalitie": "El Zulia",
+            "regionale": 54
+        },
+        {
+            "_id": 54313,
+            "municipalitie": "Gramalote",
+            "regionale": 54
+        },
+        {
+            "_id": 54344,
+            "municipalitie": "Hacarí",
+            "regionale": 54
+        },
+        {
+            "_id": 54347,
+            "municipalitie": "Herrán",
+            "regionale": 54
+        },
+        {
+            "_id": 54377,
+            "municipalitie": "Labateca",
+            "regionale": 54
+        },
+        {
+            "_id": 54385,
+            "municipalitie": "La Esperanza",
+            "regionale": 54
+        },
+        {
+            "_id": 54398,
+            "municipalitie": "La Playa",
+            "regionale": 54
+        },
+        {
+            "_id": 54405,
+            "municipalitie": "Los Patios",
+            "regionale": 54
+        },
+        {
+            "_id": 54418,
+            "municipalitie": "Lourdes",
+            "regionale": 54
+        },
+        {
+            "_id": 54480,
+            "municipalitie": "Mutiscua",
+            "regionale": 54
+        },
+        {
+            "_id": 54498,
+            "municipalitie": "Ocaña",
+            "regionale": 54
+        },
+        {
+            "_id": 54518,
+            "municipalitie": "Pamplona",
+            "regionale": 54
+        },
+        {
+            "_id": 54520,
+            "municipalitie": "Pamplonita",
+            "regionale": 54
+        },
+        {
+            "_id": 54553,
+            "municipalitie": "Puerto Santander",
+            "regionale": 54
+        },
+        {
+            "_id": 54599,
+            "municipalitie": "Ragonvalia",
+            "regionale": 54
+        },
+        {
+            "_id": 54660,
+            "municipalitie": "Salazar",
+            "regionale": 54
+        },
+        {
+            "_id": 54670,
+            "municipalitie": "San Calixto",
+            "regionale": 54
+        },
+        {
+            "_id": 54673,
+            "municipalitie": "San Cayetano",
+            "regionale": 54
+        },
+        {
+            "_id": 54680,
+            "municipalitie": "Santiago",
+            "regionale": 54
+        },
+        {
+            "_id": 54720,
+            "municipalitie": "Sardinata",
+            "regionale": 54
+        },
+        {
+            "_id": 54743,
+            "municipalitie": "Silos",
+            "regionale": 54
+        },
+        {
+            "_id": 54800,
+            "municipalitie": "Teorama",
+            "regionale": 54
+        },
+        {
+            "_id": 54810,
+            "municipalitie": "Tibú",
+            "regionale": 54
+        },
+        {
+            "_id": 54820,
+            "municipalitie": "Toledo",
+            "regionale": 54
+        },
+        {
+            "_id": 54871,
+            "municipalitie": "Villa Caro",
+            "regionale": 54
+        },
+        {
+            "_id": 54874,
+            "municipalitie": "Villa del Rosario",
+            "regionale": 54
+        },
+        {
+            "_id": 63001,
+            "municipalitie": "Armenia",
+            "regionale": 63
+        },
+        {
+            "_id": 63111,
+            "municipalitie": "Buenavista",
+            "regionale": 63
+        },
+        {
+            "_id": 63130,
+            "municipalitie": "Calarcá",
+            "regionale": 63
+        },
+        {
+            "_id": 63190,
+            "municipalitie": "Circasia",
+            "regionale": 63
+        },
+        {
+            "_id": 63212,
+            "municipalitie": "Córdoba",
+            "regionale": 63
+        },
+        {
+            "_id": 63272,
+            "municipalitie": "Filandia",
+            "regionale": 63
+        },
+        {
+            "_id": 63302,
+            "municipalitie": "Génova",
+            "regionale": 63
+        },
+        {
+            "_id": 63401,
+            "municipalitie": "La Tebaida",
+            "regionale": 63
+        },
+        {
+            "_id": 63470,
+            "municipalitie": "Montenegro",
+            "regionale": 63
+        },
+        {
+            "_id": 63548,
+            "municipalitie": "Pijao",
+            "regionale": 63
+        },
+        {
+            "_id": 63594,
+            "municipalitie": "Quimbaya",
+            "regionale": 63
+        },
+        {
+            "_id": 63690,
+            "municipalitie": "Salento",
+            "regionale": 63
+        },
+        {
+            "_id": 66001,
+            "municipalitie": "Pereira",
+            "regionale": 66
+        },
+        {
+            "_id": 66045,
+            "municipalitie": "Apía",
+            "regionale": 66
+        },
+        {
+            "_id": 66075,
+            "municipalitie": "Balboa",
+            "regionale": 66
+        },
+        {
+            "_id": 66088,
+            "municipalitie": "Belén de Umbría",
+            "regionale": 66
+        },
+        {
+            "_id": 66170,
+            "municipalitie": "Dosquebradas",
+            "regionale": 66
+        },
+        {
+            "_id": 66318,
+            "municipalitie": "Guática",
+            "regionale": 66
+        },
+        {
+            "_id": 66383,
+            "municipalitie": "La Celia",
+            "regionale": 66
+        },
+        {
+            "_id": 66400,
+            "municipalitie": "La Virginia",
+            "regionale": 66
+        },
+        {
+            "_id": 66440,
+            "municipalitie": "Marsella",
+            "regionale": 66
+        },
+        {
+            "_id": 66456,
+            "municipalitie": "Mistrató",
+            "regionale": 66
+        },
+        {
+            "_id": 66572,
+            "municipalitie": "Pueblo Rico",
+            "regionale": 66
+        },
+        {
+            "_id": 66594,
+            "municipalitie": "Quinchía",
+            "regionale": 66
+        },
+        {
+            "_id": 66682,
+            "municipalitie": "Santa Rosa de Cabal",
+            "regionale": 66
+        },
+        {
+            "_id": 66687,
+            "municipalitie": "Santuario",
+            "regionale": 66
+        },
+        {
+            "_id": 68001,
+            "municipalitie": "Bucaramanga",
+            "regionale": 68
+        },
+        {
+            "_id": 68013,
+            "municipalitie": "Aguada",
+            "regionale": 68
+        },
+        {
+            "_id": 68020,
+            "municipalitie": "Albania",
+            "regionale": 68
+        },
+        {
+            "_id": 68051,
+            "municipalitie": "Aratoca",
+            "regionale": 68
+        },
+        {
+            "_id": 68077,
+            "municipalitie": "Barbosa",
+            "regionale": 68
+        },
+        {
+            "_id": 68079,
+            "municipalitie": "Barichara",
+            "regionale": 68
+        },
+        {
+            "_id": 68081,
+            "municipalitie": "Barrancabermeja",
+            "regionale": 68
+        },
+        {
+            "_id": 68092,
+            "municipalitie": "Betulia",
+            "regionale": 68
+        },
+        {
+            "_id": 68101,
+            "municipalitie": "Bolívar",
+            "regionale": 68
+        },
+        {
+            "_id": 68121,
+            "municipalitie": "Cabrera",
+            "regionale": 68
+        },
+        {
+            "_id": 68132,
+            "municipalitie": "California",
+            "regionale": 68
+        },
+        {
+            "_id": 68147,
+            "municipalitie": "Capitanejo",
+            "regionale": 68
+        },
+        {
+            "_id": 68152,
+            "municipalitie": "Carcasí",
+            "regionale": 68
+        },
+        {
+            "_id": 68160,
+            "municipalitie": "Cepitá",
+            "regionale": 68
+        },
+        {
+            "_id": 68162,
+            "municipalitie": "Cerrito",
+            "regionale": 68
+        },
+        {
+            "_id": 68167,
+            "municipalitie": "Charalá",
+            "regionale": 68
+        },
+        {
+            "_id": 68169,
+            "municipalitie": "Charta",
+            "regionale": 68
+        },
+        {
+            "_id": 68176,
+            "municipalitie": "Chimá",
+            "regionale": 68
+        },
+        {
+            "_id": 68179,
+            "municipalitie": "Chipatá",
+            "regionale": 68
+        },
+        {
+            "_id": 68190,
+            "municipalitie": "Cimitarra",
+            "regionale": 68
+        },
+        {
+            "_id": 68207,
+            "municipalitie": "Concepción",
+            "regionale": 68
+        },
+        {
+            "_id": 68209,
+            "municipalitie": "Confines",
+            "regionale": 68
+        },
+        {
+            "_id": 68211,
+            "municipalitie": "Contratación",
+            "regionale": 68
+        },
+        {
+            "_id": 68217,
+            "municipalitie": "Coromoro",
+            "regionale": 68
+        },
+        {
+            "_id": 68229,
+            "municipalitie": "Curití",
+            "regionale": 68
+        },
+        {
+            "_id": 68235,
+            "municipalitie": "El Carmen de Chucurí",
+            "regionale": 68
+        },
+        {
+            "_id": 68245,
+            "municipalitie": "El Guacamayo",
+            "regionale": 68
+        },
+        {
+            "_id": 68250,
+            "municipalitie": "El Peñón",
+            "regionale": 68
+        },
+        {
+            "_id": 68255,
+            "municipalitie": "El Playón",
+            "regionale": 68
+        },
+        {
+            "_id": 68264,
+            "municipalitie": "Encino",
+            "regionale": 68
+        },
+        {
+            "_id": 68266,
+            "municipalitie": "Enciso",
+            "regionale": 68
+        },
+        {
+            "_id": 68271,
+            "municipalitie": "Florián",
+            "regionale": 68
+        },
+        {
+            "_id": 68276,
+            "municipalitie": "Floridablanca",
+            "regionale": 68
+        },
+        {
+            "_id": 68296,
+            "municipalitie": "Galán",
+            "regionale": 68
+        },
+        {
+            "_id": 68298,
+            "municipalitie": "Gambita",
+            "regionale": 68
+        },
+        {
+            "_id": 68307,
+            "municipalitie": "Girón",
+            "regionale": 68
+        },
+        {
+            "_id": 68318,
+            "municipalitie": "Guaca",
+            "regionale": 68
+        },
+        {
+            "_id": 68320,
+            "municipalitie": "Guadalupe",
+            "regionale": 68
+        },
+        {
+            "_id": 68322,
+            "municipalitie": "Guapotá",
+            "regionale": 68
+        },
+        {
+            "_id": 68324,
+            "municipalitie": "Guavatá",
+            "regionale": 68
+        },
+        {
+            "_id": 68327,
+            "municipalitie": "Güepsa",
+            "regionale": 68
+        },
+        {
+            "_id": 68344,
+            "municipalitie": "Hato",
+            "regionale": 68
+        },
+        {
+            "_id": 68368,
+            "municipalitie": "Jesús María",
+            "regionale": 68
+        },
+        {
+            "_id": 68370,
+            "municipalitie": "Jordán",
+            "regionale": 68
+        },
+        {
+            "_id": 68377,
+            "municipalitie": "La Belleza",
+            "regionale": 68
+        },
+        {
+            "_id": 68385,
+            "municipalitie": "Landázuri",
+            "regionale": 68
+        },
+        {
+            "_id": 68397,
+            "municipalitie": "La Paz",
+            "regionale": 68
+        },
+        {
+            "_id": 68406,
+            "municipalitie": "Lebríja",
+            "regionale": 68
+        },
+        {
+            "_id": 68418,
+            "municipalitie": "Los Santos",
+            "regionale": 68
+        },
+        {
+            "_id": 68425,
+            "municipalitie": "Macaravita",
+            "regionale": 68
+        },
+        {
+            "_id": 68432,
+            "municipalitie": "Málaga",
+            "regionale": 68
+        },
+        {
+            "_id": 68444,
+            "municipalitie": "Matanza",
+            "regionale": 68
+        },
+        {
+            "_id": 68464,
+            "municipalitie": "Mogotes",
+            "regionale": 68
+        },
+        {
+            "_id": 68468,
+            "municipalitie": "Molagavita",
+            "regionale": 68
+        },
+        {
+            "_id": 68498,
+            "municipalitie": "Ocamonte",
+            "regionale": 68
+        },
+        {
+            "_id": 68500,
+            "municipalitie": "Oiba",
+            "regionale": 68
+        },
+        {
+            "_id": 68502,
+            "municipalitie": "Onzaga",
+            "regionale": 68
+        },
+        {
+            "_id": 68522,
+            "municipalitie": "Palmar",
+            "regionale": 68
+        },
+        {
+            "_id": 68524,
+            "municipalitie": "Palmas del Socorro",
+            "regionale": 68
+        },
+        {
+            "_id": 68533,
+            "municipalitie": "Páramo",
+            "regionale": 68
+        },
+        {
+            "_id": 68547,
+            "municipalitie": "Piedecuesta",
+            "regionale": 68
+        },
+        {
+            "_id": 68549,
+            "municipalitie": "Pinchote",
+            "regionale": 68
+        },
+        {
+            "_id": 68572,
+            "municipalitie": "Puente Nacional",
+            "regionale": 68
+        },
+        {
+            "_id": 68573,
+            "municipalitie": "Puerto Parra",
+            "regionale": 68
+        },
+        {
+            "_id": 68575,
+            "municipalitie": "Puerto Wilches",
+            "regionale": 68
+        },
+        {
+            "_id": 68615,
+            "municipalitie": "Rionegro",
+            "regionale": 68
+        },
+        {
+            "_id": 68655,
+            "municipalitie": "Sabana de Torres",
+            "regionale": 68
+        },
+        {
+            "_id": 68669,
+            "municipalitie": "San Andrés",
+            "regionale": 68
+        },
+        {
+            "_id": 68673,
+            "municipalitie": "San Benito",
+            "regionale": 68
+        },
+        {
+            "_id": 68679,
+            "municipalitie": "San Gil",
+            "regionale": 68
+        },
+        {
+            "_id": 68682,
+            "municipalitie": "San Joaquín",
+            "regionale": 68
+        },
+        {
+            "_id": 68684,
+            "municipalitie": "San José de Miranda",
+            "regionale": 68
+        },
+        {
+            "_id": 68686,
+            "municipalitie": "San Miguel",
+            "regionale": 68
+        },
+        {
+            "_id": 68689,
+            "municipalitie": "San Vicente de Chucurí",
+            "regionale": 68
+        },
+        {
+            "_id": 68705,
+            "municipalitie": "Santa Bárbara",
+            "regionale": 68
+        },
+        {
+            "_id": 68720,
+            "municipalitie": "Santa Helena del Opón",
+            "regionale": 68
+        },
+        {
+            "_id": 68745,
+            "municipalitie": "Simacota",
+            "regionale": 68
+        },
+        {
+            "_id": 68755,
+            "municipalitie": "Socorro",
+            "regionale": 68
+        },
+        {
+            "_id": 68770,
+            "municipalitie": "Suaita",
+            "regionale": 68
+        },
+        {
+            "_id": 68773,
+            "municipalitie": "Sucre",
+            "regionale": 68
+        },
+        {
+            "_id": 68780,
+            "municipalitie": "Suratá",
+            "regionale": 68
+        },
+        {
+            "_id": 68820,
+            "municipalitie": "Tona",
+            "regionale": 68
+        },
+        {
+            "_id": 68855,
+            "municipalitie": "Valle de San José",
+            "regionale": 68
+        },
+        {
+            "_id": 68861,
+            "municipalitie": "Vélez",
+            "regionale": 68
+        },
+        {
+            "_id": 68867,
+            "municipalitie": "Vetas",
+            "regionale": 68
+        },
+        {
+            "_id": 68872,
+            "municipalitie": "Villanueva",
+            "regionale": 68
+        },
+        {
+            "_id": 68895,
+            "municipalitie": "Zapatoca",
+            "regionale": 68
+        },
+        {
+            "_id": 70001,
+            "municipalitie": "Sincelejo",
+            "regionale": 70
+        },
+        {
+            "_id": 70110,
+            "municipalitie": "Buenavista",
+            "regionale": 70
+        },
+        {
+            "_id": 70124,
+            "municipalitie": "Caimito",
+            "regionale": 70
+        },
+        {
+            "_id": 70204,
+            "municipalitie": "Coloso",
+            "regionale": 70
+        },
+        {
+            "_id": 70215,
+            "municipalitie": "Corozal",
+            "regionale": 70
+        },
+        {
+            "_id": 70221,
+            "municipalitie": "Coveñas",
+            "regionale": 70
+        },
+        {
+            "_id": 70230,
+            "municipalitie": "Chalán",
+            "regionale": 70
+        },
+        {
+            "_id": 70233,
+            "municipalitie": "El Roble",
+            "regionale": 70
+        },
+        {
+            "_id": 70235,
+            "municipalitie": "Galeras",
+            "regionale": 70
+        },
+        {
+            "_id": 70265,
+            "municipalitie": "Guaranda",
+            "regionale": 70
+        },
+        {
+            "_id": 70400,
+            "municipalitie": "La Unión",
+            "regionale": 70
+        },
+        {
+            "_id": 70418,
+            "municipalitie": "Los Palmitos",
+            "regionale": 70
+        },
+        {
+            "_id": 70429,
+            "municipalitie": "Majagual",
+            "regionale": 70
+        },
+        {
+            "_id": 70473,
+            "municipalitie": "Morroa",
+            "regionale": 70
+        },
+        {
+            "_id": 70508,
+            "municipalitie": "Ovejas",
+            "regionale": 70
+        },
+        {
+            "_id": 70523,
+            "municipalitie": "Palmito",
+            "regionale": 70
+        },
+        {
+            "_id": 70670,
+            "municipalitie": "Sampués",
+            "regionale": 70
+        },
+        {
+            "_id": 70678,
+            "municipalitie": "San Benito Abad",
+            "regionale": 70
+        },
+        {
+            "_id": 70702,
+            "municipalitie": "San Juan de Betulia",
+            "regionale": 70
+        },
+        {
+            "_id": 70708,
+            "municipalitie": "San Marcos",
+            "regionale": 70
+        },
+        {
+            "_id": 70713,
+            "municipalitie": "San Onofre",
+            "regionale": 70
+        },
+        {
+            "_id": 70717,
+            "municipalitie": "San Pedro",
+            "regionale": 70
+        },
+        {
+            "_id": 70742,
+            "municipalitie": "San Luis de Sincé",
+            "regionale": 70
+        },
+        {
+            "_id": 70771,
+            "municipalitie": "Sucre",
+            "regionale": 70
+        },
+        {
+            "_id": 70820,
+            "municipalitie": "Santiago de Tolú",
+            "regionale": 70
+        },
+        {
+            "_id": 70823,
+            "municipalitie": "Tolú Viejo",
+            "regionale": 70
+        },
+        {
+            "_id": 73001,
+            "municipalitie": "Ibagué",
+            "regionale": 73
+        },
+        {
+            "_id": 73024,
+            "municipalitie": "Alpujarra",
+            "regionale": 73
+        },
+        {
+            "_id": 73026,
+            "municipalitie": "Alvarado",
+            "regionale": 73
+        },
+        {
+            "_id": 73030,
+            "municipalitie": "Ambalema",
+            "regionale": 73
+        },
+        {
+            "_id": 73043,
+            "municipalitie": "Anzoátegui",
+            "regionale": 73
+        },
+        {
+            "_id": 73055,
+            "municipalitie": "Armero",
+            "regionale": 73
+        },
+        {
+            "_id": 73067,
+            "municipalitie": "Ataco",
+            "regionale": 73
+        },
+        {
+            "_id": 73124,
+            "municipalitie": "Cajamarca",
+            "regionale": 73
+        },
+        {
+            "_id": 73148,
+            "municipalitie": "Carmen de Apicala",
+            "regionale": 73
+        },
+        {
+            "_id": 73152,
+            "municipalitie": "Casabianca",
+            "regionale": 73
+        },
+        {
+            "_id": 73168,
+            "municipalitie": "Chaparral",
+            "regionale": 73
+        },
+        {
+            "_id": 73200,
+            "municipalitie": "Coello",
+            "regionale": 73
+        },
+        {
+            "_id": 73217,
+            "municipalitie": "Coyaima",
+            "regionale": 73
+        },
+        {
+            "_id": 73226,
+            "municipalitie": "Cunday",
+            "regionale": 73
+        },
+        {
+            "_id": 73236,
+            "municipalitie": "Dolores",
+            "regionale": 73
+        },
+        {
+            "_id": 73268,
+            "municipalitie": "Espinal",
+            "regionale": 73
+        },
+        {
+            "_id": 73270,
+            "municipalitie": "Falan",
+            "regionale": 73
+        },
+        {
+            "_id": 73275,
+            "municipalitie": "Flandes",
+            "regionale": 73
+        },
+        {
+            "_id": 73283,
+            "municipalitie": "Fresno",
+            "regionale": 73
+        },
+        {
+            "_id": 73319,
+            "municipalitie": "Guamo",
+            "regionale": 73
+        },
+        {
+            "_id": 73347,
+            "municipalitie": "Herveo",
+            "regionale": 73
+        },
+        {
+            "_id": 73349,
+            "municipalitie": "Honda",
+            "regionale": 73
+        },
+        {
+            "_id": 73352,
+            "municipalitie": "Icononzo",
+            "regionale": 73
+        },
+        {
+            "_id": 73408,
+            "municipalitie": "Lérida",
+            "regionale": 73
+        },
+        {
+            "_id": 73411,
+            "municipalitie": "Líbano",
+            "regionale": 73
+        },
+        {
+            "_id": 73443,
+            "municipalitie": "Mariquita",
+            "regionale": 73
+        },
+        {
+            "_id": 73449,
+            "municipalitie": "Melgar",
+            "regionale": 73
+        },
+        {
+            "_id": 73461,
+            "municipalitie": "Murillo",
+            "regionale": 73
+        },
+        {
+            "_id": 73483,
+            "municipalitie": "Natagaima",
+            "regionale": 73
+        },
+        {
+            "_id": 73504,
+            "municipalitie": "Ortega",
+            "regionale": 73
+        },
+        {
+            "_id": 73520,
+            "municipalitie": "Palocabildo",
+            "regionale": 73
+        },
+        {
+            "_id": 73547,
+            "municipalitie": "Piedras",
+            "regionale": 73
+        },
+        {
+            "_id": 73555,
+            "municipalitie": "Planadas",
+            "regionale": 73
+        },
+        {
+            "_id": 73563,
+            "municipalitie": "Prado",
+            "regionale": 73
+        },
+        {
+            "_id": 73585,
+            "municipalitie": "Purificación",
+            "regionale": 73
+        },
+        {
+            "_id": 73616,
+            "municipalitie": "Rio Blanco",
+            "regionale": 73
+        },
+        {
+            "_id": 73622,
+            "municipalitie": "Roncesvalles",
+            "regionale": 73
+        },
+        {
+            "_id": 73624,
+            "municipalitie": "Rovira",
+            "regionale": 73
+        },
+        {
+            "_id": 73671,
+            "municipalitie": "Saldaña",
+            "regionale": 73
+        },
+        {
+            "_id": 73675,
+            "municipalitie": "San Antonio",
+            "regionale": 73
+        },
+        {
+            "_id": 73678,
+            "municipalitie": "San Luis",
+            "regionale": 73
+        },
+        {
+            "_id": 73686,
+            "municipalitie": "Santa Isabel",
+            "regionale": 73
+        },
+        {
+            "_id": 73770,
+            "municipalitie": "Suárez",
+            "regionale": 73
+        },
+        {
+            "_id": 73854,
+            "municipalitie": "Valle de San Juan",
+            "regionale": 73
+        },
+        {
+            "_id": 73861,
+            "municipalitie": "Venadillo",
+            "regionale": 73
+        },
+        {
+            "_id": 73870,
+            "municipalitie": "Villahermosa",
+            "regionale": 73
+        },
+        {
+            "_id": 73873,
+            "municipalitie": "Villarrica",
+            "regionale": 73
+        },
+        {
+            "_id": 76001,
+            "municipalitie": "Cali",
+            "regionale": 76
+        },
+        {
+            "_id": 76020,
+            "municipalitie": "Alcalá",
+            "regionale": 76
+        },
+        {
+            "_id": 76036,
+            "municipalitie": "Andalucía",
+            "regionale": 76
+        },
+        {
+            "_id": 76041,
+            "municipalitie": "Ansermanuevo",
+            "regionale": 76
+        },
+        {
+            "_id": 76054,
+            "municipalitie": "Argelia",
+            "regionale": 76
+        },
+        {
+            "_id": 76100,
+            "municipalitie": "Bolívar",
+            "regionale": 76
+        },
+        {
+            "_id": 76109,
+            "municipalitie": "Buenaventura",
+            "regionale": 76
+        },
+        {
+            "_id": 76111,
+            "municipalitie": "Guadalajara de Buga",
+            "regionale": 76
+        },
+        {
+            "_id": 76113,
+            "municipalitie": "Bugalagrande",
+            "regionale": 76
+        },
+        {
+            "_id": 76122,
+            "municipalitie": "Caicedonia",
+            "regionale": 76
+        },
+        {
+            "_id": 76126,
+            "municipalitie": "Calima",
+            "regionale": 76
+        },
+        {
+            "_id": 76130,
+            "municipalitie": "Candelaria",
+            "regionale": 76
+        },
+        {
+            "_id": 76147,
+            "municipalitie": "Cartago",
+            "regionale": 76
+        },
+        {
+            "_id": 76233,
+            "municipalitie": "Dagua",
+            "regionale": 76
+        },
+        {
+            "_id": 76243,
+            "municipalitie": "El Águila",
+            "regionale": 76
+        },
+        {
+            "_id": 76246,
+            "municipalitie": "El Cairo",
+            "regionale": 76
+        },
+        {
+            "_id": 76248,
+            "municipalitie": "El Cerrito",
+            "regionale": 76
+        },
+        {
+            "_id": 76250,
+            "municipalitie": "El Dovio",
+            "regionale": 76
+        },
+        {
+            "_id": 76275,
+            "municipalitie": "Florida",
+            "regionale": 76
+        },
+        {
+            "_id": 76306,
+            "municipalitie": "Ginebra",
+            "regionale": 76
+        },
+        {
+            "_id": 76318,
+            "municipalitie": "Guacarí",
+            "regionale": 76
+        },
+        {
+            "_id": 76364,
+            "municipalitie": "Jamundí",
+            "regionale": 76
+        },
+        {
+            "_id": 76377,
+            "municipalitie": "La Cumbre",
+            "regionale": 76
+        },
+        {
+            "_id": 76400,
+            "municipalitie": "La Unión",
+            "regionale": 76
+        },
+        {
+            "_id": 76403,
+            "municipalitie": "La Victoria",
+            "regionale": 76
+        },
+        {
+            "_id": 76497,
+            "municipalitie": "Obando",
+            "regionale": 76
+        },
+        {
+            "_id": 76520,
+            "municipalitie": "Palmira",
+            "regionale": 76
+        },
+        {
+            "_id": 76563,
+            "municipalitie": "Pradera",
+            "regionale": 76
+        },
+        {
+            "_id": 76606,
+            "municipalitie": "Restrepo",
+            "regionale": 76
+        },
+        {
+            "_id": 76616,
+            "municipalitie": "Riofrío",
+            "regionale": 76
+        },
+        {
+            "_id": 76622,
+            "municipalitie": "Roldanillo",
+            "regionale": 76
+        },
+        {
+            "_id": 76670,
+            "municipalitie": "San Pedro",
+            "regionale": 76
+        },
+        {
+            "_id": 76736,
+            "municipalitie": "Sevilla",
+            "regionale": 76
+        },
+        {
+            "_id": 76823,
+            "municipalitie": "Toro",
+            "regionale": 76
+        },
+        {
+            "_id": 76828,
+            "municipalitie": "Trujillo",
+            "regionale": 76
+        },
+        {
+            "_id": 76834,
+            "municipalitie": "Tuluá",
+            "regionale": 76
+        },
+        {
+            "_id": 76845,
+            "municipalitie": "Ulloa",
+            "regionale": 76
+        },
+        {
+            "_id": 76863,
+            "municipalitie": "Versalles",
+            "regionale": 76
+        },
+        {
+            "_id": 76869,
+            "municipalitie": "Vijes",
+            "regionale": 76
+        },
+        {
+            "_id": 76890,
+            "municipalitie": "Yotoco",
+            "regionale": 76
+        },
+        {
+            "_id": 76892,
+            "municipalitie": "Yumbo",
+            "regionale": 76
+        },
+        {
+            "_id": 76895,
+            "municipalitie": "Zarzal",
+            "regionale": 76
+        },
+        {
+            "_id": 81001,
+            "municipalitie": "Arauca",
+            "regionale": 81
+        },
+        {
+            "_id": 81065,
+            "municipalitie": "Arauquita",
+            "regionale": 81
+        },
+        {
+            "_id": 81220,
+            "municipalitie": "Cravo Norte",
+            "regionale": 81
+        },
+        {
+            "_id": 81300,
+            "municipalitie": "Fortul",
+            "regionale": 81
+        },
+        {
+            "_id": 81591,
+            "municipalitie": "Puerto Rondón",
+            "regionale": 81
+        },
+        {
+            "_id": 81736,
+            "municipalitie": "Saravena",
+            "regionale": 81
+        },
+        {
+            "_id": 81794,
+            "municipalitie": "Tame",
+            "regionale": 81
+        },
+        {
+            "_id": 85001,
+            "municipalitie": "Yopal",
+            "regionale": 85
+        },
+        {
+            "_id": 85010,
+            "municipalitie": "Aguazul",
+            "regionale": 85
+        },
+        {
+            "_id": 85015,
+            "municipalitie": "Chámeza",
+            "regionale": 85
+        },
+        {
+            "_id": 85125,
+            "municipalitie": "Hato Corozal",
+            "regionale": 85
+        },
+        {
+            "_id": 85136,
+            "municipalitie": "La Salina",
+            "regionale": 85
+        },
+        {
+            "_id": 85139,
+            "municipalitie": "Maní",
+            "regionale": 85
+        },
+        {
+            "_id": 85162,
+            "municipalitie": "Monterrey",
+            "regionale": 85
+        },
+        {
+            "_id": 85225,
+            "municipalitie": "Nunchía",
+            "regionale": 85
+        },
+        {
+            "_id": 85230,
+            "municipalitie": "Orocué",
+            "regionale": 85
+        },
+        {
+            "_id": 85250,
+            "municipalitie": "Paz de Ariporo",
+            "regionale": 85
+        },
+        {
+            "_id": 85263,
+            "municipalitie": "Pore",
+            "regionale": 85
+        },
+        {
+            "_id": 85279,
+            "municipalitie": "Recetor",
+            "regionale": 85
+        },
+        {
+            "_id": 85300,
+            "municipalitie": "Sabanalarga",
+            "regionale": 85
+        },
+        {
+            "_id": 85315,
+            "municipalitie": "Sácama",
+            "regionale": 85
+        },
+        {
+            "_id": 85325,
+            "municipalitie": "San Luis de Gaceno",
+            "regionale": 85
+        },
+        {
+            "_id": 85400,
+            "municipalitie": "Támara",
+            "regionale": 85
+        },
+        {
+            "_id": 85410,
+            "municipalitie": "Tauramena",
+            "regionale": 85
+        },
+        {
+            "_id": 85430,
+            "municipalitie": "Trinidad",
+            "regionale": 85
+        },
+        {
+            "_id": 85440,
+            "municipalitie": "Villanueva",
+            "regionale": 85
+        },
+        {
+            "_id": 86001,
+            "municipalitie": "Mocoa",
+            "regionale": 86
+        },
+        {
+            "_id": 86219,
+            "municipalitie": "Colón",
+            "regionale": 86
+        },
+        {
+            "_id": 86320,
+            "municipalitie": "Orito",
+            "regionale": 86
+        },
+        {
+            "_id": 86568,
+            "municipalitie": "Puerto Asís",
+            "regionale": 86
+        },
+        {
+            "_id": 86569,
+            "municipalitie": "Puerto Caicedo",
+            "regionale": 86
+        },
+        {
+            "_id": 86571,
+            "municipalitie": "Puerto Guzmán",
+            "regionale": 86
+        },
+        {
+            "_id": 86573,
+            "municipalitie": "Leguízamo",
+            "regionale": 86
+        },
+        {
+            "_id": 86749,
+            "municipalitie": "Sibundoy",
+            "regionale": 86
+        },
+        {
+            "_id": 86755,
+            "municipalitie": "San Francisco",
+            "regionale": 86
+        },
+        {
+            "_id": 86757,
+            "municipalitie": "San Miguel",
+            "regionale": 86
+        },
+        {
+            "_id": 86760,
+            "municipalitie": "Santiago",
+            "regionale": 86
+        },
+        {
+            "_id": 86865,
+            "municipalitie": "Valle de Guamez",
+            "regionale": 86
+        },
+        {
+            "_id": 86885,
+            "municipalitie": "Villagarzón",
+            "regionale": 86
+        },
+        {
+            "_id": 88001,
+            "municipalitie": "San Andrés",
+            "regionale": 88
+        },
+        {
+            "_id": 88564,
+            "municipalitie": "Providencia",
+            "regionale": 88
+        },
+        {
+            "_id": 91001,
+            "municipalitie": "Leticia",
+            "regionale": 91
+        },
+        {
+            "_id": 91263,
+            "municipalitie": "El Encanto",
+            "regionale": 91
+        },
+        {
+            "_id": 91405,
+            "municipalitie": "La Chorrera",
+            "regionale": 91
+        },
+        {
+            "_id": 91407,
+            "municipalitie": "La Pedrera",
+            "regionale": 91
+        },
+        {
+            "_id": 91430,
+            "municipalitie": "La Victoria",
+            "regionale": 91
+        },
+        {
+            "_id": 91460,
+            "municipalitie": "Miriti Paraná",
+            "regionale": 91
+        },
+        {
+            "_id": 91530,
+            "municipalitie": "Puerto Alegría",
+            "regionale": 91
+        },
+        {
+            "_id": 91536,
+            "municipalitie": "Puerto Arica",
+            "regionale": 91
+        },
+        {
+            "_id": 91540,
+            "municipalitie": "Puerto Nariño",
+            "regionale": 91
+        },
+        {
+            "_id": 91669,
+            "municipalitie": "Puerto Santander",
+            "regionale": 91
+        },
+        {
+            "_id": 91798,
+            "municipalitie": "Tarapacá",
+            "regionale": 91
+        },
+        {
+            "_id": 94001,
+            "municipalitie": "Inírida",
+            "regionale": 94
+        },
+        {
+            "_id": 94343,
+            "municipalitie": "Barranco Minas",
+            "regionale": 94
+        },
+        {
+            "_id": 94663,
+            "municipalitie": "Mapiripana",
+            "regionale": 94
+        },
+        {
+            "_id": 94883,
+            "municipalitie": "San Felipe",
+            "regionale": 94
+        },
+        {
+            "_id": 94884,
+            "municipalitie": "Puerto Colombia",
+            "regionale": 94
+        },
+        {
+            "_id": 94885,
+            "municipalitie": "La Guadalupe",
+            "regionale": 94
+        },
+        {
+            "_id": 94886,
+            "municipalitie": "Cacahual",
+            "regionale": 94
+        },
+        {
+            "_id": 94887,
+            "municipalitie": "Pana Pana",
+            "regionale": 94
+        },
+        {
+            "_id": 94888,
+            "municipalitie": "Morichal",
+            "regionale": 94
+        },
+        {
+            "_id": 95001,
+            "municipalitie": "San José del Guaviare",
+            "regionale": 95
+        },
+        {
+            "_id": 95015,
+            "municipalitie": "Calamar",
+            "regionale": 95
+        },
+        {
+            "_id": 95025,
+            "municipalitie": "El Retorno",
+            "regionale": 95
+        },
+        {
+            "_id": 95200,
+            "municipalitie": "Miraflores",
+            "regionale": 95
+        },
+        {
+            "_id": 97001,
+            "municipalitie": "Mitú",
+            "regionale": 97
+        },
+        {
+            "_id": 97161,
+            "municipalitie": "Caruru",
+            "regionale": 97
+        },
+        {
+            "_id": 97511,
+            "municipalitie": "Pacoa",
+            "regionale": 97
+        },
+        {
+            "_id": 97666,
+            "municipalitie": "Taraira",
+            "regionale": 97
+        },
+        {
+            "_id": 97777,
+            "municipalitie": "Papunaua",
+            "regionale": 97
+        },
+        {
+            "_id": 97889,
+            "municipalitie": "Yavaraté",
+            "regionale": 97
+        },
+        {
+            "_id": 99001,
+            "municipalitie": "Puerto Carreño",
+            "regionale": 99
+        },
+        {
+            "_id": 99524,
+            "municipalitie": "La Primavera",
+            "regionale": 99
+        },
+        {
+            "_id": 99624,
+            "municipalitie": "Santa Rosalía",
+            "regionale": 99
+        },
+        {
+            "_id": 99773,
+            "municipalitie": "Cumaribo",
+            "regionale": 99
+        }
+    ]

@@ -1,0 +1,968 @@
+[
+    {
+      "_id": 9547,
+      "training_center": "CENTRO AMBIENTAL Y ECOTURISTICO DEL NORORIENTE AMAZONICO",
+      "training_center_address": "TRASVERSAL 6ª NO. 29 A-03 VIA AL COCO",
+      "municipalitie": 94001
+    },
+    {
+      "_id": 501,
+      "training_center": "TECNOPARQUE COLOMBIA NODO MEDELLÍN SEDE ORIENTAL",
+      "training_center_address": "Calle 41 No 50 A - 324 (Politécnico Jaime Isaz Cadavid)",
+      "municipalitie": 5001
+    },
+    {
+      "_id": 9548,
+      "training_center": "CENTRO AGROPECUARIO Y DE SERVICIOS AMBIENTALES JIRI - JIRIMO",
+      "training_center_address": "Avenida 15 No. 6-176",
+      "municipalitie": 97001
+    },
+    {
+      "_id": 9543,
+      "training_center": "CENTRO DE TECNOLOGIAS AGROINDUSTRIALES",
+      "training_center_address": "Carrera 9 Número 12-141  Tres Esquinas",
+      "municipalitie": 76147
+    },
+    {
+      "_id": 9517,
+      "training_center": "CENTRO PARA LA BIODIVERSIDAD Y EL TURISMO DEL AMAZONAS",
+      "training_center_address": "Calle 12 No. 10-60",
+      "municipalitie": 91001
+    },
+    {
+      "_id": 9503,
+      "training_center": "CENTRO DE LA INNOVACIÓN, LA AGROINDUSTRIA Y LA AVIACIÓN",
+      "training_center_address": "Carrera 48 No. 49-62 La Convención",
+      "municipalitie": 5615
+    },
+    {
+      "_id": 9202,
+      "training_center": "CENTRO DE FORMACIÓN EN DISEÑO, CONFECCIÓN Y MODA.",
+      "training_center_address": "Calle 63 No. 58B-03 Barrio Calatrava",
+      "municipalitie": 5360
+    },
+    {
+      "_id": 9203,
+      "training_center": "CENTRO PARA EL DESARROLLO DEL HABITAT Y LA CONSTRUCCIÓN",
+      "training_center_address": "Diagonal 104 No. 69-120 Barrio Pedregal",
+      "municipalitie": 5001
+    },
+    {
+      "_id": 9204,
+      "training_center": "CENTRO DE TECNOLOGÍA DE LA MANUFACTURA AVANZADA.",
+      "training_center_address": "Diagonal 104 No. 69-120 Barrio Pedregal",
+      "municipalitie": 5001
+    },
+    {
+      "_id": 9205,
+      "training_center": "CENTRO TECNOLÓGICO DEL MOBILIARIO",
+      "training_center_address": "Calle 63 No. 58B-03 Barrio Calatrava",
+      "municipalitie": 5360
+    },
+    {
+      "_id": 9206,
+      "training_center": "CENTRO TEXTIL Y DE GESTIÓN INDUSTRIAL",
+      "training_center_address": "Diagonal 104 No. 69-120 Barrio Pedregal",
+      "municipalitie": 5001
+    },
+    {
+      "_id": 9101,
+      "training_center": "CENTRO DE LOS RECURSOS NATURALES RENOVABLES - LA SALADA",
+      "training_center_address": "Km 6 Vía a la Pintada",
+      "municipalitie": 5129
+    },
+    {
+      "_id": 9502,
+      "training_center": "COMPLEJO TECNOLÓGICO MINERO AGROEMPRESARIAL",
+      "training_center_address": "Calle 6 Barrio La Malena",
+      "municipalitie": 5579
+    },
+    {
+      "_id": 9504,
+      "training_center": "COMPLEJO TECNOLOGICO AGROINDUSTRIAL, PECUARIO Y TURISTICO",
+      "training_center_address": "Salida a Turbo Km 1 Autopista al mar",
+      "municipalitie": 5045
+    },
+    {
+      "_id": 9301,
+      "training_center": "CENTRO DE COMERCIO",
+      "training_center_address": "Calle 51 No. 57-70",
+      "municipalitie": 5001
+    },
+    {
+      "_id": 9201,
+      "training_center": "CENTRO DEL DISEÑO Y MANUFACTURA DEL CUERO",
+      "training_center_address": "Calle 63 No. 58B-03 Barrio Calatrava",
+      "municipalitie": 5360
+    },
+    {
+      "_id": 9401,
+      "training_center": "CENTRO DE SERVICIOS DE SALUD",
+      "training_center_address": "Calle 51 No. 57-70 Piso 2",
+      "municipalitie": 5001
+    },
+    {
+      "_id": 9402,
+      "training_center": "CENTRO DE SERVICIOS Y GESTION EMPRESARIAL",
+      "training_center_address": "Calle 57 No. 51-70 torre norte",
+      "municipalitie": 5001
+    },
+    {
+      "_id": 9501,
+      "training_center": "COMPLEJO TECNOLOGICO PARA LA GESTION AGROEMPRESARIAL",
+      "training_center_address": "Transversal 16 No. 33  102 Caucasia Antioquia",
+      "municipalitie": 5154
+    },
+    {
+      "_id": 9530,
+      "training_center": "CENTRO DE GESTION Y DESARROLLO AGROINDUSTRIAL DE ARAUCA",
+      "training_center_address": "Carrera 20 No. 28-163",
+      "municipalitie": 81001
+    },
+    {
+      "_id": 9302,
+      "training_center": "CENTRO DE COMERCIO Y SERVICIOS",
+      "training_center_address": "Carrera 48 No 42 - 40",
+      "municipalitie": 8001
+    },
+    {
+      "_id": 9207,
+      "training_center": "CENTRO NACIONAL COLOMBO ALEMAN",
+      "training_center_address": "Calle 30 No. 3E-164",
+      "municipalitie": 8001
+    },
+    {
+      "_id": 9208,
+      "training_center": "CENTRO INDUSTRIAL Y DE AVIACION",
+      "training_center_address": "Calle 30 No. 3E-164",
+      "municipalitie": 8001
+    },
+    {
+      "_id": 9103,
+      "training_center": "CENTRO PARA EL DESARROLLO AGROECOLÓGICO Y AGROINDUSTRIAL",
+      "training_center_address": "Carrera 48 No 42 - 40",
+      "municipalitie": 8001
+    },
+    {
+      "_id": 9216,
+      "training_center": "CENTRO DE DISEÑO Y METROLOGIA",
+      "training_center_address": "Carrera 31 No. 14-20 - Torre Occidente Piso 3",
+      "municipalitie": 11001
+    },
+    {
+      "_id": 9508,
+      "training_center": "CENTRO DE FORMACIÓN EN ACTIVIDAD FÍSICA Y CULTURA",
+      "training_center_address": "Transversal 78 J No. 41D-15 Sur Kennedy",
+      "municipalitie": 11001
+    },
+    {
+      "_id": 9406,
+      "training_center": "CENTRO NACIONAL DE HOTELERIA, TURISMO Y ALIMENTOS",
+      "training_center_address": "Carrera 30 No. 14-53 Piso",
+      "municipalitie": 11001
+    },
+    {
+      "_id": 9405,
+      "training_center": "CENTRO DE SERVICIOS FINANCIEROS",
+      "training_center_address": "Carrera 13 No. 65-10",
+      "municipalitie": 11001
+    },
+    {
+      "_id": 9404,
+      "training_center": "CENTRO DE GESTION ADMINISTRATIVA",
+      "training_center_address": "Avenida Caracas No. 13-88",
+      "municipalitie": 11001
+    },
+    {
+      "_id": 9403,
+      "training_center": "CENTRO DE FORMACION DE TALENTO HUMANO EN SALUD",
+      "training_center_address": "Carrera 6 No. 45-52",
+      "municipalitie": 11001
+    },
+    {
+      "_id": 9303,
+      "training_center": "CENTRO DE GESTION DE MERCADOS, LOGISTICA Y TECNOLOGIAS DE LA INFORMACION",
+      "training_center_address": "Calle 52 No. 13-65",
+      "municipalitie": 11001
+    },
+    {
+      "_id": 9217,
+      "training_center": "CENTRO PARA LA INDUSTRIA DE LA COMUNICACIÓN GRAFICA",
+      "training_center_address": "Carrera 31 No. 14-20",
+      "municipalitie": 11001
+    },
+    {
+      "_id": 9209,
+      "training_center": "CENTRO DE TECNOLOGIAS PARA LA CONSTRUCCION Y LA MADERA",
+      "training_center_address": "Carrera 18A No. 2-18 Sur Barrio San Antonio",
+      "municipalitie": 11001
+    },
+    {
+      "_id": 9210,
+      "training_center": "CENTRO DE ELECTRICIDAD, ELECTRÓNICA Y TELECOMUNICACIONES",
+      "training_center_address": "Avenida 30 No. 17B-25 Sur",
+      "municipalitie": 11001
+    },
+    {
+      "_id": 9211,
+      "training_center": "CENTRO DE GESTION INDUSTRIAL",
+      "training_center_address": "Carrera 31 No. 14-20 Torre Occidente Piso 4",
+      "municipalitie": 11001
+    },
+    {
+      "_id": 9212,
+      "training_center": "CENTRO DE MANUFACTURA EN TEXTILES Y CUERO",
+      "training_center_address": "Carrera 30 No. 17B-25 Sur",
+      "municipalitie": 11001
+    },
+    {
+      "_id": 9213,
+      "training_center": "CENTRO DE TECNOLOGÍAS DEL TRANSPORTE",
+      "training_center_address": "Autopista Sur No. 6 - 22 entrada 2, Zona Industrial Cazuca, Bogotá",
+      "municipalitie": 11001
+    },
+    {
+      "_id": 9214,
+      "training_center": "CENTRO METALMECANICO",
+      "training_center_address": "Avenida 30 No. 15B-25 Sur",
+      "municipalitie": 11001
+    },
+    {
+      "_id": 1,
+      "training_center": "DIRECCION GENERAL",
+      "training_center_address": "Direccion General",
+      "municipalitie": 11001
+    },
+    {
+      "_id": 9215,
+      "training_center": "CENTRO DE MATERIALES Y ENSAYOS",
+      "training_center_address": "Avenida 30 No. 17B-25 Sur",
+      "municipalitie": 11001
+    },
+    {
+      "_id": 9218,
+      "training_center": "CENTRO PARA LA INDUSTRIA PETROQUIMICA",
+      "training_center_address": "Avenida Pedro de Heredia, Sector de Tesca",
+      "municipalitie": 13001
+    },
+    {
+      "_id": 9304,
+      "training_center": "CENTRO DE COMERCIO Y SERVICIOS",
+      "training_center_address": "Kilómetro 1 Vía Turbaco, Troncal Occidente",
+      "municipalitie": 13001
+    },
+    {
+      "_id": 9105,
+      "training_center": "CENTRO INTERNACIONAL NÁUTICO, FLUVIAL Y PORTUARIO",
+      "training_center_address": "Vía a Mamonal Km 3",
+      "municipalitie": 13001
+    },
+    {
+      "_id": 9104,
+      "training_center": "CENTRO AGROEMPRESARIAL Y MINERO",
+      "training_center_address": "Ternera Kilómetro 1 vía a Turbaco",
+      "municipalitie": 13001
+    },
+    {
+      "_id": 9514,
+      "training_center": "CENTRO INDUSTRIAL DE MANTENIMIENTO Y MANUFACTURA",
+      "training_center_address": "Carrera 12 No. 55A-51",
+      "municipalitie": 15759
+    },
+    {
+      "_id": 9305,
+      "training_center": "CENTRO DE GESTION ADMINISTRATIVA Y FORTALECIMIENTO EMPRESARIAL",
+      "training_center_address": "Calle 19 No. 12-29 Tunja",
+      "municipalitie": 15001
+    },
+    {
+      "_id": 9111,
+      "training_center": "CENTRO MINERO",
+      "training_center_address": "SENA CENTRO NACIONAL MINERO - MORCA",
+      "municipalitie": 15759
+    },
+    {
+      "_id": 9110,
+      "training_center": "CENTRO DE DESARROLLO AGROPECUARIO Y AGROINDUSTRIAL",
+      "training_center_address": "kilometro 1 Vía Pantano de Vargas",
+      "municipalitie": 15238
+    },
+    {
+      "_id": 502,
+      "training_center": "TECNOPARQUE COLOMBIA NODO RIONEGRO",
+      "training_center_address": "Carrera 46 No 56 - 11",
+      "municipalitie": 5615
+    },
+    {
+      "_id": 9112,
+      "training_center": "CENTRO PARA LA FORMACION CAFETERA",
+      "training_center_address": "Kilómetro 10 Vía Magdalena",
+      "municipalitie": 17001
+    },
+    {
+      "_id": 9306,
+      "training_center": "CENTRO DE COMERCIO Y SERVICIOS",
+      "training_center_address": "Kilómetro 10 Vía Magdalena",
+      "municipalitie": 17001
+    },
+    {
+      "_id": 9219,
+      "training_center": "CENTRO DE AUTOMATIZACION INDUSTRIAL",
+      "training_center_address": "Kilómetro 10 Vía Magdalena",
+      "municipalitie": 17001
+    },
+    {
+      "_id": 9220,
+      "training_center": "CENTRO DE PROCESOS INDUSTRIALES Y CONSTRUCCIÓN",
+      "training_center_address": "Kilómetro 10 Vía Magdalena",
+      "municipalitie": 17001
+    },
+    {
+      "_id": 9515,
+      "training_center": "CENTRO PECUARIO Y AGROEMPRESARIAL",
+      "training_center_address": "Calle 41 Carrera 1 Alfonso López",
+      "municipalitie": 17380
+    },
+    {
+      "_id": 9516,
+      "training_center": "CENTRO TECNOLOGICO DE LA AMAZONIA",
+      "training_center_address": "vía Aeropuerto - Florencia",
+      "municipalitie": 18001
+    },
+    {
+      "_id": 9519,
+      "training_center": "CENTRO AGROINDUSTRIAL Y FORTALECIMIENTO EMPRESARIAL DE CASANARE",
+      "training_center_address": "Carrera 19 No. 36-68",
+      "municipalitie": 85001
+    },
+    {
+      "_id": 9307,
+      "training_center": "CENTRO DE COMERCIO Y SERVICIOS",
+      "training_center_address": "CALLE 4 NUMERO 2-67",
+      "municipalitie": 19001
+    },
+    {
+      "_id": 9113,
+      "training_center": "CENTRO AGROPECUARIO",
+      "training_center_address": "Calle 4 No. 2-67",
+      "municipalitie": 19001
+    },
+    {
+      "_id": 9221,
+      "training_center": "CENTRO DE TELEINFORMÁTICA Y PRODUCCIÓN INDUSTRIAL",
+      "training_center_address": "CALLE 4 NUMERO 2-80",
+      "municipalitie": 19001
+    },
+    {
+      "_id": 9521,
+      "training_center": "CENTRO DE OPERACIÓN Y MANTENIMIENTO MINERO",
+      "training_center_address": "carrera 19 entre calle 14 y 15",
+      "municipalitie": 20001
+    },
+    {
+      "_id": 9114,
+      "training_center": "CENTRO BIOTECNOLOGICO DEL CARIBE",
+      "training_center_address": "Kilómetro 7 salida a La Paz",
+      "municipalitie": 20001
+    },
+    {
+      "_id": 9520,
+      "training_center": "CENTRO AGROEMPRESARIAL",
+      "training_center_address": "kilometro 1 via bucaramanga",
+      "municipalitie": 20011
+    },
+    {
+      "_id": 9522,
+      "training_center": "CENTRO DE RECURSOS NATURALES, INDUSTRIA Y BIODIVERSIDAD",
+      "training_center_address": "Carrera 1 No. 28-71",
+      "municipalitie": 27001
+    },
+    {
+      "_id": 9115,
+      "training_center": "CENTRO AGROPECUARIO Y DE BIOTECNOLOGIA EL PORVENIR",
+      "training_center_address": "Kilómetro 35 Carretera Santa Isabel",
+      "municipalitie": 23001
+    },
+    {
+      "_id": 9523,
+      "training_center": "CENTRO DE COMERCIO, INDUSTRIA Y TURISMO DE CORDOBA",
+      "training_center_address": "Calle 24 y 27 Avenida Circunvalar",
+      "municipalitie": 23001
+    },
+    {
+      "_id": 9512,
+      "training_center": "CENTRO DE BIOTECNOLOGIA AGROPECUARIA",
+      "training_center_address": "Kilómetro 7 Vía Mosquera",
+      "municipalitie": 25473
+    },
+    {
+      "_id": 9511,
+      "training_center": "CENTRO DE LA TECNOLOGIA DEL DISEÑO Y LA PRODUCTIVIDAD EMPRESARIAL",
+      "training_center_address": "Carrera 10 No. 30 04 BARRIO LA MAGDALENA",
+      "municipalitie": 25307
+    },
+    {
+      "_id": 9510,
+      "training_center": "CENTRO AGROECOLOGICO Y EMPRESARIAL",
+      "training_center_address": "Avenida Manuel Humberto Cardenas  Calle 16",
+      "municipalitie": 25290
+    },
+    {
+      "_id": 9509,
+      "training_center": "CENTRO DE DESARROLLO AGROINDUSTRIAL Y EMPRESARIAL",
+      "training_center_address": "Calle 2 No. 13-03 Barrio San Rafael",
+      "municipalitie": 25875
+    },
+    {
+      "_id": 9513,
+      "training_center": "CENTRO DE DESARROLLO AGROEMPRESARIAL",
+      "training_center_address": "Vereda Bojaca, Carrera 11, Sector el Darién Lote 1",
+      "municipalitie": 25175
+    },
+    {
+      "_id": 9222,
+      "training_center": "CENTRO INDUSTRIAL Y DE ENERGIAS ALTERNATIVAS",
+      "training_center_address": "Avenida Aeropuerto Calle 21",
+      "municipalitie": 44001
+    },
+    {
+      "_id": 9524,
+      "training_center": "CENTRO AGROEMPRESARIAL Y ACUICOLA",
+      "training_center_address": "Calle 21 carrera 15 esquina",
+      "municipalitie": 44001
+    },
+    {
+      "_id": 9533,
+      "training_center": "CENTRO DE DESARROLLO AGROINDUSTRIAL, TURISTICO Y TECNOLOGICO DEL GUAVIARE",
+      "training_center_address": "Carrera 24 No. 7-10 B Centro",
+      "municipalitie": 95001
+    },
+    {
+      "_id": 9116,
+      "training_center": "CENTRO DE FORMACION AGROINDUSTRIAL",
+      "training_center_address": "Carretera a Campoalegre Sur Kilómetro 38",
+      "municipalitie": 41132
+    },
+    {
+      "_id": 9232,
+      "training_center": "CENTRO INDUSTRIAL Y DE DESARROLLO EMPRESARIAL DE SOACHA",
+      "training_center_address": "Calle 13 No. 10-60",
+      "municipalitie": 25754
+    },
+    {
+      "_id": 9525,
+      "training_center": "CENTRO AGROEMPRESARIAL Y DESARROLLO PECUARIO DEL HUILA",
+      "training_center_address": "Carrera 10 No. 11-22",
+      "municipalitie": 41298
+    },
+    {
+      "_id": 9528,
+      "training_center": "CENTRO DE GESTION Y DESARROLLO SOSTENIBLE SURCOLOMBIANO",
+      "training_center_address": "Carrera 8A No. 7-53",
+      "municipalitie": 41551
+    },
+    {
+      "_id": 9527,
+      "training_center": "CENTRO DE LA INDUSTRIA, LA EMPRESA Y LOS SERVICIOS",
+      "training_center_address": "SENA CARRERA 5 CON CALLE 16 ESQUINA, OFICINA SERVICIO PUBLICO DE EMPLEO.",
+      "municipalitie": 41001
+    },
+    {
+      "_id": 9526,
+      "training_center": "CENTRO DE DESARROLLO AGROEMPRESARIAL Y TURISTICO DEL HUILA",
+      "training_center_address": "CALLE 6 CARRERA 7 ESQUINA",
+      "municipalitie": 41396
+    },
+    {
+      "_id": 9118,
+      "training_center": "CENTRO ACUICOLA Y AGROINDUSTRIAL DE GAIRA",
+      "training_center_address": "Kilómetro 5 Vía a Gaira",
+      "municipalitie": 47001
+    },
+    {
+      "_id": 9529,
+      "training_center": "CENTRO DE LOGISTICA Y PROMOCION ECOTURISTICA DEL MAGDALENA",
+      "training_center_address": "Avenida del Ferrocarril No 27-97",
+      "municipalitie": 47001
+    },
+    {
+      "_id": 9532,
+      "training_center": "CENTRO DE INDUSTRIA Y SERVICIOS DEL META",
+      "training_center_address": "Kilometro 1 Vía Acacias",
+      "municipalitie": 50001
+    },
+    {
+      "_id": 9117,
+      "training_center": "CENTRO AGROINDUSTRIAL DEL META",
+      "training_center_address": "Kilómetro 17 vía Puerto López",
+      "municipalitie": 50001
+    },
+    {
+      "_id": 9534,
+      "training_center": "CENTRO SUR COLOMBIANO DE LOGÍSTICA INTERNACIONAL",
+      "training_center_address": "Carrera 7 No. 24A-48",
+      "municipalitie": 52356
+    },
+    {
+      "_id": 9535,
+      "training_center": "CENTRO AGROINDUSTRIAL Y PESQUERO DE LA COSTA PACIFICA",
+      "training_center_address": "Calle Sucre Edificio Madrigal",
+      "municipalitie": 52835
+    },
+    {
+      "_id": 9536,
+      "training_center": "CENTRO INTERNACIONAL DE PRODUCCIÓN LIMPIA - LOPE",
+      "training_center_address": "Calle 22 No. 11E-05",
+      "municipalitie": 52001
+    },
+    {
+      "_id": 9537,
+      "training_center": "CENTRO DE LA INDUSTRIA, LA EMPRESA Y LOS SERVICIOS",
+      "training_center_address": "Avenida 5 Calle 2 Norte - Barrio Pescadero",
+      "municipalitie": 54001
+    },
+    {
+      "_id": 9119,
+      "training_center": "CENTRO DE FORMACIÓN PARA EL DESARROLLO RURAL Y MINERO",
+      "training_center_address": "Avenida 5 Calle 2 Norte - Barrio Pescadero",
+      "municipalitie": 54001
+    },
+    {
+      "_id": 9518,
+      "training_center": "CENTRO AGROFORESTAL Y ACUICOLA ARAPAIMA",
+      "training_center_address": "CARRERA 23 NUMERO 16 A 06 BARRIO 20 DE JULIO",
+      "municipalitie": 86568
+    },
+    {
+      "_id": 9120,
+      "training_center": "CENTRO AGROINDUSTRIAL",
+      "training_center_address": "Vereda San Juan",
+      "municipalitie": 63001
+    },
+    {
+      "_id": 9538,
+      "training_center": "CENTRO DE COMERCIO Y TURISMO",
+      "training_center_address": "Carrera 19 No. 7-75",
+      "municipalitie": 63001
+    },
+    {
+      "_id": 9231,
+      "training_center": "CENTRO PARA EL DESARROLLO TECNOLÓGICO DE LA CONSTRUCCIÓN Y LA INDUSTRIA",
+      "training_center_address": "Vereda San Juan",
+      "municipalitie": 63001
+    },
+    {
+      "_id": 9121,
+      "training_center": "CENTRO ATENCION SECTOR AGROPECUARIO",
+      "training_center_address": "Carrera 8 Numero 26-79",
+      "municipalitie": 66001
+    },
+    {
+      "_id": 9308,
+      "training_center": "CENTRO DE COMERCIO Y SERVICIOS",
+      "training_center_address": "Carrera 8 Numero  26-79",
+      "municipalitie": 66001
+    },
+    {
+      "_id": 9223,
+      "training_center": "CENTRO DE DISEÑO E INNOVACIÓN TECNOLÓGICA INDUSTRIAL",
+      "training_center_address": "Diagonal 26 Trasversal 7 - Barrio Santa Isabel",
+      "municipalitie": 66170
+    },
+    {
+      "_id": 9539,
+      "training_center": "CENTRO DE FORMACIÓN TURÍSTICA GENTE DE MAR Y DE SERVICIOS",
+      "training_center_address": "Avenida Francisco Newball",
+      "municipalitie": 88001
+    },
+    {
+      "_id": 9122,
+      "training_center": "CENTRO ATENCION SECTOR AGROPECUARIO",
+      "training_center_address": "Kilómetro 2 Vía Guatiguará",
+      "municipalitie": 68547
+    },
+    {
+      "_id": 9224,
+      "training_center": "CENTRO INDUSTRIAL DE MANTENIMIENTO INTEGRAL",
+      "training_center_address": "El Palanque kilometro 7 vía Rincón de Girón",
+      "municipalitie": 68307
+    },
+    {
+      "_id": 9225,
+      "training_center": "CENTRO INDUSTRIAL DEL DISEÑO Y LA MANUFACTURA",
+      "training_center_address": "Kilómetro 6 Autopista Floridablanca No. 50-33",
+      "municipalitie": 68276
+    },
+    {
+      "_id": 9309,
+      "training_center": "CENTRO DE SERVICIOS EMPRESARIALES Y TURÍSTICOS",
+      "training_center_address": "Carrera 27 No. 15-07",
+      "municipalitie": 68001
+    },
+    {
+      "_id": 9546,
+      "training_center": "CENTRO DE GESTION AGROEMPRESARIAL DEL ORIENTE",
+      "training_center_address": "Avenida Las Cuadras",
+      "municipalitie": 68861
+    },
+    {
+      "_id": 9540,
+      "training_center": "CENTRO INDUSTRIAL Y DEL DESARROLLO TECNOLOGICO",
+      "training_center_address": "Avenida del SENA Calles 16 y 18",
+      "municipalitie": 68081
+    },
+    {
+      "_id": 9541,
+      "training_center": "CENTRO AGROTURÍSTICO",
+      "training_center_address": "Carrera 10 No. 22-40",
+      "municipalitie": 68679
+    },
+    {
+      "_id": 9545,
+      "training_center": "CENTRO AGROEMPRESARIAL Y TURISTICO DE LOS ANDES",
+      "training_center_address": "Carrera 11 No. 13-13",
+      "municipalitie": 68432
+    },
+    {
+      "_id": 9542,
+      "training_center": "CENTRO DE LA INNOVACION, LA TECNOLOGIA Y LOS SERVICIOS",
+      "training_center_address": "Calle 25B No. 31-260",
+      "municipalitie": 70001
+    },
+    {
+      "_id": 9123,
+      "training_center": "CENTRO AGROPECUARIO LA GRANJA",
+      "training_center_address": "Espinal kilometro 5 antes del Espinal",
+      "municipalitie": 73268
+    },
+    {
+      "_id": 9310,
+      "training_center": "CENTRO DE COMERCIO Y SERVICIOS",
+      "training_center_address": "Carrera 4 Estadio Calle 44 Avenida Ferrocarril",
+      "municipalitie": 73001
+    },
+    {
+      "_id": 9226,
+      "training_center": "CENTRO DE INDUSTRIA Y CONSTRUCCION",
+      "training_center_address": "Avenida Ferrocarril Calle 44 Edificio Ibanasca",
+      "municipalitie": 73001
+    },
+    {
+      "_id": 9227,
+      "training_center": "CENTRO DE ELECTRICIDAD Y AUTOMATIZACION INDUSTRIAL - CEAI",
+      "training_center_address": "Calle 52 No. 2Bis-15",
+      "municipalitie": 76001
+    },
+    {
+      "_id": 9544,
+      "training_center": "CENTRO DE BIOTECNOLOGIA INDUSTRIAL",
+      "training_center_address": "Carrera 30 No. 40-25",
+      "municipalitie": 76520
+    },
+    {
+      "_id": 9311,
+      "training_center": "CENTRO DE GESTION TECNOLÓGICA DE SERVICIOS",
+      "training_center_address": "Calle 52 No. 2Bis-15",
+      "municipalitie": 76001
+    },
+    {
+      "_id": 9126,
+      "training_center": "CENTRO NAUTICO PESQUERO DE BUENAVENTURA",
+      "training_center_address": "Avenida Simón Bolívar Kilómetro 5 Buenaventura",
+      "municipalitie": 76109
+    },
+    {
+      "_id": 9125,
+      "training_center": "CENTRO LATINOAMERICANO DE ESPECIES MENORES",
+      "training_center_address": "Carretera Central a Cali kilómetro 2",
+      "municipalitie": 76834
+    },
+    {
+      "_id": 9124,
+      "training_center": "CENTRO AGROPECUARIO DE BUGA",
+      "training_center_address": "Carretera Central Variante Buga",
+      "municipalitie": 76111
+    },
+    {
+      "_id": 9228,
+      "training_center": "CENTRO DE LA CONSTRUCCION",
+      "training_center_address": "Calle 34 No. 17B-23 Barrio Atanasio Girardot",
+      "municipalitie": 76001
+    },
+    {
+      "_id": 9229,
+      "training_center": "CENTRO DE DISEÑO TECNOLOGICO INDUSTRIAL",
+      "training_center_address": "Calle 52 No. 2Bis-15",
+      "municipalitie": 76001
+    },
+    {
+      "_id": 9230,
+      "training_center": "CENTRO NACIONAL DE ASISTENCIA TECNICA A LA INDUSTRIA - ASTIN",
+      "training_center_address": "",
+      "municipalitie": 76001
+    },
+    {
+      "_id": 9531,
+      "training_center": "CENTRO DE PRODUCCIÓN Y TRANSFORMACION AGROINDUSTRIAL DE LA ORINOQUIA",
+      "training_center_address": "Carrera 10 No. 18-185",
+      "municipalitie": 99001
+    },
+    {
+      "_id": 1101,
+      "training_center": "TECNOPARQUE I",
+      "training_center_address": "Calle 54 No. 10-39",
+      "municipalitie": 11001
+    },
+    {
+      "_id": 6601,
+      "training_center": "TECNOPARQUE EDIFICIO RENTAS",
+      "training_center_address": "Edificio Rentas",
+      "municipalitie": 66001
+    },
+    {
+      "_id": 4101,
+      "training_center": "TECNOPARQUE7 AGROECOLÓGICO YAMBORO",
+      "training_center_address": "Kilòmetro 7 Via Aguadas/Yamborò",
+      "municipalitie": 41551
+    },
+    {
+      "_id": 2,
+      "training_center": "SEDE-VALENCIA",
+      "training_center_address": "CAMINO DE VERA'S/N 46022 VALENCIA",
+      "municipalitie": 23855
+    },
+    {
+      "_id": 200902,
+      "training_center": "SEDE COMODIN PARA SENA",
+      "training_center_address": "Calle 57 No. 8-69, Plazoleta La Previsora",
+      "municipalitie": 11001
+    },
+    {
+      "_id": 9550,
+      "training_center": "PROGRAMA SENA-VALENCIA - ESPAÑA",
+      "training_center_address": "Camino de Vera, s/n. Edificio 8K, planta baja - despacho 20, 46022 Valencia",
+      "municipalitie": 23855
+    },
+    {
+      "_id": 200901,
+      "training_center": "SEDE COMODIN PARA DIRECCIÓN GENERAL",
+      "training_center_address": "Calle 57 No. 8-69, Plazoleta La Previsora",
+      "municipalitie": 11001
+    },
+    {
+      "_id": 200905,
+      "training_center": "SEDE COMODIN PARA REGIONAL ANTIOQUIA",
+      "training_center_address": "Calle 51 No. 57-70",
+      "municipalitie": 5001
+    },
+    {
+      "_id": 200908,
+      "training_center": "SEDE COMODIN PARA REGIONAL ATLÁNTICO",
+      "training_center_address": "Carrera 43 No. 42-40",
+      "municipalitie": 8001
+    },
+    {
+      "_id": 2009011,
+      "training_center": "SEDE COMODIN PARA REGIONAL DISTRITO C.",
+      "training_center_address": "Carrera 13 No. 65-10",
+      "municipalitie": 11001
+    },
+    {
+      "_id": 2009013,
+      "training_center": "SEDE COMODIN PARA REGIONAL BOLÍVAR",
+      "training_center_address": "Carretera Turbaco - Vía Ternera",
+      "municipalitie": 13001
+    },
+    {
+      "_id": 2009015,
+      "training_center": "SEDE COMODIN PARA REGIONAL BOYACÁ",
+      "training_center_address": "Carrera 12 No. 55A-51",
+      "municipalitie": 15001
+    },
+    {
+      "_id": 2009017,
+      "training_center": "SEDE COMODIN PARA REGIONAL CALDAS",
+      "training_center_address": "Kiómetro 10 Vía al Magdalena La Enea",
+      "municipalitie": 17001
+    },
+    {
+      "_id": 2009018,
+      "training_center": "SEDE COMODIN PARA REGIONAL CAQUETÁ",
+      "training_center_address": "Kilómetro 3 Vía al Aeropuerto",
+      "municipalitie": 18001
+    },
+    {
+      "_id": 2009019,
+      "training_center": "SEDE COMODIN PARA REGIONAL CAUCA",
+      "training_center_address": "Calle 4 No. 2-80",
+      "municipalitie": 19001
+    },
+    {
+      "_id": 2009020,
+      "training_center": "SEDE COMODIN PARA REGIONAL CESAR",
+      "training_center_address": "Carrera 19 entre Calles 14 y 15",
+      "municipalitie": 20001
+    },
+    {
+      "_id": 2009023,
+      "training_center": "SEDE COMODIN PARA REGIONAL CÓRDOBA",
+      "training_center_address": "Calle 24 y 27 Avenida Circunvalar",
+      "municipalitie": 23001
+    },
+    {
+      "_id": 2009025,
+      "training_center": "SEDE COMODIN PARA REGIONAL CUNDINAMARCA",
+      "training_center_address": "Carrera 13 No. 65-10",
+      "municipalitie": 25307
+    },
+    {
+      "_id": 2009027,
+      "training_center": "SEDE COMODIN PARA REGIONAL CHOCÓ",
+      "training_center_address": "Carrera 1A No. 28-71",
+      "municipalitie": 27001
+    },
+    {
+      "_id": 2009041,
+      "training_center": "SEDE COMODIN PARA REGIONAL HUILA",
+      "training_center_address": "Carrera 5 Avenida La Toma",
+      "municipalitie": 41001
+    },
+    {
+      "_id": 2009044,
+      "training_center": "SEDE COMODIN PARA REGIONAL GUAJIRA",
+      "training_center_address": "Calle 21 Carrera 15 Avenida Aeropuerto",
+      "municipalitie": 44001
+    },
+    {
+      "_id": 2009047,
+      "training_center": "SEDE COMODIN PARA REGIONAL MAGDALENA",
+      "training_center_address": "Avenida El ferrocarril No. 27-97",
+      "municipalitie": 47001
+    },
+    {
+      "_id": 2009050,
+      "training_center": "SEDE COMODIN PARA REGIONAL META",
+      "training_center_address": "Kilómetro 1 Vía Acacias",
+      "municipalitie": 50001
+    },
+    {
+      "_id": 2009052,
+      "training_center": "SEDE COMODIN PARA REGIONAL NARIÑO",
+      "training_center_address": "Calle 22 No. 11E-05 Vía Oriente",
+      "municipalitie": 52001
+    },
+    {
+      "_id": 2009054,
+      "training_center": "SEDE COMODIN PARA REGIONAL NORTE DE SANTANDER",
+      "training_center_address": "Calle 2N Avenidas 4 y 5 Barrio Pescadero",
+      "municipalitie": 54001
+    },
+    {
+      "_id": 2009063,
+      "training_center": "SEDE COMODIN PARA REGIONAL QUINDÍO",
+      "training_center_address": "Carrera 19 No. 7-75 Barrio Galán",
+      "municipalitie": 63001
+    },
+    {
+      "_id": 2009066,
+      "training_center": "SEDE COMODIN PARA REGIONAL RISARALDA",
+      "training_center_address": "Carrera 8 No. 26-79",
+      "municipalitie": 66001
+    },
+    {
+      "_id": 2009068,
+      "training_center": "SEDE COMODIN PARA REGIONAL SANTANDER",
+      "training_center_address": "Calle 16 No. 27-37",
+      "municipalitie": 68001
+    },
+    {
+      "_id": 2009070,
+      "training_center": "SEDE COMODIN PARA REGIONAL SUCRE",
+      "training_center_address": "Calle 25B No. 31-260",
+      "municipalitie": 70001
+    },
+    {
+      "_id": 2009073,
+      "training_center": "SEDE COMODIN PARA REGIONAL TOLIMA",
+      "training_center_address": "Calle 44 Avenida El Ferrocarril",
+      "municipalitie": 73001
+    },
+    {
+      "_id": 2009076,
+      "training_center": "SEDE COMODIN PARA REGIONAL VALLE",
+      "training_center_address": "Calle 52 No. 2Bis-15",
+      "municipalitie": 76001
+    },
+    {
+      "_id": 2009081,
+      "training_center": "SEDE COMODIN PARA REGIONAL ARAUCA",
+      "training_center_address": "Carrera 20 No. 28-163",
+      "municipalitie": 81001
+    },
+    {
+      "_id": 2009085,
+      "training_center": "SEDE COMODIN PARA REGIONAL CASANARE",
+      "training_center_address": "Carrera 19 No. 36-68 Barrio 20 de Julio",
+      "municipalitie": 85001
+    },
+    {
+      "_id": 2009086,
+      "training_center": "SEDE COMODIN PARA REGIONAL PUTUMAYO",
+      "training_center_address": "Carrera 23 No. 19A-06 Barrio 20 de Julio",
+      "municipalitie": 86001
+    },
+    {
+      "_id": 2009088,
+      "training_center": "SEDE COMODIN PARA REGIONAL SAN ANDRÉS",
+      "training_center_address": "Avenida Francisco Newball",
+      "municipalitie": 88001
+    },
+    {
+      "_id": 2009091,
+      "training_center": "SEDE COMODIN PARA REGIONAL AMAZONAS",
+      "training_center_address": "Calle 12 No. 10-60",
+      "municipalitie": 91001
+    },
+    {
+      "_id": 2009094,
+      "training_center": "SEDE COMODIN PARA REGIONAL GUAINÍA",
+      "training_center_address": "Antigua Sede FER",
+      "municipalitie": 94001
+    },
+    {
+      "_id": 2009095,
+      "training_center": "SEDE COMODIN PARA REGIONAL GUAVIARE",
+      "training_center_address": "Carrera 24 No. 7-10",
+      "municipalitie": 95001
+    },
+    {
+      "_id": 2009097,
+      "training_center": "SEDE COMODIN PARA REGIONAL VAUPÉS",
+      "training_center_address": "Avenida 15 No. 6-176 Barrio San José",
+      "municipalitie": 97001
+    },
+    {
+      "_id": 2009099,
+      "training_center": "SEDE COMODIN PARA REGIONAL VICHADA",
+      "training_center_address": "Carrera 10 No. 18-185",
+      "municipalitie": 99001
+    },
+    {
+      "_id": 9650,
+      "training_center": "CENTRO DE PRUEBAS SOFIA PLUS",
+      "training_center_address": "Calle 54 núm. 10-39",
+      "municipalitie": 11001
+    },
+    {
+      "_id": 9549,
+      "training_center": "COMPLEJO TECNOLOGICO, TURISTICO Y AGROINDUSTRIAL DEL OCCIDENTE ANTIOQUEÑO",
+      "training_center_address": "Calle 11 No. 12  42 Santa fe de Antioquia Antioquia",
+      "municipalitie": 5042
+    },
+    {
+      "_id": 9127,
+      "training_center": "CENTRO DE FORMACIÓN MINERO AMBIENTAL",
+      "training_center_address": "Carrera 41 No. 32 - 193",
+      "municipalitie": 5250
+    }
+  ]
