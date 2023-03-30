@@ -13,4 +13,6 @@ router.put('/:id', validateFormationProgramById, validateFormationProgram, forma
 
 router.delete('/:id', validateFormationProgramById, formationProgramController.deleteFormationProgram)
 
+router.get('/assigncompetences/:id', formationProgramController.assignCompetences)
+
 module.exports = router

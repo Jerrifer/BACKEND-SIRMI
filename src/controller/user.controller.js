@@ -79,3 +79,14 @@ const deleteUser = async (req, res) => {
 };
 
 module.exports = { getUsers, getUser, createUser, updateUser, deleteUser };
+
+
+// {
+//   "first_name": "jajaja",
+//   "last_name": "sdfsdf",
+//   "password": "sdfsdf",
+//   "email": "sdfsdf",
+//   "contact_number": "sdfsdf",
+//   "document_number": "sdfsdf",
+//   "training_center": 1
+// }

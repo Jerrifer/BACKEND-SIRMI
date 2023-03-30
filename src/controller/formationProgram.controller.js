@@ -1,26 +1,23 @@
 const resposeApi = require("../helpers/responseApi");
 const FormationProgramModel = require("../models/formationProgram.model");
-const ProgramLevelModel = require("../models/programLevels.model");
-const TypeProgramModel = require("../models/typeProgram.model");
-const ThematicLineModel = require("../models/thematicLine.model");
 
 // list all formation programs
 const getFormationPrograms = async (req, res) => {
   const structureApi = new resposeApi();
   try {
-    const allFormationProgram = await FormationProgramModel.find().populate([
-      "training_centers",
+    const allFormationPrograms = await FormationProgramModel.find().populate([
+      // "training_centers",
       "type_program",
       "thematic_line",
       "program_level",
     ]);
-    if (allFormationProgram.length > 0) {
+    if (allFormationPrograms.length > 0) {
       structureApi.setState(
         "200",
         "success",
         "Programas de formacion encontrados"
       );
-      structureApi.setResult(allFormationProgram);
+      structureApi.setResult(allFormationPrograms);
     } else {
       structureApi.setState(
         "200",
@@ -133,10 +130,37 @@ const deleteFormationProgram = async (req, res) => {
   res.json(structureApi.toResponse());
 };
 
+
+// assign a formation program
+const assignCompetences = async (req, res) => {
+  const structureApi = new resposeApi();
+  try {
+    const formationProgram = await FormationProgramModel.findById(req.params.id);
+    structureApi.setState(
+      "200",
+      "success",
+      "Competencias asignadas al programa"
+    );
+
+    const { competences } = req.body
+
+    formationProgram.competences = formationProgram.competences.concat(competences)
+    formationProgram.save()
+
+    structureApi.setResult(formationProgram);
+  } catch (error) {
+    structureApi.setState("500", "error", "Error en la solicitud");
+    structureApi.setResult(error);
+    console.log(error)
+  }
+  res.json(structureApi.toResponse());
+};
+
 module.exports = {
   getFormationPrograms,
   getFormationProgram,
   createFormationProgram,
   updateFormationProgram,
   deleteFormationProgram,
+  assignCompetences
 };
