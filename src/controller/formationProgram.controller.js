@@ -156,11 +156,38 @@ const assignCompetences = async (req, res) => {
   res.json(structureApi.toResponse());
 };
 
+
+const deallocateCompetences = async (req, res) => {
+  const structureApi = new resposeApi();
+  try {
+    const formationProgram = await FormationProgramModel.findById(req.params.id);
+    structureApi.setState(
+      "200",
+      "success",
+      "Competencias asignadas al programa"
+    );
+
+    const { competences } = req.body
+
+    formationProgram.competences = formationProgram.competences.filter(item => item !== competences)
+    formationProgram.save()
+
+    structureApi.setState("200", "success", "Se elimino la asignación exitosamente");
+    structureApi.setResult(formationProgram);
+  } catch (error) {
+    structureApi.setState("500", "error", "Error en la solicitud");
+    structureApi.setResult(error);
+    console.log(error)
+  }
+  res.json(structureApi.toResponse());
+};
+
 module.exports = {
   getFormationPrograms,
   getFormationProgram,
   createFormationProgram,
   updateFormationProgram,
   deleteFormationProgram,
-  assignCompetences
+  assignCompetences,
+  deallocateCompetences
 };
