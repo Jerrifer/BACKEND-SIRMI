@@ -21,46 +21,7 @@ const getRegionale = async (req, res, next) => {
   }
 };
 
-const createRegionale = async (req, res, next) => {
-  try {
-    const { _id, name } = req.body;
-
-    const createregionale = await Regionale.create({ _id, name });
-
-    res.send({ data: createregionale });
-  } catch (error) {
-    httpError(res, error);
-  }
-};
-
-const updateRegionale = async (req, res, next) => {
-  try {
-    const actualizado = await Regionale.findByIdAndUpdate(
-      req.params.id,
-      req.body,
-      { new: true }
-    );
-
-    res.send({ data: actualizado });
-  } catch (error) {
-    httpError(res, error);
-  }
-};
-
-const deleteRegionale = async (req, res, next) => {
-  try {
-    const elimarregionale = await Regionale.findByIdAndDelete(req.params.id);
-
-    res.send({ data: elimarregionale });
-  } catch (error) {
-    httpError(res, error);
-  }
-};
-
 module.exports = {
   getRegionales,
   getRegionale,
-  createRegionale,
-  updateRegionale,
-  deleteRegionale,
 };
