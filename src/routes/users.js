@@ -12,7 +12,6 @@ router.post('/', createItems)
 
 router.put('/:id', updateItems)
 
-
 router.delete('/:id', deleteItems)
 
 module.exports = router

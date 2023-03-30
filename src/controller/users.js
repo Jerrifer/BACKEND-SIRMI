@@ -1,6 +1,8 @@
 const { httpError } = require("../helpers/hanledeError");
 const userModel = require("../models/user.model");
 const resposeApi = require("../helpers/responseApi");
+const { encrypt, compare } = require('../helpers/Bcript')
+
 
 
 
@@ -10,11 +12,13 @@ const getItems = async (req, res) => {
   const  estructureApi = new resposeApi()
   try {
     const listAll = await userModel.find();
+    estructureApi.toResponse(listAll)
+    res.send(listAll );
 if(listAll.length > 0) { 
   estructureApi.toResponse(listAll)
 
 }else{
-  estructureApi.setState('message : no existe ningun producto ')
+  estructureApi.setState({message : 'no existe ningun producto '})
 }
   } catch (error) {
     httpError(res, error);
@@ -35,7 +39,10 @@ const getItem = async (req, res) => {
 const createItems = async (req, res) => {
   try {
     const { name, password, email } = req.body;
-    const resDetail = await userModel.create({ name, password, email });
+
+    const passwordHash = await encrypt(password) //TODO: (123456)<--- Encriptando!!
+
+    const resDetail = await userModel.create({ name, password: passwordHash, email });
 
     res.send({ data: resDetail });
   } catch (error) {

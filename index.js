@@ -18,6 +18,8 @@ app.use("/api/v1", require("./src/routes"));
 
 app.use("/auth", require("./src/routes/auth"));
 
+app.use("/admin/users", require("./src/routes/users"));
+
 
 conectarDB();
 
