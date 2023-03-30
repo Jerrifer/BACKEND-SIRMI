@@ -37,8 +37,8 @@ const getUser = async (req, res) => {
 const createUser = async (req, res) => {
   const structureApi = new resposeApi();
   try {
-    const { name, password, email } = req.body;
-    const newUser = await userModel.create({ name, password, email });
+    const { first_name, last_name, password, email, contact_number, document_number, training_center } = req.body;
+    const newUser = await userModel.create({ first_name, last_name, password, email, contact_number, document_number, training_center });
     structureApi.setState("200", "success", "Usuario registrado con éxito");
     structureApi.setResult(newUser);
   } catch (error) {

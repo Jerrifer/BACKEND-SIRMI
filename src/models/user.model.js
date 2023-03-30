@@ -2,14 +2,18 @@ const mongoose = require("mongoose");
 
 const userSchema = new mongoose.Schema(
   {
-    name: {
+
+    first_name: {
       type: String,
-      unique: true,
+      // unique: true,
+    },
+    last_name: {
+      type: String,
     },
 
     email: {
       type: String,
-      unique: true,
+      // unique: true,
     },
 
     password: {
@@ -17,9 +21,25 @@ const userSchema = new mongoose.Schema(
       required: true,
     },
 
-    // roles:{
-    //     type: String,
-    // }
+    contact_number: {
+      type: String,
+
+    },
+
+    document_number: {
+      type: String,
+
+    },  
+
+    training_center: {
+      ref: "Training_Center",
+      type: mongoose.Schema.Types.Number,
+    },
+
+    //   idrole: {
+    //     ref: "r",
+    //     type: mongoose.Schema.Types.Array,
+    //   },
   },
   {
     timestamps: true,
