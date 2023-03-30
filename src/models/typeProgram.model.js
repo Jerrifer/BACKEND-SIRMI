@@ -1,18 +1,19 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
-const TypeProgramSchema = new mongoose.Schema({
-
+const TypeProgramSchema = new mongoose.Schema(
+  {
     _id: {
-        type: mongoose.Schema.Types.String,
+      type: mongoose.Schema.Types.String,
     },
 
     type_program: {
-        type: String,
+      type: String,
     },
-
-}, {
+  },
+  {
     timestamps: true,
-    versionKey: false
-})
+    versionKey: false,
+  }
+);
 
-module.exports = mongoose.model('Type_Program', TypeProgramSchema);
+module.exports = mongoose.model("Type_Program", TypeProgramSchema);

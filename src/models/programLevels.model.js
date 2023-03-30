@@ -1,19 +1,20 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
-const programLevelSchema = new mongoose.Schema({
-
+const programLevelSchema = new mongoose.Schema(
+  {
     _id: {
-        type: mongoose.Schema.Types.String,
+      type: mongoose.Schema.Types.String,
     },
 
     program_level: {
-        type: String,
-        unique: true,
+      type: String,
+      unique: true,
     },
-
-}, {
+  },
+  {
     timestamps: true,
-    versionKey: false
-})
+    versionKey: false,
+  }
+);
 
-module.exports = mongoose.model('Program_Level', programLevelSchema);
+module.exports = mongoose.model("Program_Level", programLevelSchema);

@@ -1,23 +1,24 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
-const learningResultSchema = new mongoose.Schema({
-
+const learningResultSchema = new mongoose.Schema(
+  {
     _id: {
-        type: mongoose.Schema.Types.Number,
+      type: mongoose.Schema.Types.Number,
     },
 
     learning_result: {
-        type: String
+      type: String,
     },
 
-    competence:{
-        ref: "Competence",
-        type: mongoose.Schema.Types.Number
-    }
-
-}, {
+    competence: {
+      ref: "Competence",
+      type: mongoose.Schema.Types.Number,
+    },
+  },
+  {
     timestamps: true,
-    versionKey: false
-})
+    versionKey: false,
+  }
+);
 
-module.exports = mongoose.model('Learning_Result', learningResultSchema);
+module.exports = mongoose.model("Learning_Result", learningResultSchema);

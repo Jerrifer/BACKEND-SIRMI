@@ -1,27 +1,28 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
-const ThematicLineSchema = new mongoose.Schema({
-
+const ThematicLineSchema = new mongoose.Schema(
+  {
     _id: {
-        type: mongoose.Schema.Types.String,
+      type: mongoose.Schema.Types.String,
     },
 
     thematic_line: {
-        type: String,
+      type: String,
     },
 
     thematic_line_description: {
-        type: String,
+      type: String,
     },
 
     knowledge_network: {
-        ref: "Knowledge_Network",
-        type: mongoose.Schema.Types.Array
-    }
-
-}, {
+      ref: "Knowledge_Network",
+      type: mongoose.Schema.Types.Array,
+    },
+  },
+  {
     timestamps: true,
-    versionKey: false
-})
+    versionKey: false,
+  }
+);
 
-module.exports = mongoose.model('Thematic_Line', ThematicLineSchema);
+module.exports = mongoose.model("Thematic_Line", ThematicLineSchema);

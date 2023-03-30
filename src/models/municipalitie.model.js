@@ -1,24 +1,25 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
-const municipalitieSchema = new mongoose.Schema({
-
+const municipalitieSchema = new mongoose.Schema(
+  {
     _id: {
-        type: mongoose.Schema.Types.Number,
+      type: mongoose.Schema.Types.Number,
     },
 
     municipalitie: {
-        type: String,
-        unique: true,
+      type: String,
+      unique: true,
     },
 
     regionale: {
-        ref: "Regionale",
-        type: mongoose.Schema.Types.Number,
-    }
-
-}, {
+      ref: "Regionale",
+      type: mongoose.Schema.Types.Number,
+    },
+  },
+  {
     timestamps: true,
-    versionKey: false
-})
+    versionKey: false,
+  }
+);
 
-module.exports = mongoose.model('Municipalitie', municipalitieSchema);
+module.exports = mongoose.model("Municipalitie", municipalitieSchema);

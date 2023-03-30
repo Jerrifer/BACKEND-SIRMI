@@ -1,20 +1,20 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
-const regionaleSchema = new mongoose.Schema({
-
+const regionaleSchema = new mongoose.Schema(
+  {
     _id: {
-        type: mongoose.Schema.Types.Number,
+      type: mongoose.Schema.Types.Number,
     },
-    
+
     regionale: {
-        type: String,
-        unique: true,
-    }
-
-
-}, {
+      type: String,
+      unique: true,
+    },
+  },
+  {
     timestamps: true,
-    versionKey: false
-})
+    versionKey: false,
+  }
+);
 
-module.exports = mongoose.model('Regionale', regionaleSchema);
+module.exports = mongoose.model("Regionale", regionaleSchema);

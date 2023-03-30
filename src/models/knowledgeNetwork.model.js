@@ -1,28 +1,29 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
-const knowledgeNetworkSchema = new mongoose.Schema({
-
+const knowledgeNetworkSchema = new mongoose.Schema(
+  {
     _id: {
-        type: mongoose.Schema.Types.Number,
+      type: mongoose.Schema.Types.Number,
     },
 
     knowledge_network: {
-        type: String
+      type: String,
     },
     manager_name: {
-        type: String
+      type: String,
     },
     advisor_name: {
-        type: String
+      type: String,
     },
     thematic_line: {
-        ref: 'Thematic_Line',
-        type: mongoose.Schema.Types.Array,
-    }
-
-}, {
+      ref: "Thematic_Line",
+      type: mongoose.Schema.Types.Array,
+    },
+  },
+  {
     timestamps: true,
-    versionKey: false
-})
+    versionKey: false,
+  }
+);
 
-module.exports = mongoose.model('Knowledge_Network', knowledgeNetworkSchema);
+module.exports = mongoose.model("Knowledge_Network", knowledgeNetworkSchema);

@@ -52,11 +52,9 @@ const createUser = async (req, res) => {
 const updateUser = async (req, res) => {
   const structureApi = new resposeApi();
   try {
-    const user = await userModel.findByIdAndUpdate(
-      req.params.id,
-      req.body,
-      { new: true }
-    );
+    const user = await userModel.findByIdAndUpdate(req.params.id, req.body, {
+      new: true,
+    });
     structureApi.setState("200", "success", "Usuario actualizado con éxito");
     structureApi.setResult(user);
   } catch (error) {
@@ -67,7 +65,7 @@ const updateUser = async (req, res) => {
 };
 
 // delete a user
- const deleteUser = async (req, res) => {
+const deleteUser = async (req, res) => {
   const structureApi = new resposeApi();
   try {
     const user = await userModel.findByIdAndDelete(req.params.id);
