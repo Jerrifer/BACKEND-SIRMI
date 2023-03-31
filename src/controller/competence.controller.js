@@ -30,8 +30,10 @@ const getCompetence = async (req, res) => {
 const createCompetence = async (req, res) => {
   const structureApi = new resposeApi();
   try {
+    const { labor_competence_code } = req.body
+    const _id = parseInt(labor_competence_code)
+    req.body._id = _id
     const newCompetence = await Competence.create(req.body);
-
     structureApi.setState("200", "success", "Competencia registrada");
     structureApi.setResult(newCompetence);
   } catch (error) {

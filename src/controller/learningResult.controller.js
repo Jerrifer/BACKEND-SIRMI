@@ -34,17 +34,17 @@ const getLearningResults = async (req, res) => {
 const getLearningResult = async (req, res) => {
   const structureApi = new resposeApi();
   try {
-    const LearningResult = await LearningResultModel.findById(
+    const learningResult = await LearningResultModel.findById(
       req.params.id
     ).populate("competence");
 
-    if (LearningResult) {
+    if (learningResult) {
       structureApi.setState(
         "200",
         "success",
         "Resultado de aprendizaje encontrado exitosamente"
       );
-      structureApi.setResult(LearningResult);
+      structureApi.setResult(learningResult);
     } else {
       structureApi.setState(
         "200",
@@ -63,6 +63,8 @@ const getLearningResult = async (req, res) => {
 const createLearningResult = async (req, res) => {
   const structureApi = new resposeApi();
   try {
+    const lastLearningResult = await LearningResultModel.find({},{_id: 1, learning_result:0, competence:0}).sort({$natural:-1}).limit(1);
+    req.body._id = lastLearningResult[0]._id + 1
     const newLearningResult = await LearningResultModel.create(req.body);
     structureApi.setState(
       "200",

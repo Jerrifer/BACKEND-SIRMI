@@ -8778,7 +8778,7 @@
   "program_version": "1",
   "total_duration": "12",
   "thematic_line": "4",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     3226,
@@ -8795,7 +8795,7 @@
   "program_version": "101",
   "total_duration": "24",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "6",
   "competences": [
     3226,
@@ -8869,7 +8869,7 @@
   "program_version": "1",
   "total_duration": "24",
   "thematic_line": "4",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "6",
   "competences": [
     3227,
@@ -8912,7 +8912,7 @@
   "program_version": "2",
   "total_duration": "24",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "6",
   "competences": [
     2904,
@@ -8938,7 +8938,7 @@
   "program_version": "2",
   "total_duration": "24",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "6",
   "competences": [
     33215,
@@ -8963,7 +8963,7 @@
   "program_version": "102",
   "total_duration": "24",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "6",
   "competences": [
     3365,
@@ -8992,7 +8992,7 @@
   "program_version": "2",
   "total_duration": "12",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     5315,
@@ -9010,7 +9010,7 @@
   "program_version": "1",
   "total_duration": "12",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     5797,
@@ -9053,7 +9053,7 @@
   "program_version": "1",
   "total_duration": "12",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     33254,
@@ -9120,7 +9120,7 @@
   "program_version": "101",
   "total_duration": "24",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "6",
   "competences": [
     2841,
@@ -9159,7 +9159,7 @@
   "program_version": "2",
   "total_duration": "24",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "6",
   "competences": [
     33234,
@@ -9303,7 +9303,7 @@
   "program_version": "1",
   "total_duration": "24",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "6",
   "competences": [
     3365,
@@ -9347,7 +9347,7 @@
   "program_version": "1",
   "total_duration": "12",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     5860,
@@ -9379,7 +9379,7 @@
   "program_version": "1",
   "total_duration": "12",
   "thematic_line": "4",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     4428,
@@ -9433,7 +9433,7 @@
   "program_version": "1",
   "total_duration": "24",
   "thematic_line": "1",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "6",
   "competences": [
     3226,
@@ -9482,7 +9482,7 @@
   "program_version": "1",
   "total_duration": "24",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "6",
   "competences": [
     33259,
@@ -9626,7 +9626,7 @@
   "program_version": "2",
   "total_duration": "24",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "6",
   "competences": [
     3226,
@@ -9647,7 +9647,7 @@
   "program_version": "1",
   "total_duration": "24",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "6",
   "competences": [
     1,
@@ -9669,7 +9669,7 @@
   "program_version": "102",
   "total_duration": "24",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "6",
   "competences": [
     5660,
@@ -9794,7 +9794,7 @@
   "program_version": "2",
   "total_duration": "6",
   "thematic_line": "2",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "10",
   "competences": [
     1,
@@ -10006,7 +10006,7 @@
   "program_version": "1",
   "total_duration": "6",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "1",
   "competences": [
     3405,
@@ -10049,7 +10049,7 @@
   "program_version": "1",
   "total_duration": "6",
   "thematic_line": "2",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "10",
   "competences": [
     1,
@@ -10101,7 +10101,7 @@
   "program_version": "1",
   "total_duration": "12",
   "thematic_line": "2",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     5205,
@@ -10118,7 +10118,7 @@
   "program_version": "1",
   "total_duration": "12",
   "thematic_line": "2",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     2,
@@ -10159,7 +10159,7 @@
   "program_version": "2",
   "total_duration": "6",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "1",
   "competences": [
     1,
@@ -10173,7 +10173,7 @@
   "program_version": "1",
   "total_duration": "6",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "1",
   "competences": [
     1,
@@ -10187,7 +10187,7 @@
   "program_version": "1",
   "total_duration": "12",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     2,
@@ -10205,7 +10205,7 @@
   "program_version": "2",
   "total_duration": "24",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "6",
   "competences": [
     3444,
@@ -10449,7 +10449,7 @@
   "program_version": "1",
   "total_duration": "24",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "6",
   "competences": [
     1,
@@ -10557,7 +10557,7 @@
   "program_version": "1",
   "total_duration": "12",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     1,
@@ -10643,7 +10643,7 @@
   "program_version": "1",
   "total_duration": "12",
   "thematic_line": "4",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     2,
@@ -10760,7 +10760,7 @@
   "program_version": "1",
   "total_duration": "12",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     3226,
@@ -10782,7 +10782,7 @@
   "program_version": "1",
   "total_duration": "9",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "10",
   "competences": [
     3037,
@@ -10852,7 +10852,7 @@
   "program_version": "2",
   "total_duration": "24",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "6",
   "competences": [
     33159,
@@ -10873,7 +10873,7 @@
   "program_version": "1",
   "total_duration": "12",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     35415,
@@ -10965,7 +10965,7 @@
   "program_version": "1",
   "total_duration": "12",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     3226,
@@ -11272,7 +11272,7 @@
   "program_version": "1",
   "total_duration": "6",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "10",
   "competences": [
     2,
@@ -11300,7 +11300,7 @@
   "program_version": "1",
   "total_duration": "12",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     1,
@@ -11482,7 +11482,7 @@
   "program_version": "1",
   "total_duration": "6",
   "thematic_line": "2",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "1",
   "competences": [
     34802,
@@ -12340,7 +12340,7 @@
   "program_version": "1",
   "total_duration": "24",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "6",
   "competences": [
     1,
@@ -13439,7 +13439,7 @@
   "program_version": "1",
   "total_duration": "6",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "10",
   "competences": [
     2,
@@ -13676,7 +13676,7 @@
   "program_version": "102",
   "total_duration": "24",
   "thematic_line": "1",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "6",
   "competences": [
     1,
@@ -13698,7 +13698,7 @@
   "program_version": "3",
   "total_duration": "24",
   "thematic_line": "1",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "6",
   "competences": [
     1,
@@ -13717,7 +13717,7 @@
   "program_version": "101",
   "total_duration": "24",
   "thematic_line": "1",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "6",
   "competences": [
     1,
@@ -13760,7 +13760,7 @@
   "program_version": "102",
   "total_duration": "24",
   "thematic_line": "1",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "6",
   "competences": [
     1,
@@ -13938,7 +13938,7 @@
   "program_version": "1",
   "total_duration": "12",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     35299,
@@ -13955,7 +13955,7 @@
   "program_version": "1",
   "total_duration": "12",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     1,
@@ -14068,7 +14068,7 @@
   "program_version": "4",
   "total_duration": "6",
   "thematic_line": "1",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "7",
   "competences": [
     35245,
@@ -14093,7 +14093,7 @@
   "program_version": "1",
   "total_duration": "12",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     35604,
@@ -14147,7 +14147,7 @@
   "program_version": "2",
   "total_duration": "12",
   "thematic_line": "1",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     3226,
@@ -14213,7 +14213,7 @@
   "program_version": "1",
   "total_duration": "12",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     3240,
@@ -14230,7 +14230,7 @@
   "program_version": "1",
   "total_duration": "12",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     3226,
@@ -15169,7 +15169,7 @@
   "program_version": "1",
   "total_duration": "12",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     1,
@@ -15625,7 +15625,7 @@
   "program_version": "1",
   "total_duration": "6",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "1",
   "competences": [
     1,
@@ -15768,7 +15768,7 @@
   "program_version": "1",
   "total_duration": "12",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     3226,
@@ -15925,7 +15925,7 @@
   "program_version": "1",
   "total_duration": "12",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     2,
@@ -16044,7 +16044,7 @@
   "program_version": "1",
   "total_duration": "12",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     1,
@@ -16402,7 +16402,7 @@
   "program_version": "1",
   "total_duration": "6",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "1",
   "competences": [
     2,
@@ -16444,7 +16444,7 @@
   "program_version": "1",
   "total_duration": "6",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "1",
   "competences": [
     34682,
@@ -16458,7 +16458,7 @@
   "program_version": "1",
   "total_duration": "6",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "1",
   "competences": [
     1,
@@ -16569,7 +16569,7 @@
   "program_version": "1",
   "total_duration": "12",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     3226,
@@ -16690,7 +16690,7 @@
   "program_version": "1",
   "total_duration": "880",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "10",
   "competences": [
     36221,
@@ -16780,7 +16780,7 @@
   "program_version": "1",
   "total_duration": "2200",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     36184,
@@ -16881,7 +16881,7 @@
   "program_version": "1",
   "total_duration": "2200",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     36188,
@@ -17004,7 +17004,7 @@
   "program_version": "1",
   "total_duration": "2200",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     36434,
@@ -17080,7 +17080,7 @@
   "program_version": "1",
   "total_duration": "880",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "1",
   "competences": [
     36197,
@@ -17140,7 +17140,7 @@
   "program_version": "1",
   "total_duration": "880",
   "thematic_line": "1",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "10",
   "competences": [
     5379,
@@ -17180,7 +17180,7 @@
   "program_version": "1",
   "total_duration": "880",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "10",
   "competences": [
     36200,
@@ -17267,7 +17267,7 @@
   "program_version": "1",
   "total_duration": "880",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "10",
   "competences": [
     2,
@@ -17686,7 +17686,7 @@
   "program_version": "1",
   "total_duration": "880",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "10",
   "competences": [
     4066,
@@ -17750,7 +17750,7 @@
   "program_version": "1",
   "total_duration": "880",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "10",
   "competences": [
     1,
@@ -17789,7 +17789,7 @@
   "program_version": "1",
   "total_duration": "1760",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     3226,
@@ -17808,7 +17808,7 @@
   "program_version": "1",
   "total_duration": "1760",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     35912,
@@ -17826,7 +17826,7 @@
   "program_version": "1",
   "total_duration": "1760",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     2,
@@ -17843,7 +17843,7 @@
   "program_version": "1",
   "total_duration": "880",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "10",
   "competences": [
     1,
@@ -17951,7 +17951,7 @@
   "program_version": "1",
   "total_duration": "440",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "223",
   "competences": [
     36023,
@@ -17978,7 +17978,7 @@
   "program_version": "1",
   "total_duration": "880",
   "thematic_line": "1",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "1",
   "competences": [
     2,
@@ -18018,7 +18018,7 @@
   "program_version": "1",
   "total_duration": "1760",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     35067,
@@ -18036,7 +18036,7 @@
   "program_version": "1",
   "total_duration": "1760",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     35891,
@@ -18066,7 +18066,7 @@
   "program_version": "1",
   "total_duration": "880",
   "thematic_line": "5",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "1",
   "competences": [
     35240,
@@ -18119,7 +18119,7 @@
   "program_version": "1",
   "total_duration": "2200",
   "thematic_line": "2",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     34618,
@@ -18164,7 +18164,7 @@
   "program_version": "1",
   "total_duration": "880",
   "thematic_line": "1",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "7",
   "competences": [
     35320,
@@ -18178,7 +18178,7 @@
   "program_version": "101",
   "total_duration": "2200",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     3226,
@@ -18196,7 +18196,7 @@
   "program_version": "2",
   "total_duration": "2200",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     3226,
@@ -18214,7 +18214,7 @@
   "program_version": "102",
   "total_duration": "2200",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     3226,
@@ -18242,7 +18242,7 @@
   "program_version": "1",
   "total_duration": "880",
   "thematic_line": "1",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "7",
   "competences": [
     35317,
@@ -18257,7 +18257,7 @@
   "program_version": "101",
   "total_duration": "2200",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     2,
@@ -18278,7 +18278,7 @@
   "program_version": "101",
   "total_duration": "2200",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     35097,
@@ -18298,7 +18298,7 @@
   "program_version": "101",
   "total_duration": "2200",
   "thematic_line": "3",
-  "type_program": "C",
+  "type_program": "T",
   "program_level": "2",
   "competences": [
     33252,
