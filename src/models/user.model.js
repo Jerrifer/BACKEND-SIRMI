@@ -34,7 +34,7 @@ const userSchema = new mongoose.Schema(
     training_center: {
       ref: "Training_Center",
       type: mongoose.Schema.Types.Number,
-    },
+    }
 
     //   idrole: {
     //     ref: "r",

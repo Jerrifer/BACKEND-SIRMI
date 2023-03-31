@@ -6,7 +6,7 @@ const getFormationPrograms = async (req, res) => {
   const structureApi = new resposeApi();
   try {
     const allFormationPrograms = await FormationProgramModel.find().populate([
-      // "training_centers",
+      "training_centers",
       "type_program",
       "thematic_line",
       "program_level",
