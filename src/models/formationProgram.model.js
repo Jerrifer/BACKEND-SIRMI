@@ -15,6 +15,7 @@ const formationProgramSchema = new mongoose.Schema(
     program_code: {
       type: String,
       required: true,
+      unique: true
     },
 
     total_duration: {

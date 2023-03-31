@@ -1,5 +1,4 @@
 const { httpError } = require("../helpers/hanledeError");
-const Regionale = require("../models/regionale.model");
 const Municipalitie = require("../models/municipalitie.model");
 
 const getMunicipalities = async (req, res, next) => {
