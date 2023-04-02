@@ -8,13 +8,7 @@ const FormationProgramModel = require("../models/formationProgram.model");
 const validateFormationProgram = [
   check("program_name").exists(),
 
-  check("program_code").exists().custom((value) => {
-    return FormationProgramModel.find({program_code: value}).then((formationProgram) => {
-      if (formationProgram[0]) {
-        return Promise.reject("Ya existe un programa de formación con el mismo código");
-      }
-    });
-  }),
+  check("program_code").exists(),
 
   check("total_duration").exists(),
 
@@ -73,4 +67,18 @@ const validateFormationProgramById = [
   },
 ];
 
-module.exports = { validateFormationProgram, validateFormationProgramById };
+const validateFormationProgramByCode = [
+  check("program_code").exists().custom((value) => {
+    return FormationProgramModel.find({program_code: value}).then((formationProgram) => {
+      if (formationProgram[0]) {
+        return Promise.reject("Ya existe un programa de formación con el mismo código");
+      }
+    });
+  }),
+
+  (req, res, next) => {
+    validateResult(req, res, next);
+  },
+];
+
+module.exports = { validateFormationProgram, validateFormationProgramById, validateFormationProgramByCode };

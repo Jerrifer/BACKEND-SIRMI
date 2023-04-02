@@ -132,3 +132,9 @@ module.exports = {
   updateLearningResult,
   deleteLearningResult,
 };
+
+
+// {
+//   "learning_result": "learning result ejemplo",
+//   "competence": 2
+// }

@@ -3,13 +3,7 @@ const { validateResult } = require("../helpers/validate");
 const competenceModel = require("../models/competence.model");
 
 const validateCompetence = [
-  check("labor_competence_code").exists().isLength({ max: 10 }).custom((value) => {
-    return competenceModel.find({labor_competence_code: value}).then((competence) => {
-      if (competence[0]) {
-        return Promise.reject("Ya existe una competencia con el mismo código");
-      }
-    });
-  }),
+  check("labor_competence_code").exists().isLength({ max: 20 }),
 
   check("labor_competition").exists(),
 
@@ -36,4 +30,18 @@ const validateCompetenceById = [
   },
 ];
 
-module.exports = { validateCompetence, validateCompetenceById };
+const validateCompetenceByCode = [
+  check("labor_competence_code").exists().isLength({ max: 20 }).custom((value) => {
+    return competenceModel.find({labor_competence_code: value}).then((competence) => {
+      if (competence[0]) {
+        return Promise.reject("Ya existe una competencia con el mismo código");
+      }
+    });
+  }),
+
+  (req, res, next) => {
+    validateResult(req, res, next);
+  },
+];
+
+module.exports = { validateCompetence, validateCompetenceById, validateCompetenceByCode };
