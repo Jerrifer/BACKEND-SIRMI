@@ -6,7 +6,7 @@ const getFormationPrograms = async (req, res) => {
   const structureApi = new resposeApi();
   try {
     const allFormationPrograms = await FormationProgramModel.find().populate([
-      "training_centers",
+      // "training_centers",
       "type_program",
       "thematic_line",
       "program_level",
@@ -15,7 +15,7 @@ const getFormationPrograms = async (req, res) => {
       structureApi.setState(
         "200",
         "success",
-        "Programas de formacion encontrados"
+        "Programas de formación encontrados"
       );
       structureApi.setResult(allFormationPrograms);
     } else {
@@ -28,6 +28,7 @@ const getFormationPrograms = async (req, res) => {
   } catch (error) {
     structureApi.setState("500", "error", "Error en la solicitud");
     structureApi.setResult(error);
+    console.log(error);
   }
   res.json(structureApi.toResponse());
 };
@@ -40,7 +41,7 @@ const getFormationProgram = async (req, res) => {
       req.params.id
       //, 'type_program', 'thematic_line', 'program_level'
     ).populate([
-      "training_centers",
+      // "training_centers",
       "type_program",
       "thematic_line",
       "program_level",
@@ -49,14 +50,14 @@ const getFormationProgram = async (req, res) => {
       structureApi.setState(
         "200",
         "success",
-        "Programa de formacion encontrado exitosamente"
+        "Programa de formación encontrado exitosamente"
       );
       structureApi.setResult(formationProgram);
     } else {
       structureApi.setState(
         "200",
         "success",
-        "No existe el programa de formación"
+        "No existe el formación de formación"
       );
     }
   } catch (error) {
@@ -77,7 +78,7 @@ const createFormationProgram = async (req, res) => {
     structureApi.setState(
       "200",
       "success",
-      "Programa de formacion registrado exitosamente"
+      "Programa de formación registrado exitosamente"
     );
     structureApi.setResult(newFormationProgram);
   } catch (error) {
@@ -102,7 +103,7 @@ const updateFormationProgram = async (req, res) => {
     structureApi.setState(
       "200",
       "success",
-      "Programa de formacion actualizado exitosamente"
+      "Programa de formación actualizado exitosamente"
     );
     structureApi.setResult(formationProgram);
   } catch (error) {
@@ -123,7 +124,7 @@ const deleteFormationProgram = async (req, res) => {
     structureApi.setState(
       "200",
       "success",
-      "Programa de formacion eliminado exitosamente"
+      "Programa de formación eliminado exitosamente"
     );
     structureApi.setResult(formationProgram);
   } catch (error) {
@@ -166,11 +167,6 @@ const deallocateCompetences = async (req, res) => {
   try {
     const formationProgram = await FormationProgramModel.findById(
       req.params.id
-    );
-    structureApi.setState(
-      "200",
-      "success",
-      "Competencias asignadas al programa"
     );
 
     const { competences } = req.body;
