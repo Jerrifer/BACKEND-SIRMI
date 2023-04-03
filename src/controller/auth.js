@@ -23,7 +23,7 @@ const signin = async (req, res) => {
 
     if (checkPassword) {
       //TODO Contraseña es correcta!
-      user.jerri = "jerri";
+     
       responseApi.setState(200, "success", "se ingreso correctamente ");
       responseApi.setResult({ user: user, token: tokenSession });
     }
