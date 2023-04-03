@@ -1,76 +1,67 @@
-const { httpError } = require('../helpers/hanledeError')
-const { encrypt, compare } = require('../helpers/Bcript')
-const { tokenSign } = require('../helpers/token')
-const userModel = require('../models/user.model')
-const estructuraApi = require('../helpers/responseApi');
+const { encrypt, compare } = require("../helpers/Bcript");
+const { tokenSign } = require("../helpers/token");
+const userModel = require("../models/user.model");
+const estructuraApi = require("../helpers/responseApi");
 
 const signin = async (req, res) => {
+  let responseApi = new estructuraApi();
 
-    try {
-        const { email, password } = req.body
+  try {
+    const { email, password } = req.body;
 
-        const user = await userModel.findOne({ email })
+    const user = await userModel.findOne({ email });
 
-        if (!user) {
-            res.status(404)
-            res.send({ error: 'User not found' })
-        }
-
-        const checkPassword = await compare(password, user.password) //TODO: Contraseña!
-
-        //TODO JWT 👉
-        const tokenSession = await tokenSign(user) //TODO: 2d2d2d2d2d2d2
-
-        if (checkPassword) { //TODO Contraseña es correcta!
-            res.send({
-                data: user,
-                tokenSession
-            })
-            return
-        }
-
-        if (!checkPassword) {
-            res.status(409)
-            res.send({
-                error: 'Invalid password'
-            })
-            return
-        }
-
-    } catch (e) {
-        httpError(res, e)
+    if (!user) {
+      responseApi.setState(404, "success", "usuario no existe ");
+      responseApi.setResult({ error: "User not found" });
     }
+
+    const checkPassword = await compare(password, user.password); //TODO: Contraseña!
+
+    //TODO JWT 👉
+    const tokenSession = await tokenSign(user); //TODO: 2d2d2d2d2d2d2
+
+    if (checkPassword) {
+      //TODO Contraseña es correcta!
+      user.jerri = "jerri";
+      responseApi.setState(200, "success", "se ingreso correctamente ");
+      responseApi.setResult({ user: user, token: tokenSession });
+    }
+
+    if (!checkPassword) {
+      responseApi.setState(409, "error", "Invalid password");
+    }
+  } catch (error) {
+    responseApi.setState(500, "error", "Error");
+    responseApi.setResult(error);
+    console.log(error);
+  }
+
+  res.json(responseApi.toResponse());
 };
 
+const signup = async (req, res) => {
+  let responseApi = new estructuraApi();
+  try {
+    const { email, password, first_name } = req.body;
 
+    const passwordHash = await encrypt(password); //TODO: (123456)<--- Encriptando!!
 
-const signup =  async (req, res) => {
+    const registerUser = await userModel.create({
+      email,
+      first_name,
+      password: passwordHash,
+    });
 
-    let responseApi = new estructuraApi()
-    try {
-        //TODO: Datos que envias desde el front (postman)
-        const { email, password, name } = req.body
+    responseApi.setState(200, "success", "Usuario registrado correctamente");
+    responseApi.setResult(registerUser);
+  } catch (error) {
+    responseApi.setState(500, "error", "Error");
+    responseApi.setResult(error);
+    console.log(error);
+  }
 
-        const passwordHash = await encrypt(password) //TODO: (123456)<--- Encriptando!!
+  res.send(responseApi.toResponse());
+};
 
-        const registerUser = await userModel.create({
-            email,
-            name,
-            password: passwordHash
-        })
-
-        responseApi.setState(200, 'success', 'Usuario registrado correctamente')
-        responseApi.setResult(registerUser)
-
-        
-
-    } catch (error) {
-        responseApi.setState(500, 'error', 'Error')
-        responseApi.setResult(error)
-    }
-
-    res.send(responseApi.toResponse())
-}
-
-
-module.exports = { signup, signin }
+module.exports = { signup, signin };

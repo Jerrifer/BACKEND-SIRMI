@@ -1,10 +1,13 @@
 const { httpError } = require("../helpers/hanledeError");
+const estructuraApi = require("../helpers/responseApi");
 
 // const resposeApi = require("../helpers/responseApi");
 const knowledgeNetwork = require("../models/knowledgeNetwork.model");
 
 // list all
 const getknowledgeNetwork = async (req, res) => {
+  let responseApi = new estructuraApi();
+
   try {
     const listAll = await knowledgeNetwork.find();
     res.send({ data: listAll });
