@@ -8,11 +8,10 @@ const validateUser = [
   check("first_name").exists(),
   check("last_name").exists(),
   check("password").exists(),
-  check("email").exists(),
+  check("email").exists().isEmail(),
   check("contact_number").exists(),
   check("document_number").exists(),
   check("training_center").exists(),
-
 
   check("training_center")
     .exists()

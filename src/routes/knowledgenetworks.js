@@ -1,12 +1,12 @@
 const express = require("express");
 const router = express.Router();
 const {
-  getknowledgeNetwork,
-  getknowledgeNetworks,
+  getKnowledgeNetworks,
+  getKnowledgeNetwork,
 } = require("../controller/knowledgeNetwork.controller");
 
-router.get("/", getknowledgeNetwork);
+router.get("/", getKnowledgeNetworks);
 
-router.get("/:id", getknowledgeNetworks);
+router.get("/:id", getKnowledgeNetwork);
 
 module.exports = router;

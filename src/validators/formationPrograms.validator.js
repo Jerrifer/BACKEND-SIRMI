@@ -1,6 +1,6 @@
 const { check, param } = require("express-validator");
 const { validateResult } = require("../helpers/validate");
-const programLevelsModel = require("../models/programLevels.model");
+const programLevelModel = require("../models/programLevel.model");
 const thematicLineModel = require("../models/thematicLine.model");
 const TypeProgramModel = require("../models/typeProgram.model");
 const FormationProgramModel = require("../models/formationProgram.model");
@@ -10,12 +10,13 @@ const validateFormationProgram = [
 
   check("program_code").exists(),
 
-  check("total_duration").exists(),
+  check("total_duration").exists().isInt().withMessage('La duración estimada debe ser un dato numérico'),
 
   check("program_version").exists(),
 
   check("type_program")
-    .exists()
+    .exists().isIn(['T', 'C'])
+    .withMessage('El tipo debe ser TITULADA o COMPLEMENTARIA')
     .custom((value) => {
       return TypeProgramModel.findById(value).then((type_program) => {
         if (!type_program) {
@@ -37,7 +38,7 @@ const validateFormationProgram = [
   check("program_level")
     .exists()
     .custom((value) => {
-      return programLevelsModel.findById(value).then((program_level) => {
+      return programLevelModel.findById(value).then((program_level) => {
         if (!program_level) {
           return Promise.reject(
             "El nivel del programa que ingresaste no existe"

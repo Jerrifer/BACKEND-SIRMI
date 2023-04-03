@@ -1,24 +1,32 @@
-const { httpError } = require("../helpers/hanledeError");
-const programLevels = require("../models/programLevels.model");
+const responseApi = require("../helpers/responseApi");
+const programLevel = require("../models/programLevel.model");
 
-const getProgramLevels = async (req, res, next) => {
+const getProgramLevels = async (req, res) => {
+    let structureApi = new responseApi();
     try {
-        const listall = await programLevels.find();
+        const allProgramLevels = await programLevel.find();
     
-        res.send({ data: listall });
+        structureApi.setState("200", "success", "Niveles de programa encontrados");
+        structureApi.setResult(allProgramLevels);
     } catch (error) {
-        httpError(res, error);
+        structureApi.setState("500", "error", "Error en la solicitud");
+        structureApi.setResult(error);
     }
+    res.json(structureApi.toResponse());
 }
 
 const getProgramLevel = async (req, res, next) => {
+    let structureApi = new responseApi();
     try {
-        const listone = await programLevels.findById(req.params.id);
+        const programLevelById = await programLevel.findById(req.params.id);
     
-        res.send({ data: listone });
+        structureApi.setState("200", "success", "Nivel de programa encontrado");
+        structureApi.setResult(programLevelById);
     } catch (error) {
-        httpError(res, error);
+        structureApi.setState("500", "error", "Error en la solicitud");
+        structureApi.setResult(error);
     }
+    res.json(structureApi.toResponse());
 }
 
 module.exports = {

@@ -1,24 +1,35 @@
-const { httpError } = require("../helpers/hanledeError");
+const responseApi = require("../helpers/responseApi");
 const Municipalitie = require("../models/municipalitie.model");
 
-const getMunicipalities = async (req, res, next) => {
+const getMunicipalities = async (req, res) => {
+    let structureApi = new responseApi();
+
     try {
-        const listall = await Municipalitie.find();
+        const allMunicipalities = await Municipalitie.find().populate('regionale');
     
-        res.send({ data: listall });
+        structureApi.setState("200", "success", "Municipios encontrados");
+        structureApi.setResult(allMunicipalities);
     } catch (error) {
-        httpError(res, error);
+        structureApi.setState("500", "error", "Error en la solicitud");
+        structureApi.setResult(error);
     }
+    res.json(structureApi.toResponse());
+
 };
 
-const getMunicipality = async (req, res, next) => {
+const getMunicipality = async (req, res) => {
+    let structureApi = new responseApi();
     try {
-        const listone = await Municipalitie.findById(req.params.id);
+        const municipality = await Municipalitie.findById(req.params.id).populate('regionale');
     
-        res.send({ data: listone });
+        structureApi.setState("200", "success", "Municipio encontrado");
+        structureApi.setResult(municipality);
     } catch (error) {
-        httpError(res, error);
+        structureApi.setState("500", "error", "Error en la solicitud");
+        structureApi.setResult(error);
     }
+
+    res.json(structureApi.toResponse());
 }
 
 module.exports = {

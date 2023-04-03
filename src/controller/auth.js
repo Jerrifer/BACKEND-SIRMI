@@ -1,10 +1,10 @@
 const { encrypt, compare } = require("../helpers/Bcript");
 const { tokenSign } = require("../helpers/token");
 const userModel = require("../models/user.model");
-const estructuraApi = require("../helpers/responseApi");
+const responseApi = require("../helpers/responseApi");
 
 const signin = async (req, res) => {
-  let responseApi = new estructuraApi();
+  let structureApi = new responseApi();
 
   try {
     const { email, password } = req.body;
@@ -12,8 +12,8 @@ const signin = async (req, res) => {
     const user = await userModel.findOne({ email });
 
     if (!user) {
-      responseApi.setState(404, "success", "usuario no existe ");
-      responseApi.setResult({ error: "User not found" });
+      structureApi.setState(404, "success", "usuario no existe ");
+      structureApi.setResult({ error: "User not found" });
     }
 
     const checkPassword = await compare(password, user.password); //TODO: Contraseña!
@@ -24,24 +24,25 @@ const signin = async (req, res) => {
     if (checkPassword) {
       //TODO Contraseña es correcta!
      
-      responseApi.setState(200, "success", "se ingreso correctamente ");
-      responseApi.setResult({ user: user, token: tokenSession });
+      structureApi.setState(200, "success", "se ingreso correctamente ");
+      structureApi.setResult({ user: user, token: tokenSession });
     }
 
     if (!checkPassword) {
-      responseApi.setState(409, "error", "Invalid password");
+      structureApi.setState(409, "error", "Invalid password");
     }
   } catch (error) {
-    responseApi.setState(500, "error", "Error");
-    responseApi.setResult(error);
+    structureApi.setState(500, "error", "Error");
+    structureApi.setResult(error);
     console.log(error);
   }
 
-  res.json(responseApi.toResponse());
+  res.json(structureApi.toResponse());
 };
 
+
 const signup = async (req, res) => {
-  let responseApi = new estructuraApi();
+  let structureApi = new responseApi();
   try {
     const { email, password, first_name } = req.body;
 
@@ -53,15 +54,15 @@ const signup = async (req, res) => {
       password: passwordHash,
     });
 
-    responseApi.setState(200, "success", "Usuario registrado correctamente");
-    responseApi.setResult(registerUser);
+    structureApi.setState(200, "success", "Usuario registrado correctamente");
+    structureApi.setResult(registerUser);
   } catch (error) {
-    responseApi.setState(500, "error", "Error");
-    responseApi.setResult(error);
+    structureApi.setState(500, "error", "Error");
+    structureApi.setResult(error);
     console.log(error);
   }
 
-  res.send(responseApi.toResponse());
+  res.send(structureApi.toResponse());
 };
 
 module.exports = { signup, signin };

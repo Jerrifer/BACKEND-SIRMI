@@ -1,14 +1,14 @@
-const estructuraApi = require("../helpers/responseApi");
+const responseApi = require("../helpers/responseApi");
 
 // const resposeApi = require("../helpers/responseApi");
-const knowledgeNetwork = require("../models/knowledgeNetwork.model");
+const knowledgeNetworkModel = require("../models/knowledgeNetwork.model");
 
 // list all
-const getknowledgeNetwork = async (req, res) => {
-  let structureApi = new estructuraApi();
+const getKnowledgeNetworks = async (req, res) => {
+  let structureApi = new responseApi();
 
   try {
-    const listAll = await knowledgeNetwork.find();
+    const listAll = await knowledgeNetworkModel.find();
     if (listAll.length > 0) {
       structureApi.setState("200", "success", " Red de conocimento encontrados");
       structureApi.setResult(listAll);
@@ -25,22 +25,18 @@ const getknowledgeNetwork = async (req, res) => {
 
 };
 // list one
-const getknowledgeNetworks = async (req, res) => {
-  let structureApi = new estructuraApi();
-
+const getKnowledgeNetwork = async (req, res) => {
+  let structureApi = new responseApi();
   try {
-    const getNetwork = await knowledgeNetwork.findById(req.params.id);
+    const knowledgeNetwork = await knowledgeNetworkModel.findById("5");
 
-    if (getNetwork.length > 0) {
+    console.log(knowledgeNetwork);
+    if (knowledgeNetwork) {
       structureApi.setState("200", "success", " Red de conocimento encontrados");
-      structureApi.setResult(getNetwork);
-   
-
+      structureApi.setResult(knowledgeNetwork);
     } else {
-      structureApi.setState("200", "success", "No hay ninguna red de conocimento ");
+      structureApi.setState("200", "success", "No se encontro una red de conocimento que coincida");
     }
-
-  
   } catch (error) {
     structureApi.setState("500", "error", "Error en la solicitud");
     structureApi.setResult(error);
@@ -50,6 +46,6 @@ const getknowledgeNetworks = async (req, res) => {
 };
 
 module.exports = {
-  getknowledgeNetwork,
-  getknowledgeNetworks,
+  getKnowledgeNetworks,
+  getKnowledgeNetwork,
 };

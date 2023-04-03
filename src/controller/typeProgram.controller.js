@@ -1,24 +1,35 @@
-const { httpError } = require("../helpers/hanledeError");
+const responseApi = require("../helpers/responseApi");
 const typeProgram = require("../models/typeProgram.model");
 
-const getTypePrograms = async (req, res, next) => {
+const getTypePrograms = async (req, res) => {
+    let structureApi = new responseApi();
+
     try {
-        const listall = await typeProgram.find();
+        const allTypePrograms = await typeProgram.find();
     
-        res.send({ data: listall });
+        structureApi.setState("200", "success", "Tipos de programa encontrados");
+        structureApi.setResult(allTypePrograms);
     } catch (error) {
-        httpError(res, error);
+        structureApi.setState("500", "error", "Error en la solicitud");
+        structureApi.setResult(error);
     }
+    res.json(structureApi.toResponse());
+
 }
 
 const getTypeProgram = async (req, res, next) => {
+    let structureApi = new responseApi();
     try {
-        const listone = await typeProgram.findById(req.params.id);
+        const typeProgramById = await typeProgram.findById(req.params.id);
     
-        res.send({ data: listone });
+        structureApi.setState("200", "success", "Tipo de programa encontrado");
+        structureApi.setResult(typeProgramById);
     } catch (error) {
-        httpError(res, error);
+        structureApi.setState("500", "error", "Error en la solicitud");
+        structureApi.setResult(error);
     }
+    res.json(structureApi.toResponse());
+
 }
 module.exports = {
     getTypePrograms,
