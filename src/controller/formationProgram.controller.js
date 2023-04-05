@@ -25,6 +25,7 @@ const getFormationPrograms = async (req, res) => {
         "success",
         "No hay programas de formación registrados"
       );
+      structureApi.setResult(allFormationPrograms);
     }
   } catch (error) {
     structureApi.setState("500", "error", "Error en la solicitud");

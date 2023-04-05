@@ -19,6 +19,7 @@ const getThematicLines = async (req, res) => {
         "success",
         "No hay líneas tématicas registradas"
       );
+      structureApi.setResult(allThematicLines);
     }
   } catch (error) {
     structureApi.setState("500", "error", "Error en la solicitud");
