@@ -11,6 +11,7 @@ const getUsers = async (req, res) => {
       structureApi.setResult(listUsers);
     } else {
       structureApi.setState("200", "success", "No hay usuarios registrados");
+      structureApi.setResult(listUsers);
     }
   } catch (error) {
     structureApi.setState("500", "error", "Error en la solicitud");
