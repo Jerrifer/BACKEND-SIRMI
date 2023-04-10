@@ -16,7 +16,7 @@ const validateFormationProgram = [
 
   check("type_program")
     .exists().isIn(['T', 'C'])
-    .withMessage('El tipo debe ser TITULADA o COMPLEMENTARIA')
+    .withMessage('El tipo del programa debe ser TITULADA o COMPLEMENTARIA')
     .custom((value) => {
       return TypeProgramModel.findById(value).then((type_program) => {
         if (!type_program) {

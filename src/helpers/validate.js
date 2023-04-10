@@ -10,7 +10,6 @@ const validateResult = (req, res, next) => {
 
     structureApi.setState("403", "error", "Error con validaciones");
     structureApi.setResult({ errors: error.array() });
-    res.status(403);
     res.json(structureApi.toResponse());
   }
 };

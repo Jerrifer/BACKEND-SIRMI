@@ -41,7 +41,6 @@ const getFormationProgram = async (req, res) => {
   try {
     const formationProgram = await FormationProgramModel.findById(
       req.params.id
-      //, 'type_program', 'thematic_line', 'program_level'
     ).populate([
       // "training_centers",
       "type_program",
@@ -66,6 +65,7 @@ const getFormationProgram = async (req, res) => {
   } catch (error) {
     structureApi.setState("500", "error", "Error en la solicitud");
     structureApi.setResult(error);
+    console.log(error);
   }
   res.json(structureApi.toResponse());
 };
