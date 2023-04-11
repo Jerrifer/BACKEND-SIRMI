@@ -1,5 +1,6 @@
 const userModel = require("../models/user.model");
 const resposeApi = require("../helpers/responseApi");
+const { encrypt } = require("../helpers/Bcript");
 
 // list all users
 const getUsers = async (req, res) => {
@@ -38,24 +39,12 @@ const getUser = async (req, res) => {
 const createUser = async (req, res) => {
   const structureApi = new resposeApi();
   try {
-    const {
-      first_name,
-      last_name,
-      password,
-      email,
-      contact_number,
-      document_number,
-      training_center,
-    } = req.body;
-    const newUser = await userModel.create({
-      first_name,
-      last_name,
-      password,
-      email,
-      contact_number,
-      document_number,
-      training_center,
-    });
+    const {password} = req.body;
+    const passwordHash = await encrypt(password);
+
+    req.body.password = passwordHash
+    const newUser = await userModel.create(req.body);
+    
     structureApi.setState("200", "success", "Usuario registrado con éxito");
     structureApi.setResult(newUser);
   } catch (error) {
