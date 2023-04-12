@@ -4,9 +4,9 @@ const router = express.Router();
 const contractController = require ('../controller/contract.controller')
 
 router.get('/',contractController.getContract)
-router.get('/',contractController.getContracts)
+router.get('/:id',contractController.getContracts)
 router.post('/',contractController.createContract)
-router.put('/',contractController.updateContract)
-router.delete('/',contractController.deleteContract)
+router.put('/:id',contractController.updateContract)
+router.delete('/:id',contractController.deleteContract)
 
 module.exports = router
