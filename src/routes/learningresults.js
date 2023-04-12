@@ -13,4 +13,7 @@ router.put("/:id", validateLearningResultById, learningResultController.updateLe
 
 router.delete("/:id", validateLearningResultById, learningResultController.deleteLearningResult);
 
+router.get("/bycompetence/:id", learningResultController.LearningResultsByCompetence);
+
+
 module.exports = router;

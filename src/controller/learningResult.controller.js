@@ -30,7 +30,7 @@ const getLearningResults = async (req, res) => {
   res.json(structureApi.toResponse());
 };
 
-// list one formation program
+// list one learning result
 const getLearningResult = async (req, res) => {
   const structureApi = new resposeApi();
   try {
@@ -125,12 +125,40 @@ const deleteLearningResult = async (req, res) => {
   res.json(structureApi.toResponse());
 };
 
+// list one formation program
+const LearningResultsByCompetence = async (req, res) => {
+  const structureApi = new resposeApi();
+  try {
+    const learningResult = await LearningResultModel.find({competence: req.params.id});
+
+    if (learningResult) {
+      structureApi.setState(
+        "200",
+        "success",
+        "Resultado de aprendizaje encontrado exitosamente"
+      );
+      structureApi.setResult(learningResult);
+    } else {
+      structureApi.setState(
+        "200",
+        "success",
+        "No existe el Resultado de aprendizaje"
+      );
+    }
+  } catch (error) {
+    structureApi.setState("500", "error", "Error en la solicitud");
+    structureApi.setResult(error);
+  }
+  res.json(structureApi.toResponse());
+};
+
 module.exports = {
   getLearningResults,
   getLearningResult,
   createLearningResult,
   updateLearningResult,
   deleteLearningResult,
+  LearningResultsByCompetence
 };
 
 
