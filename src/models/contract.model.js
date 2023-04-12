@@ -23,7 +23,7 @@ const contractShemas = new mongoose.Schema ( {
       start_date : {
         type: String,
       },
-      en_date : {
+      end_date : {
         type: String,
       },
       type_contract : {
