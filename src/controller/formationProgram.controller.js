@@ -61,6 +61,7 @@ const getFormationProgram = async (req, res) => {
         "success",
         "No existe el formación de formación"
       );
+      structureApi.setResult(formationProgram);
     }
   } catch (error) {
     structureApi.setState("500", "error", "Error en la solicitud");
@@ -140,22 +141,24 @@ const deleteFormationProgram = async (req, res) => {
 // assign a formation program
 const assignCompetences = async (req, res) => {
   const structureApi = new resposeApi();
+  console.log(req.body);
   try {
     const formationProgram = await FormationProgramModel.findById(
       req.params.id
     );
+
+    const { competences } = req.body;
+
+    const filteredIds = competences.filter(valor => !formationProgram.competences.includes(valor));
+    
+    formationProgram.competences = formationProgram.competences.concat(filteredIds);
+    formationProgram.save();
+    
     structureApi.setState(
       "200",
       "success",
       "Competencias asignadas al programa"
     );
-
-    const { competences } = req.body;
-
-    formationProgram.competences =
-      formationProgram.competences.concat(competences);
-    formationProgram.save();
-
     structureApi.setResult(formationProgram);
   } catch (error) {
     structureApi.setState("500", "error", "Error en la solicitud");
@@ -165,18 +168,21 @@ const assignCompetences = async (req, res) => {
   res.json(structureApi.toResponse());
 };
 
+// deallocate a formation program
+
 const deallocateCompetences = async (req, res) => {
   const structureApi = new resposeApi();
   try {
     const formationProgram = await FormationProgramModel.findById(
       req.params.id
     );
-
-    const { competences } = req.body;
+    console.log(req.body);
+    const { competence } = req.body;
 
     formationProgram.competences = formationProgram.competences.filter(
-      (item) => item !== competences
+      (item) => item !== competence
     );
+    console.log(formationProgram);
     formationProgram.save();
 
     structureApi.setState(
