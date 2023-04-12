@@ -13,7 +13,10 @@ const getContracts  = async (req, res) => {
 
 };
  const createContract  = async (req, res) => {
-res.send("holss")
+  const structureApi = new resposeApi();
+  
+
+  
  };
 
  const updateContract  = async (req, res) => {
