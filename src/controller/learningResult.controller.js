@@ -1,5 +1,6 @@
 const resposeApi = require("../helpers/responseApi");
 const LearningResultModel = require("../models/learningResult.model");
+const CompetenceModel = require("../models/competence.model");
 
 // list all formation programs
 const getLearningResults = async (req, res) => {
@@ -129,6 +130,7 @@ const deleteLearningResult = async (req, res) => {
 const LearningResultsByCompetence = async (req, res) => {
   const structureApi = new resposeApi();
   try {
+    const competence = await CompetenceModel.findById(req.params.id);
     const learningResult = await LearningResultModel.find({competence: req.params.id});
 
     if (learningResult) {
@@ -137,7 +139,7 @@ const LearningResultsByCompetence = async (req, res) => {
         "success",
         "Resultado de aprendizaje encontrado exitosamente"
       );
-      structureApi.setResult(learningResult);
+      structureApi.setResult({competence: competence, learningresults: learningResult});
     } else {
       structureApi.setState(
         "200",
