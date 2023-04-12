@@ -3,10 +3,7 @@ const mongoose = require('mongoose');
 const contractShemas = new mongoose.Schema ( {
 
  
-      name : {
-        type: String,
-      
-      },
+     
       contract_number : {
         type: Number,
       
