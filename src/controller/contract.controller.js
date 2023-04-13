@@ -2,10 +2,10 @@ const resposeApi = require("../helpers/responseApi");
 
 const Contract = require("../models/contract.model");
 
-const getContract = async (req, res) => {
+const getContracts = async (req, res) => {
   const structureApi = new resposeApi();
   try {
-    const listAlll = await Contract.find();
+    const listAlll = await Contract.find().populate('user');
     if (listAlll.length > 0) {
       structureApi.setState(
         "200",
@@ -15,6 +15,7 @@ const getContract = async (req, res) => {
       structureApi.setResult(listAlll);
     } else {
       structureApi.setState("200", "success", "no Existe Ningun Contrato");
+      structureApi.setResult(listAlll);
     }
   } catch (error) {
     structureApi.setState("500", "error", "Error en la solicitud");
@@ -24,7 +25,7 @@ const getContract = async (req, res) => {
   res.json(structureApi.toResponse());
 };
 
-const getContracts = async (req, res) => {
+const getContract = async (req, res) => {
   const structureApi = new resposeApi();
 
   try {
@@ -103,8 +104,8 @@ const deleteContract = async (req, res) => {
 
 module.exports = {
   createContract,
-  getContract,
   getContracts,
+  getContract,
   updateContract,
   deleteContract,
 };
