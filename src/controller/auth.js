@@ -44,15 +44,12 @@ const signin = async (req, res) => {
 const signup = async (req, res) => {
   let structureApi = new responseApi();
   try {
-    const { email, password, first_name } = req.body;
+    const { password } = req.body;
 
     const passwordHash = await encrypt(password); //TODO: (123456)<--- Encriptando!!
 
-    const registerUser = await userModel.create({
-      email,
-      first_name,
-      password: passwordHash,
-    });
+    req.body.password = passwordHash
+    const registerUser = await userModel.create(req.body);
 
     structureApi.setState(200, "success", "Usuario registrado correctamente");
     structureApi.setResult(registerUser);
