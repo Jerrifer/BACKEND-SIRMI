@@ -3,13 +3,21 @@ const { validateResult } = require("../helpers/validate");
 const competenceModel = require("../models/competence.model");
 
 const validateCompetence = [
-  check("labor_competence_code").exists().isLength({ max: 20 }),
+  check("labor_competence_code")
+    .exists().withMessage("Debe ingresar el código de la competencia laboral")
+    .isLength({ max: 20 }).withMessage("El código de la competencia laboral no puede tener más de 20 digitos"),
 
-  check("labor_competition").exists(),
+  check("labor_competition")
+    .exists().withMessage("Debe ingresar una competencia laboral"),
 
-  check("labor_competition_version").exists().isLength({ max: 10 }),
+  check("labor_competition_version")
+    .exists().withMessage("Debe ingresar la versión de la competencia laboral")
+    .isLength({ max: 10 }).withMessage("La versión de la competencia laboral no puede tener más de 10 digitos"),
 
-  check("duration").exists().isLength({ max: 10 }),
+  check("duration")
+    .exists().withMessage("Debe ingresar una duración estimada para la competencia laboral")
+    .isInt().withMessage("La duración estimada deben ser datos númericos")
+    .isLength({ max: 10 }).withMessage("La duración estimada no puede tener más de 10 digitos"),
 
   (req, res, next) => {
     validateResult(req, res, next);

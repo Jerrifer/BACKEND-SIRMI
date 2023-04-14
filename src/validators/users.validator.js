@@ -5,16 +5,27 @@ const TrainingCenterModel = require("../models/trainingCenter.model");
 
 const validateUser = [
 
-  check("first_name").exists(),
-  check("last_name").exists(),
-  check("password").exists(),
-  check("email").exists().isEmail(),
-  check("contact_number").exists(),
-  check("document_number").exists(),
-  check("training_center").exists(),
+  check("first_name")
+    .exists().withMessage("Debe ingresar el nombre del usuario"),
+
+  check("last_name")
+    .exists().withMessage("Debe ingresar los apellidos del usuario"),
+
+  check("password")
+    .exists().withMessage("Debe ingresar una contraseña"),
+
+  check("email")
+    .exists().withMessage("Debe ingresar un correo electrónico")
+    .isEmail().withMessage("Debe ser un correo electrónico"),
+
+  check("contact_number")
+    .exists().withMessage("Debe ingresar un número de contacto"),
+
+  check("document_number")
+    .exists().withMessage("Debe ingresar un número de identificación"),
 
   check("training_center")
-    .exists()
+    .exists().withMessage("Debe seleccionar un centro de formación")
     .custom((value) => {
       return TrainingCenterModel.findById(value).then((trainingCenter) => {
         if (!trainingCenter) {

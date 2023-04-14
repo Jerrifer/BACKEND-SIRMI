@@ -3,7 +3,9 @@ const { validateResult } = require("../helpers/validate");
 const learningResultModel = require("../models/learningResult.model");
 
 const validateLearningResult = [
-  check("learning_result").exists().isLength({ max: 100 }),
+  check("learning_result")
+    .exists().withMessage("Debe ingresar el resultado de aprendizaje")
+    .isLength({ max: 100 }).withMessage("El resultado de aprendizaje no puede tener más de 100 caracteres"),
 
   (req, res, next) => {
     validateResult(req, res, next);

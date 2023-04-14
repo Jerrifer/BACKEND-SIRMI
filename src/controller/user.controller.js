@@ -1,12 +1,13 @@
 const userModel = require("../models/user.model");
 const resposeApi = require("../helpers/responseApi");
 const { encrypt } = require("../helpers/Bcript");
+const contractModel = require("../models/contract.model");
 
 // list all users
 const getUsers = async (req, res) => {
   const structureApi = new resposeApi();
   try {
-    const listUsers = await userModel.find();
+    const listUsers = await userModel.find().populate('training_center');
     if (listUsers.length > 0) {
       structureApi.setState("200", "success", "Usuarios encontrados");
       structureApi.setResult(listUsers);
@@ -75,6 +76,7 @@ const deleteUser = async (req, res) => {
   const structureApi = new resposeApi();
   try {
     const user = await userModel.findByIdAndDelete(req.params.id);
+    await contractModel.deleteMany({user: req.params.id});
     structureApi.setState("200", "success", "Usuario eliminado con éxito");
     structureApi.setResult(user);
   } catch (error) {
