@@ -6,17 +6,22 @@ const TypeProgramModel = require("../models/typeProgram.model");
 const FormationProgramModel = require("../models/formationProgram.model");
 
 const validateFormationProgram = [
-  check("program_name").exists(),
+  check("program_name")
+      .exists().withMessage('Debe ingresar el nombre del programa'),
 
-  check("program_code").exists(),
+  check("program_code")
+      .exists().withMessage('Debe ingresar el códig del programa'),
 
-  check("total_duration").exists().isInt().withMessage('La duración estimada debe ser un dato numérico'),
+  check("total_duration")
+      .exists().withMessage('Debe ingresar la duración total')
+      .isInt().withMessage('La duración estimada deben ser datos numéricos'),
 
-  check("program_version").exists(),
+  check("program_version")
+    .exists().withMessage('Debe ingresar la versión del programa'),
 
   check("type_program")
-    .exists().isIn(['T', 'C'])
-    .withMessage('El tipo del programa debe ser TITULADA o COMPLEMENTARIA')
+    .exists().withMessage("Debe seleccionar un tipo de programa")
+    .isIn(['T', 'C']).withMessage('El tipo del programa debe ser TITULADA o COMPLEMENTARIA')
     .custom((value) => {
       return TypeProgramModel.findById(value).then((type_program) => {
         if (!type_program) {
@@ -26,7 +31,7 @@ const validateFormationProgram = [
     }),
 
   check("thematic_line")
-    .exists()
+    .exists().withMessage("Debe seleccionar una línea tématica")
     .custom((value) => {
       return thematicLineModel.findById(value).then((thematic_line) => {
         if (!thematic_line) {
@@ -36,7 +41,7 @@ const validateFormationProgram = [
     }),
 
   check("program_level")
-    .exists()
+    .exists().withMessage("Debe seleccionar un título del programa")
     .custom((value) => {
       return programLevelModel.findById(value).then((program_level) => {
         if (!program_level) {
