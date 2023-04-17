@@ -2,9 +2,6 @@ const mongoose = require("mongoose");
 
 const investigationActionsSchema = new mongoose.Schema(
   {
-    _id: {
-      type: mongoose.Schema.Types.String,
-    },
     project_name: {
       type: String,
     },
@@ -18,7 +15,7 @@ const investigationActionsSchema = new mongoose.Schema(
 
     GC: {
       ref: "Gc",
-      type: mongoose.Schema.Types.Number,
+      type: mongoose.Schema.Types.ObjectId,
     },
   },
   {

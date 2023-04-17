@@ -18,10 +18,10 @@ const gsSchema = new mongoose.Schema(
     hours_investigation_obligations: {
       type: String,
     },
-    //   RMI: {
-    //     ref: "Rmi",
-    //     type: mongoose.Schema.Types.Array,
-    //   },
+    rmi: {
+        ref: "Rmi",
+        type: mongoose.Schema.Types.ObjectId,
+      },
   },
 
   {

@@ -8,6 +8,6 @@ router.get('/:id',contractController.getContract)
 router.post('/',contractController.createContract)
 router.put('/:id',contractController.updateContract)
 router.delete('/:id',contractController.deleteContract)
-router.get('/bytrainincenter/:id',contractController.contractsByTrainingCenter)
+router.get('/bytrainingcenter/:id',contractController.contractsByTrainingCenter)
 
 module.exports = router

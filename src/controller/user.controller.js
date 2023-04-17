@@ -19,7 +19,7 @@ const getUsers = async (req, res) => {
     structureApi.setState("500", "error", "Error en la solicitud");
     structureApi.setResult(error);
   }
-  res.send(structureApi.toResponse());
+  res.json(structureApi.toResponse());
 };
 
 // list one user
@@ -33,7 +33,7 @@ const getUser = async (req, res) => {
     structureApi.setState("500", "error", "Error en la solicitud");
     structureApi.setResult(error);
   }
-  res.send(structureApi.toResponse());
+  res.json(structureApi.toResponse());
 };
 
 //  create a user
@@ -52,7 +52,7 @@ const createUser = async (req, res) => {
     structureApi.setState("500", "error", "Error en la solicitud");
     structureApi.setResult(error);
   }
-  res.send(structureApi.toResponse());
+  res.json(structureApi.toResponse());
 };
 
 // update a user
@@ -68,7 +68,7 @@ const updateUser = async (req, res) => {
     structureApi.setState("500", "error", "Error en la solicitud");
     structureApi.setResult(error);
   }
-  res.send(structureApi.toResponse());
+  res.json(structureApi.toResponse());
 };
 
 // delete a user
@@ -83,7 +83,7 @@ const deleteUser = async (req, res) => {
     structureApi.setState("500", "error", "Error en la solicitud");
     structureApi.setResult(error);
   }
-  res.send(structureApi.toResponse());
+  res.json(structureApi.toResponse());
 };
 
 module.exports = { getUsers, getUser, createUser, updateUser, deleteUser };

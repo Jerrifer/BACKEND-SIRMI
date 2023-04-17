@@ -9,7 +9,7 @@ const signin = async (req, res) => {
   try {
     const { email, password } = req.body;
 
-    const user = await userModel.findOne({ email });
+    const user = await userModel.findOne({ email }).populate('training_center');
 
     if (!user) {
       structureApi.setState(404, "success", "usuario no existe ");

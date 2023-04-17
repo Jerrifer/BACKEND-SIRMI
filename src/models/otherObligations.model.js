@@ -2,9 +2,6 @@ const mongoose = require("mongoose");
 
 const otherObligationsSchema = new mongoose.Schema(
   {
-    _id: {
-      type: mongoose.Schema.Types.String,
-    },
     ficha: {
       type: String,
     },
@@ -22,7 +19,7 @@ const otherObligationsSchema = new mongoose.Schema(
     },
     GC: {
       ref: "Gc",
-      type: mongoose.Schema.Types.Number,
+      type: mongoose.Schema.Types.ObjectId,
     },
   },
   {

@@ -1,13 +1,13 @@
 const resposeApi = require("../helpers/responseApi");
+const contractModel = require("../models/contract.model");
 
-const Contract = require("../models/contract.model");
 const trainingCenterModel = require("../models/trainingCenter.model");
 const userModel = require("../models/user.model");
 
 const getContracts = async (req, res) => {
   const structureApi = new resposeApi();
   try {
-    const listAlll = await Contract.find().populate('user');
+    const listAlll = await contractModel.find().populate('user');
     if (listAlll.length > 0) {
       structureApi.setState(
         "200",
@@ -22,7 +22,6 @@ const getContracts = async (req, res) => {
   } catch (error) {
     structureApi.setState("500", "error", "Error en la solicitud");
     structureApi.setResult(error);
-    console.log(error);
   }
   res.json(structureApi.toResponse());
 };
@@ -31,7 +30,7 @@ const getContract = async (req, res) => {
   const structureApi = new resposeApi();
 
   try {
-    const listone = await Contract.findById(req.params.id);
+    const listone = await contractModel.findById(req.params.id);
     console.log(req.params.id);
     if (listone) {
       structureApi.setState("200", "success", "Contrato encontrado");
@@ -51,7 +50,11 @@ const getContract = async (req, res) => {
 const createContract = async (req, res) => {
   const structureApi = new resposeApi();
   try {
-    const newContract = await Contract.create(req.body);
+    const { user } = req.body
+    const userById = await userModel.findById(user);
+
+    req.body.training_center = userById.training_center
+    const newContract = await contractModel.create(req.body);
 
     structureApi.setState("200", "success", "Contrato registrado exitosamente");
     structureApi.setResult(newContract);
@@ -67,7 +70,7 @@ const updateContract = async (req, res) => {
     const structureApi = new resposeApi();
   
     try {
-        const updataContract = await Contract.findByIdAndUpdate(
+        const updataContract = await contractModel.findByIdAndUpdate(
             req.params.id,
             req.body,
             {
@@ -86,7 +89,7 @@ const updateContract = async (req, res) => {
 const deleteContract = async (req, res) => {
     const structureApi = new resposeApi();
     try {
-        const deleteContract = await Contract.findByIdAndDelete(req.params.id)
+        const deleteContract = await contractModel.findByIdAndDelete(req.params.id)
         structureApi.setState("200", "success", "El contrato se elemino exitosamente");
         structureApi.setResult(deleteContract);
 
@@ -101,27 +104,18 @@ const deleteContract = async (req, res) => {
 const contractsByTrainingCenter = async (req, res) => {
   const structureApi = new resposeApi();
   try {
-    const trainingCenters = await trainingCenterModel.findById(req.params.id);
-    const UsersByTraininCenter = await userModel.find({training_center: trainingCenters._id});
+    const allContracts = await contractModel.find({training_center: req.params.id}).populate('user');
 
-    var contractsByUsers = []
-
-    UsersByTraininCenter.map( async (user) => {
-      const contracts = await Contract.find({user: user._id});
-      contractsByUsers.concat(contracts)
-    })
-
-
-    if (ContractsByTraininCenter.length > 0) {
+    if (allContracts.length > 0) {
       structureApi.setState(
         "200",
         "success",
-        "Contrato registrado Correctamente"
+        "Contratos encontrados con éxito"
       );
-      structureApi.setResult(ContractsByTraininCenter);
+      structureApi.setResult(allContracts);
     } else {
-      structureApi.setState("200", "success", "no Existe Ningun Contrato");
-      structureApi.setResult(ContractsByTraininCenter);
+      structureApi.setState("200", "success", "No hay contratos para mostrar");
+      structureApi.setResult(allContracts);
     }
   } catch (error) {
     structureApi.setState("500", "error", "Error en la solicitud");

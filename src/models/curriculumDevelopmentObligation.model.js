@@ -1,10 +1,7 @@
 const mongoose = require("mongoose");
 
-const currculumDevelopmentObligationSchema = new mongoose.Schema(
+const curriculumDevelopmentObligationSchema = new mongoose.Schema(
   {
-    _id: {
-      type: mongoose.Schema.Types.String,
-    },
 
     program_name: {
       type: String,
@@ -18,7 +15,7 @@ const currculumDevelopmentObligationSchema = new mongoose.Schema(
     },
     GC: {
       ref: "Gc",
-      type: mongoose.Schema.Types.Number,
+      type: mongoose.Schema.Types.ObjectId,
     },
   },
 
@@ -29,6 +26,6 @@ const currculumDevelopmentObligationSchema = new mongoose.Schema(
 );
 
 module.exports = mongoose.model(
-  "Currculum_Development_Obligation",
-  currculumDevelopmentObligationSchema
+  "Curriculum_Development_Obligation",
+  curriculumDevelopmentObligationSchema
 );
