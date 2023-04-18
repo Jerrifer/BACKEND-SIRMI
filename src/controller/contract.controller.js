@@ -1,7 +1,6 @@
 const resposeApi = require("../helpers/responseApi");
 const contractModel = require("../models/contract.model");
 
-const trainingCenterModel = require("../models/trainingCenter.model");
 const userModel = require("../models/user.model");
 
 const getContracts = async (req, res) => {
@@ -30,8 +29,7 @@ const getContract = async (req, res) => {
   const structureApi = new resposeApi();
 
   try {
-    const listone = await contractModel.findById(req.params.id);
-    console.log(req.params.id);
+    const listone = await contractModel.findById(req.params.id).populate('user');
     if (listone) {
       structureApi.setState("200", "success", "Contrato encontrado");
       structureApi.setResult(listone);
@@ -51,9 +49,13 @@ const createContract = async (req, res) => {
   const structureApi = new resposeApi();
   try {
     const { user } = req.body
-    const userById = await userModel.findById(user);
 
+    const userById = await userModel.findById(user);
     req.body.training_center = userById.training_center
+
+    userById.status = 'true'
+    userById.save()
+
     const newContract = await contractModel.create(req.body);
 
     structureApi.setState("200", "success", "Contrato registrado exitosamente");
@@ -125,12 +127,32 @@ const contractsByTrainingCenter = async (req, res) => {
   res.json(structureApi.toResponse());
 };
 
+const contractsByUser = async (req, res) => {
+  const structureApi = new resposeApi();
+  try {
+    const listContracts = await contractModel.find({user: req.params.id});
+    const user = await userModel.findById(req.params.id);
+    if (listContracts.length > 0) {
+      structureApi.setState("200", "success", "Contratos del Usuario encontrados");
+      structureApi.setResult({user: user, listContracts: listContracts});
+    } else {
+      structureApi.setState("200", "success", "No hay contratos del usuario registrados");
+      structureApi.setResult({user: user, listContracts: listContracts});
+    }
+  } catch (error) {
+    structureApi.setState("500", "error", "Error en la solicitud");
+    structureApi.setResult(error);
+    console.log(error);
+  }
+  res.json(structureApi.toResponse());
+};
 
 module.exports = {
-  createContract,
   getContracts,
   getContract,
+  createContract,
   updateContract,
   deleteContract,
-  contractsByTrainingCenter
+  contractsByTrainingCenter,
+  contractsByUser
 };

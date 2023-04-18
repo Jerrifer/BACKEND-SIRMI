@@ -13,6 +13,22 @@ const assignedFormationSchema = new mongoose.Schema(
     hours_month: {
       type: String,
     },
+    
+    workdays: {
+        type: mongoose.Schema.Types.Array,
+    },
+    
+    timetables:{
+        day: {
+            type: String
+        },
+        start_time: {
+            type: String
+        },
+        end_time: {
+            type: String
+        }
+    },
 
     rmi: {
       ref: "Rmi",
@@ -23,23 +39,6 @@ const assignedFormationSchema = new mongoose.Schema(
       ref: "Learning_Result",
       type: mongoose.Schema.Types.ObjectId,
     },
-
-    workdays: {
-      type: mongoose.Schema.Types.Array,
-    },
-
-    timetables:{
-      day: {
-        type: String
-      },
-      start_time: {
-        type: String
-      },
-      end_time: {
-        type: String
-      }
-    }
-    ,
   },
 
   {

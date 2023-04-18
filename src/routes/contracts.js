@@ -9,5 +9,6 @@ router.post('/',contractController.createContract)
 router.put('/:id',contractController.updateContract)
 router.delete('/:id',contractController.deleteContract)
 router.get('/bytrainingcenter/:id',contractController.contractsByTrainingCenter)
+router.get('/byuser/:id',contractController.contractsByUser)
 
 module.exports = router

@@ -20,17 +20,24 @@ const userSchema = new mongoose.Schema(
 
     contact_number: {
       type: String,
-
     },
 
     document_number: {
       type: String,
-
     },  
+
+    status: {
+      type: String,
+    },
 
     training_center: {
       ref: "Training_Center",
       type: mongoose.Schema.Types.Number,
+    },
+
+    contract: {
+      ref: "Contract",
+      type: mongoose.Schema.Types.ObjectId
     }
 
     //   idrole: {

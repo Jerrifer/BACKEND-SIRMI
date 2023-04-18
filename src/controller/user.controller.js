@@ -26,7 +26,7 @@ const getUsers = async (req, res) => {
 const getUser = async (req, res) => {
   const structureApi = new resposeApi();
   try {
-    const user = await userModel.findById(req.params.id);
+    const user = await userModel.findById(req.params.id).populate('contract');
     structureApi.setState("200", "success", "Usuarios encontrados");
     structureApi.setResult(user);
   } catch (error) {
@@ -86,7 +86,25 @@ const deleteUser = async (req, res) => {
   res.json(structureApi.toResponse());
 };
 
-module.exports = { getUsers, getUser, createUser, updateUser, deleteUser };
+const getUsersByTrainingCenter = async (req, res) => {
+  const structureApi = new resposeApi();
+  try {
+    const listUsers = await userModel.find({training_center: req.params.id}).populate('training_center');
+    if (listUsers.length > 0) {
+      structureApi.setState("200", "success", "Usuarios encontrados");
+      structureApi.setResult(listUsers);
+    } else {
+      structureApi.setState("200", "success", "No hay usuarios registrados");
+      structureApi.setResult(listUsers);
+    }
+  } catch (error) {
+    structureApi.setState("500", "error", "Error en la solicitud");
+    structureApi.setResult(error);
+  }
+  res.json(structureApi.toResponse());
+};
+
+module.exports = { getUsers, getUser, createUser, updateUser, deleteUser, getUsersByTrainingCenter };
 
 // {
 //   "first_name": "jajaja",

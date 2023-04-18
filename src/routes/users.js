@@ -13,4 +13,6 @@ router.put('/:id', validateUser, userController.updateUser)
 
 router.delete('/:id', userController.deleteUser)
 
+router.get('/bytrainingcenter/:id', userController.getUsersByTrainingCenter)
+
 module.exports = router
