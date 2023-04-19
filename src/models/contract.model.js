@@ -29,10 +29,10 @@ const contractSchema = new mongoose.Schema(
       type: mongoose.Schema.Types.ObjectId,
     },
 
-    training_center: {
-      ref: "Training_center",
-      type: mongoose.Schema.Types.Number,
-    },
+    // training_center: {
+    //   ref: "Training_center",
+    //   type: mongoose.Schema.Types.Number,
+    // },
   },
 
   {

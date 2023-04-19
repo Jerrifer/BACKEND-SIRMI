@@ -1,4 +1,5 @@
 const resposeApi = require("../helpers/responseApi");
+const competenceModel = require("../models/competence.model");
 const FormationProgramModel = require("../models/formationProgram.model");
 
 // list all formation programs
@@ -141,7 +142,7 @@ const deleteFormationProgram = async (req, res) => {
 // assign a formation program
 const assignCompetences = async (req, res) => {
   const structureApi = new resposeApi();
-  console.log(req.body);
+  console.log('jerri');
   try {
     const formationProgram = await FormationProgramModel.findById(
       req.params.id
@@ -153,6 +154,12 @@ const assignCompetences = async (req, res) => {
     
     formationProgram.competences = formationProgram.competences.concat(filteredIds);
     formationProgram.save();
+
+    // for (let index = 0; index < competences.length; index++) {
+    //   const competence = await competenceModel.findById(competeneces[index]);
+    //   competence.formation_programs = competence.formation_programs.concat(req.params.id);
+    //   competence.save();
+    // }
     
     structureApi.setState(
       "200",

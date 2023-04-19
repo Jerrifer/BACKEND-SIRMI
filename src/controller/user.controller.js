@@ -26,7 +26,15 @@ const getUsers = async (req, res) => {
 const getUser = async (req, res) => {
   const structureApi = new resposeApi();
   try {
-    const user = await userModel.findById(req.params.id).populate('contract');
+    const user = await userModel.findById(req.params.id).populate({
+      path: 'training_center',
+      populate: {
+        path: 'municipalitie',
+        populate: {
+          path: 'regionale'
+        }
+      }
+    })
     structureApi.setState("200", "success", "Usuarios encontrados");
     structureApi.setResult(user);
   } catch (error) {
@@ -44,6 +52,7 @@ const createUser = async (req, res) => {
     const passwordHash = await encrypt(password);
 
     req.body.password = passwordHash
+    req.body.status = 'false'
     const newUser = await userModel.create(req.body);
     
     structureApi.setState("200", "success", "Usuario registrado con éxito");

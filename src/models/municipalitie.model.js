@@ -8,7 +8,6 @@ const municipalitieSchema = new mongoose.Schema(
 
     municipalitie: {
       type: String,
-      unique: true,
     },
 
     regionale: {

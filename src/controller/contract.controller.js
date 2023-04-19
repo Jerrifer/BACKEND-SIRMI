@@ -47,11 +47,11 @@ const getContract = async (req, res) => {
 
 const createContract = async (req, res) => {
   const structureApi = new resposeApi();
+  console.log(req.body);
   try {
     const { user } = req.body
 
     const userById = await userModel.findById(user);
-    req.body.training_center = userById.training_center
 
     userById.status = 'true'
     userById.save()
@@ -106,7 +106,15 @@ const deleteContract = async (req, res) => {
 const contractsByTrainingCenter = async (req, res) => {
   const structureApi = new resposeApi();
   try {
-    const allContracts = await contractModel.find({training_center: req.params.id}).populate('user');
+    // const allContracts = await contractModel.find({training_center: req.params.id}).populate('user');
+    const allContracts = await contractModel.find().populate({
+      path: 'user',
+      populate: {
+        path: 'training_center'
+      }
+    })
+
+    const contractsByCenter = allContracts.filter(contract => contract.user.training_center._id == req.params.id);
 
     if (allContracts.length > 0) {
       structureApi.setState(
@@ -114,10 +122,10 @@ const contractsByTrainingCenter = async (req, res) => {
         "success",
         "Contratos encontrados con éxito"
       );
-      structureApi.setResult(allContracts);
+      structureApi.setResult(contractsByCenter);
     } else {
-      structureApi.setState("200", "success", "No hay contratos para mostrar");
-      structureApi.setResult(allContracts);
+      structureApi.setState("200", "success", "No hay contratos para mostrar f");
+      structureApi.setResult(contractsByCenter);
     }
   } catch (error) {
     structureApi.setState("500", "error", "Error en la solicitud");

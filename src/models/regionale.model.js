@@ -8,7 +8,6 @@ const regionaleSchema = new mongoose.Schema(
 
     regionale: {
       type: String,
-      unique: true,
     },
   },
   {
