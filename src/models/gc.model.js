@@ -2,9 +2,7 @@ const mongoose = require("mongoose");
 
 const gsSchema = new mongoose.Schema(
   {
-    _id: {
-      type: mongoose.Schema.Types.String,
-    },
+
     declaration: {
       type: String,
     },
