@@ -52,7 +52,6 @@ const createUser = async (req, res) => {
     const passwordHash = await encrypt(password);
 
     req.body.password = passwordHash
-    req.body.status = 'false'
     const newUser = await userModel.create(req.body);
     
     structureApi.setState("200", "success", "Usuario registrado con éxito");

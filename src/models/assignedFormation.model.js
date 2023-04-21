@@ -36,8 +36,8 @@ const assignedFormationSchema = new mongoose.Schema(
     },
 
     learning_results: {
-      ref: "Learning_Result",
-      type: mongoose.Schema.Types.ObjectId,
+      type: mongoose.Schema.Types.Mixed,
+      ref: "Learning_Result"
     },
   },
 

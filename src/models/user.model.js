@@ -27,7 +27,8 @@ const userSchema = new mongoose.Schema(
     },  
 
     status: {
-      type: String,
+      type: Boolean,
+      default: false
     },
 
     training_center: {
