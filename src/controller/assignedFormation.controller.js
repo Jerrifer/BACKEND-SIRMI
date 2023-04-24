@@ -5,7 +5,8 @@ const AssignedFormationModel = require("../models/assignedFormation.model");
 const getAssignedFormations = async (req, res) => {
   const structureApi = new resposeApi();
   try {
-    const allAssignedFormations = await AssignedFormationModel.find({rmi: req.params.id})
+    // const allAssignedFormations = await AssignedFormationModel.find({rmi: req.params.id})
+    const allAssignedFormations = await AssignedFormationModel.find()
     if (allAssignedFormations.length > 0) {
       structureApi.setState(
         "200",
@@ -61,6 +62,7 @@ const getAssignedFormation = async (req, res) => {
 const createAssignedFormation = async (req, res) => {
   const structureApi = new resposeApi();
   try {
+    console.log(req.body);
     const newAssignedFormation = await AssignedFormationModel.create(req.body);
     structureApi.setState(
       "200",

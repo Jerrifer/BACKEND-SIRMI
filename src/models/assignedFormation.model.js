@@ -36,8 +36,14 @@ const assignedFormationSchema = new mongoose.Schema(
     },
 
     learning_results: {
-      type: mongoose.Schema.Types.Mixed,
-      ref: "Learning_Result"
+      type: mongoose.Schema.Types.Array,
+      learning_result: {
+        type: mongoose.Schema.Types.Number,
+        ref: "Learning_Result"
+      },
+      end_date: {
+        type: mongoose.Schema.Types.Date,
+      },
     },
   },
 
