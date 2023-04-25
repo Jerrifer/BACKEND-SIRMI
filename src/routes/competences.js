@@ -13,4 +13,6 @@ router.put("/:id", validateCompetenceById, validateCompetence, competenceControl
 
 router.delete("/:id", validateCompetenceById, competenceController.deleteCompetence);
 
+router.get("/byformationprogram/:id", competenceController.competencesByFormationProgram);
+
 module.exports = router;

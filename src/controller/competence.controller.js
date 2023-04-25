@@ -75,10 +75,40 @@ const deleteCompetence = async (req, res) => {
   res.json(structureApi.toResponse());
 };
 
+
+const competencesByFormationProgram = async (req, res) => {
+  const structureApi = new resposeApi();
+  try {
+    const listCompetences = await Competence.find({
+      formation_programs: {
+        $elemMatch: {
+          $in: 25542
+        }
+      }
+    }, {labor_competition: true})
+    
+    // .find({formation_programs: req.params.id});
+    console.log(req.params.id);
+    if (listCompetences.length > 0) {
+      structureApi.setState("200", "success", "Competencias encontradas");
+      structureApi.setResult(listCompetences);
+    } else {
+      structureApi.setState("200", "success", "No hay competencias registradas");
+      structureApi.setResult(listCompetences);
+    }
+  } catch (error) {
+    structureApi.setState("500", "error", "Error en la solicitud");
+    structureApi.setResult(error);
+    console.log(error);
+  }
+  res.json(structureApi.toResponse());
+};
+
 module.exports = {
   getCompetences,
   getCompetence,
   createCompetence,
   updateCompetence,
   deleteCompetence,
+  competencesByFormationProgram
 };

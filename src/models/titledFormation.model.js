@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const assignedFormationSchema = new mongoose.Schema(
+const titledFormationSchema = new mongoose.Schema(
   {
     ficha: {
       type: String,
@@ -71,4 +71,4 @@ const assignedFormationSchema = new mongoose.Schema(
   }
 );
 
-module.exports = mongoose.model("Assigned_Formation", assignedFormationSchema);
+module.exports = mongoose.model("Titled_Formation", titledFormationSchema);

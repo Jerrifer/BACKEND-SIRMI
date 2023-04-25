@@ -15,8 +15,8 @@ const learningResultSchema = new mongoose.Schema(
       type: mongoose.Schema.Types.Number,
     },
 
-    assigned_formation: {
-      ref: "Assigned_Formation",
+    titled_formation: {
+      ref: "Titled_Formation",
       type: mongoose.Schema.Types.Array,
     },
   },

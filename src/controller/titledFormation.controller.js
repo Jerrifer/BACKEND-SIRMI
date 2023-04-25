@@ -1,26 +1,26 @@
 const resposeApi = require("../helpers/responseApi");
-const AssignedFormationModel = require("../models/assignedFormation.model");
+const TitledFormationModel = require("../models/titledFormation.model");
 
-// list all assigned formation
-const getAssignedFormations = async (req, res) => {
+// list all Titled formation
+const getTitledFormations = async (req, res) => {
   const structureApi = new resposeApi();
   try {
-    // const allAssignedFormations = await AssignedFormationModel.find({rmi: req.params.id})
-    const allAssignedFormations = await AssignedFormationModel.find()
-    if (allAssignedFormations.length > 0) {
+    // const allTitledFormations = await TitledFormationModel.find({rmi: req.params.id})
+    const allTitledFormations = await TitledFormationModel.find()
+    if (allTitledFormations.length > 0) {
       structureApi.setState(
         "200",
         "success",
-        "Formaciones asignadas encontradas"
+        "Formaciones tituladas encontradas"
       );
-      structureApi.setResult(allAssignedFormations);
+      structureApi.setResult(allTitledFormations);
     } else {
       structureApi.setState(
         "200",
         "success",
-        "No hay formaciones asignadas registradas"
+        "No hay formaciones tituladas registradas"
       );
-      structureApi.setResult(allAssignedFormations);
+      structureApi.setResult(allTitledFormations);
     }
   } catch (error) {
     structureApi.setState("500", "error", "Error en la solicitud");
@@ -30,25 +30,25 @@ const getAssignedFormations = async (req, res) => {
   res.json(structureApi.toResponse());
 };
 
-// list one assigned formation
-const getAssignedFormation = async (req, res) => {
+// list one Titled formation
+const getTitledFormation = async (req, res) => {
   const structureApi = new resposeApi();
   try {
-    const assignedFormation = await AssignedFormationModel.findById(req.params.id)
-    if (assignedFormation) {
+    const titledFormation = await TitledFormationModel.findById(req.params.id)
+    if (titledFormation) {
       structureApi.setState(
         "200",
         "success",
-        "formación asignada encontrada exitosamente"
+        "formación titulada encontrada exitosamente"
       );
-      structureApi.setResult(assignedFormation);
+      structureApi.setResult(titledFormation);
     } else {
       structureApi.setState(
         "200",
         "success",
-        "No existe la formación asignada"
+        "No existe la formación titulada"
       );
-      structureApi.setResult(assignedFormation);
+      structureApi.setResult(titledFormation);
     }
   } catch (error) {
     structureApi.setState("500", "error", "Error en la solicitud");
@@ -58,18 +58,18 @@ const getAssignedFormation = async (req, res) => {
   res.json(structureApi.toResponse());
 };
 
-//  create a assigned formation
-const createAssignedFormation = async (req, res) => {
+//  create a Titled formation
+const createTitledFormation = async (req, res) => {
   const structureApi = new resposeApi();
   try {
     console.log(req.body);
-    const newAssignedFormation = await AssignedFormationModel.create(req.body);
+    const newTitledFormation = await TitledFormationModel.create(req.body);
     structureApi.setState(
       "200",
       "success",
-      "Formación asignada registrada exitosamente"
+      "Formación titulada registrada exitosamente"
     );
-    structureApi.setResult(newAssignedFormation);
+    structureApi.setResult(newTitledFormation);
   } catch (error) {
     structureApi.setState("500", "error", "Error en la solicitud");
     structureApi.setResult(error);
@@ -78,13 +78,13 @@ const createAssignedFormation = async (req, res) => {
   res.json(structureApi.toResponse());
 };
 
-// update a assigned formation
-const updateAssignedFormation = async (req, res) => {
+// update a Titled formation
+const updateTitledFormation = async (req, res) => {
   const structureApi = new resposeApi();
   try {
     //program_name, program_code, program_version, total_duration,
 
-    const assignedFormation = await AssignedFormationModel.findByIdAndUpdate(
+    const TitledFormation = await TitledFormationModel.findByIdAndUpdate(
       req.params.id,
       req.body,
       { new: true }
@@ -92,9 +92,9 @@ const updateAssignedFormation = async (req, res) => {
     structureApi.setState(
       "200",
       "success",
-      "Formación asignada actualizada exitosamente"
+      "Formación titulada actualizada exitosamente"
     );
-    structureApi.setResult(assignedFormation);
+    structureApi.setResult(TitledFormation);
   } catch (error) {
     structureApi.setState("500", "error", "Error en la solicitud");
     structureApi.setResult(error);
@@ -103,17 +103,17 @@ const updateAssignedFormation = async (req, res) => {
   res.json(structureApi.toResponse());
 };
 
-// delete a assigned formation
-const deleteAssignedFormation = async (req, res) => {
+// delete a Titled formation
+const deleteTitledFormation = async (req, res) => {
   const structureApi = new resposeApi();
   try {
-    const assignedFormation = await AssignedFormationModel.findByIdAndDelete(req.params.id);
+    const TitledFormation = await TitledFormationModel.findByIdAndDelete(req.params.id);
     structureApi.setState(
       "200",
       "success",
-      "Formación asignada eliminada exitosamente"
+      "Formación titulada eliminada exitosamente"
     );
-    structureApi.setResult(assignedFormation);
+    structureApi.setResult(TitledFormation);
   } catch (error) {
     structureApi.setState("500", "error", "Error en la solicitud");
     structureApi.setResult(error);
@@ -123,14 +123,14 @@ const deleteAssignedFormation = async (req, res) => {
 
 
 module.exports = {
-  getAssignedFormations,
-  getAssignedFormation,
-  createAssignedFormation,
-  updateAssignedFormation,
-  deleteAssignedFormation
+  getTitledFormations,
+  getTitledFormation,
+  createTitledFormation,
+  updateTitledFormation,
+  deleteTitledFormation
 };
 
-
+  
 
 // {
 //   program_code,
