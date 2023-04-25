@@ -18,16 +18,20 @@ const assignedFormationSchema = new mongoose.Schema(
         type: mongoose.Schema.Types.Array,
     },
     
-    timetables:{
+    schedule:{
+      type: mongoose.Schema.Types.Array,
         day: {
             type: String
         },
-        start_time: {
-            type: String
-        },
-        end_time: {
-            type: String
-        }
+        date: {
+          type: String
+      },
+        // start_time: {
+        //     type: String
+        // },
+        // end_time: {
+        //     type: String
+        // }
     },
 
     rmi: {
@@ -35,16 +39,30 @@ const assignedFormationSchema = new mongoose.Schema(
       type: mongoose.Schema.Types.ObjectId,
     },
 
-    learning_results: {
-      type: mongoose.Schema.Types.Array,
-      learning_result: {
-        type: mongoose.Schema.Types.Number,
-        ref: "Learning_Result"
-      },
-      end_date: {
-        type: mongoose.Schema.Types.Date,
-      },
+    formation_program: {
+      type: mongoose.Schema.Types.Number,
+        ref: "Formation_Program"
     },
+
+    competence:{
+
+      competence: {
+        type: mongoose.Schema.Types.Number,
+        ref: "Competence"
+      },
+
+      learning_results: {
+        type: mongoose.Schema.Types.Array,
+        learning_result: {
+          type: mongoose.Schema.Types.Number,
+          ref: "Learning_Result"
+        },
+        end_date: {
+          type: mongoose.Schema.Types.Date,
+        },
+      },
+    }
+    
   },
 
   {
