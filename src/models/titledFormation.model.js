@@ -34,6 +34,10 @@ const titledFormationSchema = new mongoose.Schema(
         // }
     },
 
+    shared_event: {
+      type: mongoose.Schema.Types.Boolean
+    },
+
     rmi: {
       ref: "Rmi",
       type: mongoose.Schema.Types.ObjectId,
