@@ -12,8 +12,9 @@ const signin = async (req, res) => {
     const user = await userModel.findOne({ email }).populate('training_center');
 
     if (!user) {
-      structureApi.setState(404, "success", "usuario no existe ");
-      structureApi.setResult({ error: "User not found" });
+      structureApi.setState('404', "success", "usuario no existe");
+      structureApi.setResult("User not found");
+      return res.json(structureApi.toResponse());
     }
 
     const checkPassword = await compare(password, user.password); //TODO: Contraseña!

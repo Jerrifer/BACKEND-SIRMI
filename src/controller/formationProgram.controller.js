@@ -12,7 +12,7 @@ const getFormationPrograms = async (req, res) => {
       "thematic_line",
       "program_level",
       "competences"
-    ]);
+    ]).lean();
     if (allFormationPrograms.length > 0) {
       structureApi.setState(
         "200",

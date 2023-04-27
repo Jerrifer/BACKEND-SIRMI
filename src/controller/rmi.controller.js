@@ -66,7 +66,7 @@ const createRmi = async (req, res) => {
     structureApi.setState(
       "200",
       "success",
-      "Reporte mensual de instructor registrad exitosamente"
+      "Reporte mensual de instructor registrado exitosamente"
     );
     structureApi.setResult(newRmi);
   } catch (error) {
@@ -81,8 +81,6 @@ const createRmi = async (req, res) => {
 const updateRmi = async (req, res) => {
   const structureApi = new resposeApi();
   try {
-    //program_name, program_code, program_version, total_duration,
-
     const rmi = await RMIModel.findByIdAndUpdate(
       req.params.id,
       req.body,
@@ -120,13 +118,40 @@ const deleteRmi = async (req, res) => {
   res.json(structureApi.toResponse());
 };
 
+const rmiByUser = async (req, res) => {
+  const structureApi = new resposeApi();
+  try {
+    const allRmis = await RMIModel.find({user: req.params.id})
+    if (allRmis.length > 0) {
+      structureApi.setState(
+        "200",
+        "success",
+        "Reportes mensuales del instructor encontrados"
+      );
+      structureApi.setResult(allRmis);
+    } else {
+      structureApi.setState(
+        "200",
+        "success",
+        "No hay reportes mensuales del instructor registrados"
+      );
+      structureApi.setResult(allRmis);
+    }
+  } catch (error) {
+    structureApi.setState("500", "error", "Error en la solicitud");
+    structureApi.setResult(error);
+    console.log(error);
+  }
+  res.json(structureApi.toResponse());
+};
 
 module.exports = {
   getRmis,
   getRmi,
   createRmi,
   updateRmi,
-  deleteRmi
+  deleteRmi,
+  rmiByUser
 };
 
 

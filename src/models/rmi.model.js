@@ -3,19 +3,19 @@ const mongoose = require("mongoose");
 const rmiSchema = new mongoose.Schema(
   {
     month: {
-          type: String,
+      type: Number,
      },
         
     total_hours_formation: {
-        type: String,
+        type: Number,
     },
 
     total_hours_other_activities: {
-        type: String,
+        type: Number,
     },
 
     total_hours_month: {
-        type: String,
+        type: Number,
     },
 
     user: {

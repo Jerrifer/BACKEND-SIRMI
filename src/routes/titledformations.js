@@ -12,4 +12,6 @@ router.put('/:id', titledFormationController.updateTitledFormation)
 
 router.delete('/:id', titledFormationController.deleteTitledFormation)
 
+router.get('/byrmi/:id', titledFormationController.titledFormationsByRmi)
+
 module.exports = router

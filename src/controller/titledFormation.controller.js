@@ -1,4 +1,5 @@
 const resposeApi = require("../helpers/responseApi");
+const rmiModel = require("../models/rmi.model");
 const TitledFormationModel = require("../models/titledFormation.model");
 
 // list all Titled formation
@@ -121,13 +122,42 @@ const deleteTitledFormation = async (req, res) => {
   res.json(structureApi.toResponse());
 };
 
+const titledFormationsByRmi = async (req, res) => {
+  const structureApi = new resposeApi();
+  try {
+    const allTitledFormations = await TitledFormationModel.find({rmi: req.params.id})
+    const rmi = await rmiModel.findById(req.params.id)
+    if (allTitledFormations.length > 0) {
+      structureApi.setState(
+        "200",
+        "success",
+        "Formaciones tituladas encontradas"
+      );
+      structureApi.setResult({ rmi, allTitledFormations});
+    } else {
+      structureApi.setState(
+        "200",
+        "success",
+        "No hay formaciones tituladas registradas"
+      );
+      structureApi.setResult({ rmi, allTitledFormations});
+    }
+  } catch (error) {
+    structureApi.setState("500", "error", "Error en la solicitud");
+    structureApi.setResult(error);
+    console.log(error);
+  }
+  res.json(structureApi.toResponse());
+};
+
 
 module.exports = {
   getTitledFormations,
   getTitledFormation,
   createTitledFormation,
   updateTitledFormation,
-  deleteTitledFormation
+  deleteTitledFormation,
+  titledFormationsByRmi
 };
 
   
