@@ -26,20 +26,10 @@ const userSchema = new mongoose.Schema(
       type: String,
     },  
 
-    status: {
-      type: Boolean,
-      default: false
-    },
-
     training_center: {
       ref: "Training_Center",
       type: mongoose.Schema.Types.Number,
     },
-
-    contract: {
-      ref: "Contract",
-      type: mongoose.Schema.Types.ObjectId
-    }
 
     //   idrole: {
     //     ref: "r",

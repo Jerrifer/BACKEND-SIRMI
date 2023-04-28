@@ -49,13 +49,6 @@ const createContract = async (req, res) => {
   const structureApi = new resposeApi();
   console.log(req.body);
   try {
-    const { user } = req.body
-
-    const userById = await userModel.findById(user);
-
-    userById.status = 'true'
-    userById.save()
-
     const newContract = await contractModel.create(req.body);
 
     structureApi.setState("200", "success", "Contrato registrado exitosamente");
@@ -91,9 +84,12 @@ const updateContract = async (req, res) => {
 const deleteContract = async (req, res) => {
     const structureApi = new resposeApi();
     try {
-        const deleteContract = await contractModel.findByIdAndDelete(req.params.id)
-        structureApi.setState("200", "success", "El contrato se elemino exitosamente");
-        structureApi.setResult(deleteContract);
+        const contract = await contractModel.findById(req.params.id)
+        contract.status = false
+        contract.save()
+
+        structureApi.setState("200", "success", "El contrato se desactivo exitosamente");
+        structureApi.setResult('');
 
     } catch (error) {
         structureApi.setState("500", "error", "Error en la solicitud");

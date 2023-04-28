@@ -2,6 +2,7 @@ const { encrypt, compare } = require("../helpers/Bcript");
 const { tokenSign } = require("../helpers/token");
 const userModel = require("../models/user.model");
 const responseApi = require("../helpers/responseApi");
+const contractModel = require("../models/contract.model");
 
 const signin = async (req, res) => {
   let structureApi = new responseApi();
@@ -10,10 +11,17 @@ const signin = async (req, res) => {
     const { email, password } = req.body;
 
     const user = await userModel.findOne({ email }).populate('training_center');
+    const contract = await contractModel.find({ user: user._id, status: true });
 
     if (!user) {
-      structureApi.setState('404', "success", "usuario no existe");
+      structureApi.setState('404', "error", "usuario no existe");
       structureApi.setResult("User not found");
+      return res.json(structureApi.toResponse());
+    }
+
+    if (contract.length <= 0) {
+      structureApi.setState('404', "error", "El usuario no tiene un contrato activo");
+      structureApi.setResult("");
       return res.json(structureApi.toResponse());
     }
 
