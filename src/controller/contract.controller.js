@@ -47,12 +47,20 @@ const getContract = async (req, res) => {
 
 const createContract = async (req, res) => {
   const structureApi = new resposeApi();
-  console.log(req.body);
   try {
-    const newContract = await contractModel.create(req.body);
+    const { user } = req.body
+    const contract = await contractModel.findOne({user: user, status: true})
 
-    structureApi.setState("200", "success", "Contrato registrado exitosamente");
-    structureApi.setResult(newContract);
+    if(contract) {
+      structureApi.setState("200", "info", "El usuario ya tiene un contrato activo");
+      structureApi.setResult('');
+    }else {
+      const newContract = await contractModel.create(req.body);
+      structureApi.setState("200", "success", "Contrato registrado exitosamente");
+      structureApi.setResult(newContract);
+    }
+
+    console.log(contract);
   } catch (error) {
     structureApi.setState("500", "error", "Error en la solicitud");
     structureApi.setResult(error);
