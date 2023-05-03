@@ -11,16 +11,17 @@ const signin = async (req, res) => {
     const { email, password } = req.body;
 
     const user = await userModel.findOne({ email }).populate('training_center');
-    const contract = await contractModel.find({ user: user._id, status: true });
-
+    
     if (!user) {
-      structureApi.setState('404', "error", "usuario no existe");
-      structureApi.setResult("User not found");
+      structureApi.setState('404', "info", "usuario no existe");
+      structureApi.setResult("Asegurese de haber ingresado los datos correctamente");
       return res.json(structureApi.toResponse());
     }
+    
+    const contract = await contractModel.find({ user: user._id, status: true });
 
     if (contract.length <= 0) {
-      structureApi.setState('404', "error", "El usuario no tiene un contrato activo");
+      structureApi.setState('404', "info", "El usuario no tiene un contrato activo");
       structureApi.setResult("");
       return res.json(structureApi.toResponse());
     }
@@ -39,7 +40,7 @@ const signin = async (req, res) => {
 
     if (!checkPassword) {
       structureApi.setState(409, "error", "Invalid password");
-    }
+    } 
   } catch (error) {
     structureApi.setState(500, "error", "Error");
     structureApi.setResult(error);

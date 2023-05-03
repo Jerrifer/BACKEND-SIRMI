@@ -6,7 +6,7 @@ const userModel = require("../models/user.model");
 const getContracts = async (req, res) => {
   const structureApi = new resposeApi();
   try {
-    const listAlll = await contractModel.find().populate('user');
+    const listAlll = await contractModel.find().populate('user').sort({'status': -1});
     if (listAlll.length > 0) {
       structureApi.setState(
         "200",
@@ -21,6 +21,7 @@ const getContracts = async (req, res) => {
   } catch (error) {
     structureApi.setState("500", "error", "Error en la solicitud");
     structureApi.setResult(error);
+    console.log(error);
   }
   res.json(structureApi.toResponse());
 };
