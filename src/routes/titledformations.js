@@ -1,12 +1,13 @@
 const express = require('express');
 const router = express.Router();
-const titledFormationController = require('../controller/titledFormation.controller')
+const titledFormationController = require('../controller/titledFormation.controller');
+const { validateTitledFormation } = require('../validators/titledFormation.validator');
 
 router.get('/', titledFormationController.getTitledFormations)
 
 router.get('/:id', titledFormationController.getTitledFormation)
 
-router.post('/', titledFormationController.createTitledFormation)
+router.post('/', validateTitledFormation, titledFormationController.createTitledFormation)
 
 router.put('/:id', titledFormationController.updateTitledFormation)
 

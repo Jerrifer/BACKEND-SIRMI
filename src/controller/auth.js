@@ -39,7 +39,9 @@ const signin = async (req, res) => {
     }
 
     if (!checkPassword) {
-      structureApi.setState(409, "error", "Invalid password");
+      structureApi.setState("200", "error", "Invalid password");
+      structureApi.setResult("");
+
     } 
   } catch (error) {
     structureApi.setState(500, "error", "Error");

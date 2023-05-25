@@ -64,13 +64,13 @@ const createTitledFormation = async (req, res) => {
   const structureApi = new resposeApi();
   try {
     console.log(req.body);
-    const newTitledFormation = await TitledFormationModel.create(req.body);
-    structureApi.setState(
-      "200",
-      "success",
-      "Formación titulada registrada exitosamente"
-    );
-    structureApi.setResult(newTitledFormation);
+    // const newTitledFormation = await TitledFormationModel.create(req.body);
+    // structureApi.setState(
+    //   "200",
+    //   "success",
+    //   "Formación titulada registrada exitosamente"
+    // );
+    // structureApi.setResult(newTitledFormation);
   } catch (error) {
     structureApi.setState("500", "error", "Error en la solicitud");
     structureApi.setResult(error);
