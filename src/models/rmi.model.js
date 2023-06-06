@@ -2,6 +2,10 @@ const mongoose = require("mongoose");
 
 const rmiSchema = new mongoose.Schema(
   {
+    year: {
+      type: Number,
+    },
+    
     month: {
       type: Number,
      },

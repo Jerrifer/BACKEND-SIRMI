@@ -24,7 +24,12 @@ const userSchema = new mongoose.Schema(
 
     document_number: {
       type: String,
-    },  
+    },
+
+    status: {
+      type: Boolean,
+      default: false
+    },
 
     training_center: {
       ref: "Training_Center",

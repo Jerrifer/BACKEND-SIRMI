@@ -17,12 +17,10 @@ const signin = async (req, res) => {
       structureApi.setResult("Asegurese de haber ingresado los datos correctamente");
       return res.json(structureApi.toResponse());
     }
-    
-    const contract = await contractModel.find({ user: user._id, status: true });
 
-    if (contract.length <= 0) {
-      structureApi.setState('404', "info", "El usuario no tiene un contrato activo");
-      structureApi.setResult("");
+    if (user.status !== true) {
+      structureApi.setState('404', "info", "El usuario no está activo");
+      structureApi.setResult(user);
       return res.json(structureApi.toResponse());
     }
 

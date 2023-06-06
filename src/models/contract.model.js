@@ -24,11 +24,6 @@ const contractSchema = new mongoose.Schema(
       type: String,
     },
 
-    status: {
-      type: Boolean,
-      default: true
-    },
-
     thematic_line: {
       ref: "Thematic_Line",
       type: mongoose.Schema.Types.String,
