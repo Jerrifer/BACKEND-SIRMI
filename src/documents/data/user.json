@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "643d6999522160fb9f22ea0b",
+    "first_name": "Soporte",
+    "last_name": "Fábrica de software",
+    "email": "fabricasoftwarectpi@misena.edu.co",
+    "password": "123456",
+    "contact_number": "12345678",
+    "document_number": "12345678",
+    "training_center": 9221,
+    "status": true
+  }
+]
