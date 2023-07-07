@@ -1,13 +1,13 @@
 const express = require('express');
 const router = express.Router();
 const formationProgramController = require('../controller/formationProgram.controller');
-const { validateFormationProgram, validateFormationProgramById, validateFormationProgramByCode } = require('../validators/formationPrograms.validator')
+const { validateFormationProgram, validateFormationProgramById, validateFormationProgramByCode, validateProgramCode } = require('../validators/formationPrograms.validator')
 
 router.get('/', formationProgramController.getFormationPrograms)
 
 router.get('/:id', validateFormationProgramById, formationProgramController.getFormationProgram)
 
-router.post('/', validateFormationProgram, validateFormationProgramByCode, formationProgramController.createFormationProgram)
+router.post('/', validateProgramCode, validateFormationProgram, validateFormationProgramByCode,  formationProgramController.createFormationProgram)
 
 router.put('/:id', validateFormationProgramById, validateFormationProgram, formationProgramController.updateFormationProgram)
 

@@ -1,6 +1,7 @@
 const resposeApi = require("../helpers/responseApi");
-const rmiModel = require("../models/rmi.model");
+const RmiModel = require("../models/rmi.model");
 const TitledFormationModel = require("../models/titledFormation.model");
+const LearningResultModel = require("../models/learningResult.model");
 
 // list all Titled formation
 const getTitledFormations = async (req, res) => {
@@ -35,14 +36,18 @@ const getTitledFormations = async (req, res) => {
 const getTitledFormation = async (req, res) => {
   const structureApi = new resposeApi();
   try {
-    const titledFormation = await TitledFormationModel.findById(req.params.id)
+    const titledFormation = await TitledFormationModel.findById(req.params.id).populate([
+      "formation_program", "competence", "rmi"
+    ]).lean();
+
     if (titledFormation) {
+      const learningResults = await getLearningResults(titledFormation.learning_results)
       structureApi.setState(
         "200",
         "success",
         "formación titulada encontrada exitosamente"
       );
-      structureApi.setResult(titledFormation);
+      structureApi.setResult({titledFormation, learningResults});
     } else {
       structureApi.setState(
         "200",
@@ -56,21 +61,47 @@ const getTitledFormation = async (req, res) => {
     structureApi.setResult(error);
     console.log(error);
   }
-  res.json(structureApi.toResponse());
+  await res.json(structureApi.toResponse());
+};
+
+// list learning resulst by titled training report
+const getLearningResults = async (learning_results) => {
+  const learningResults = await Promise.all(learning_results.map( async (learningResult) => {
+    const data = await LearningResultModel.findById(learningResult.learning_result);
+    console.log(data);
+    // data.end_date = learningResult.end_date
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        // resolve(data);
+         resolve({learning_result: data, end_date: learningResult.end_date});
+      }, 1000);
+    });
+  }))
+  
+  return learningResults
 };
 
 //  create a Titled formation
 const createTitledFormation = async (req, res) => {
   const structureApi = new resposeApi();
   try {
-    console.log(req.body);
+    console.log(req.body)
+    const { work_days, schedule, rmi } = req.body
+    // const daysWorkedFiltered = await filterDaysWorkedBySchedule(work_days, schedule)
+    console.log("EOOO");
+    // req.body.work_days = daysWorkedFiltered
     // const newTitledFormation = await TitledFormationModel.create(req.body);
-    // structureApi.setState(
-    //   "200",
-    //   "success",
-    //   "Formación titulada registrada exitosamente"
-    // );
-    // structureApi.setResult(newTitledFormation);
+     const rmiUpdateHours = await RmiModel.findById(rmi);
+
+     console.log(rmiUpdateHours);
+
+     rmiUpdateHours.total_hours_formation = rmiUpdateHours.total_hours_formation
+    structureApi.setState(
+      "200",
+      "success",
+      "Formación titulada registrada exitosamente"
+    );
+    structureApi.setResult(newTitledFormation);
   } catch (error) {
     structureApi.setState("500", "error", "Error en la solicitud");
     structureApi.setResult(error);
@@ -79,11 +110,30 @@ const createTitledFormation = async (req, res) => {
   res.json(structureApi.toResponse());
 };
 
+// filtrar los días seleccionados en el calendario por los días de la semana (lunes, martes, etc.) que seleccionaron el el horario
+const filterDaysWorkedBySchedule = async (workdays, schedule) => {
+  const selectedWeekDays = await schedule.filter((weekday) => weekday.start_time !== '' && weekday.end_time !== '')
+  let daysWorkedFiltered = []
+  await selectedWeekDays.map((value) => {
+      workdays.map((workday) => {
+        if (workday.week_day === value._id) {
+          return (
+            daysWorkedFiltered.push(workday.day)
+          )
+        }
+      })
+  })
+  return daysWorkedFiltered
+};
+
 // update a Titled formation
 const updateTitledFormation = async (req, res) => {
   const structureApi = new resposeApi();
   try {
-    //program_name, program_code, program_version, total_duration,
+    const { work_days, schedule } = req.body
+    const daysWorkedFiltered = await filterDaysWorkedBySchedule(work_days, schedule)
+
+    req.body.work_days = daysWorkedFiltered
 
     const TitledFormation = await TitledFormationModel.findByIdAndUpdate(
       req.params.id,
@@ -125,7 +175,9 @@ const deleteTitledFormation = async (req, res) => {
 const titledFormationsByRmi = async (req, res) => {
   const structureApi = new resposeApi();
   try {
-    const allTitledFormations = await TitledFormationModel.find({rmi: req.params.id})
+    const allTitledFormations = await TitledFormationModel.find({rmi: req.params.id}).populate([
+      "formation_program", "competence"
+    ]).lean();
     const rmi = await rmiModel.findById(req.params.id)
     if (allTitledFormations.length > 0) {
       structureApi.setState(

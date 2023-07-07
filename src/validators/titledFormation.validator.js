@@ -45,16 +45,16 @@ const validateTitledFormation = [
 //       });
 //     }),
 
-  check("competence.competence")
-    .exists().withMessage("Debe seleccionar una competencia laboral")
-    .isInt().withMessage("La competencia laboral debe ser un valor númerico")
-    .custom((value) => {
-      return CompetenceModel.findById(value).then((competence) => {
-        if (!competence) {
-          return Promise.reject("La competencia laboral que ingresaste no existe");
-        }
-      });
-    }),
+  // check("competence.competence")
+  //   .exists().withMessage("Debe seleccionar una competencia laboral")
+  //   .isInt().withMessage("La competencia laboral debe ser un valor númerico")
+  //   .custom((value) => {
+  //     return CompetenceModel.findById(value).then((competence) => {
+  //       if (!competence) {
+  //         return Promise.reject("La competencia laboral que ingresaste no existe");
+  //       }
+  //     });
+  //   }),
 
 //   check("competence.learning_results")
 //     .exists().withMessage("Debe seleccionar al menos un resultado de aprendizaje")

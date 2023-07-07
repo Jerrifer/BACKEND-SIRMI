@@ -9,9 +9,6 @@ const validateFormationProgram = [
   check("program_name")
       .exists().withMessage('Debe ingresar el nombre del programa'),
 
-  check("program_code")
-      .exists().withMessage('Debe ingresar el códig del programa'),
-
   check("total_duration")
       .exists().withMessage('Debe ingresar la duración total')
       .isInt().withMessage('La duración estimada deben ser datos numéricos'),
@@ -57,6 +54,16 @@ const validateFormationProgram = [
   },
 ];
 
+const validateProgramCode = [
+
+  check("program_code")
+      .exists().withMessage('Debe ingresar el código del programa'),
+
+  (req, res, next) => {
+    validateResult(req, res, next);
+  },
+];
+
 const validateFormationProgramById = [
   param("id").custom((value) => {
     return FormationProgramModel.findById(value).then((formationProgram) => {
@@ -87,4 +94,4 @@ const validateFormationProgramByCode = [
   },
 ];
 
-module.exports = { validateFormationProgram, validateFormationProgramById, validateFormationProgramByCode };
+module.exports = { validateFormationProgram, validateFormationProgramById, validateFormationProgramByCode, validateProgramCode };

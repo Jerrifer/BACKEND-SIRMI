@@ -14,11 +14,6 @@ const learningResultSchema = new mongoose.Schema(
       ref: "Competence",
       type: mongoose.Schema.Types.Number,
     },
-
-    titled_formation: {
-      ref: "Titled_Formation",
-      type: mongoose.Schema.Types.Array,
-    },
   },
   {
     timestamps: true,

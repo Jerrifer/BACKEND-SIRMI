@@ -1,17 +1,17 @@
 const responseApi = require("../helpers/responseApi");
-const otherActivity =  require ('../models/otherActivity.model')
+const otherActivityModel =  require ('../models/otherActivity.model')
 
-
-const  getotherActivitys = async (req, res) => {
+// list all other activities
+const  getOtherActivities = async (req, res) => {
     let structureApi = new responseApi();
   try {
-    const allactivity  = await otherActivity.find()
-    if(allactivity.length > 0) {
-        structureApi.setState("200","success"," lista de actividades ")
-        structureApi.setResult(allactivity)
+    const allOtherActivities  = await otherActivityModel.find()
+    if(allOtherActivities.length > 0) {
+        structureApi.setState("200","success","Reportes de otras actividades encontrados")
+        structureApi.setResult(allOtherActivities)
     }else{
-        structureApi.setState("200","success","no existe ninguna actidad")
-        structureApi.setResult(allactivity)
+        structureApi.setState("200","success","No hay reportes de otras actividades")
+        structureApi.setResult(allOtherActivities)
     }
   } catch (error) {
     structureApi.setState("500", "error","error en la solicitud")
@@ -19,17 +19,19 @@ const  getotherActivitys = async (req, res) => {
   }
  res.json(structureApi.toResponse())
 };
-const  getotherActivity = async (req, res) => {
+
+// Get a report of other activity
+const  getOtherActivity = async (req, res) => {
     let structureApi = new responseApi();
     try {
-      const oneactivity  = await otherActivity.findById(
+      const oneactivity  = await otherActivityModel.findById(
         req.params.id
       )
       if(oneactivity) {
-          structureApi.setState("200","success"," lista de actividades ")
+          structureApi.setState("200","success","reporte de otra actividad encontrado")
           structureApi.setResult(oneactivity)
       }else{
-          structureApi.setState("200","success","no existe ninguna actidad")
+          structureApi.setState("200","success","no existe el reporte")
           structureApi.setResult(oneactivity)
       }
     } catch (error) {
@@ -38,63 +40,81 @@ const  getotherActivity = async (req, res) => {
     }
    res.json(structureApi.toResponse())
 };
-const  createotherActivity = async (req, res) => {
 
-    let structureApi = new responseApi();
-try {
-    const newotherActivity = await otherActivity.create(req.body)
-    structureApi.setState("200", "success","activity se creo con exito ")
+// Create a report of another activity
+const createOtherActivity = async (req, res) => {
+  let structureApi = new responseApi();
+  try {
+    const newotherActivity = await otherActivityModel.create(req.body)
+    structureApi.setState("200", "success","Reporte de otra actividad registrada exitosamente")
     structureApi.setResult(newotherActivity)
 
-} catch (error) {
-        structureApi.setState("500", "error","error en la solicitud")
+  } catch (error) {
+        structureApi.setState("500", "error","Error en la solicitud")
     structureApi.setResult(error)
-}
-res.json(structureApi.toResponse())
+  }
+  res.json(structureApi.toResponse())
+};
 
-};
-const updateotherActivity = async (req, res) => {
-    let structureApi = new responseApi();
-    try {
-      const updateactivity  = await otherActivity.findByIdAndUpdate(
-        req.params.id,
-        req.body,
-        { new: true }
-      )
-   
-          structureApi.setState("200","success"," se actualizo bien")
-          structureApi.setResult(updateactivity)
-    
-        
-    } catch (error) {
-      structureApi.setState("500", "error","error en la solicitud")
-      structureApi.setResult(error)
-    }
+// Update a report of another activity
+const updateOtherActivity = async (req, res) => {
+  let structureApi = new responseApi();
+  try {
+    const updateactivity  = await otherActivityModel.findByIdAndUpdate(
+      req.params.id,
+      req.body,
+      { new: true }
+    )
+    structureApi.setState("200","success","Reporte de otra actividad actualizado exitosamente")
+    structureApi.setResult(updateactivity)
+  } catch (error) {
+    structureApi.setState("500", "error","Error en la solicitud")
+    structureApi.setResult(error)
+  }
    res.json(structureApi.toResponse())
 };
-const  deleteotherActivity = async (req, res) => {
-    let structureApi = new responseApi();
-    try {
-      const deleteactivity  = await otherActivity.findByIdAndDelete(
-        req.params.id,
+
+// Delete a report of another activity
+const  deleteOtherActivity = async (req, res) => {
+  let structureApi = new responseApi();
+  try {
+    const deleteactivity  = await otherActivityModel.findByIdAndDelete(
+      req.params.id,
        
-      )
-   
-          structureApi.setState("200","success"," se elimino")
-          structureApi.setResult(deleteactivity)
-    
-        
-    } catch (error) {
-      structureApi.setState("500", "error","error en la solicitud")
-      structureApi.setResult(error)
-    }
-   res.json(structureApi.toResponse())
+    )   
+    structureApi.setState("200","success","Reporte de otra actividad eliminado exitosamente")
+    structureApi.setResult(deleteactivity)
+  } catch (error) {
+    structureApi.setState("500", "error","Error en la solicitud")
+    structureApi.setResult(error)
+  }
+  res.json(structureApi.toResponse())
+};
+
+//By RMI
+const  otherActivitiesByRmi = async (req, res) => {
+  let structureApi = new responseApi();
+  try {
+    const otherActivities  = await otherActivityModel.find({rmi: req.params.id}).lean()
+    if(otherActivities.length > 0) {
+      structureApi.setState("200","success","Reportes de otras actividades del rmi encontrados")
+      structureApi.setResult(otherActivities)
+  }else{
+      structureApi.setState("200","success","No hay reportes de otras actividades del rmi")
+      structureApi.setResult(otherActivities)
+  } 
+  } catch (error) {
+    structureApi.setState("500", "error","Error en la solicitud")
+    structureApi.setResult(error)
+  }
+  res.json(structureApi.toResponse())
 };
 
 module.exports ={
-    getotherActivitys,
-    getotherActivity,
-    createotherActivity,
-    updateotherActivity,
-    deleteotherActivity
+    getOtherActivities,
+    getOtherActivity,
+    createOtherActivity,
+    updateOtherActivity,
+    deleteOtherActivity,
+    otherActivitiesByRmi
 }

@@ -14,8 +14,15 @@ const titledFormationSchema = new mongoose.Schema(
       type: String,
     },
     
-    workdays: {
+    work_days: {
         type: mongoose.Schema.Types.Array,
+
+        week_day: {
+          type: Number
+        },
+        day: {
+          type: Number
+        }
     },
     
     schedule:{
@@ -23,20 +30,18 @@ const titledFormationSchema = new mongoose.Schema(
         day: {
             type: String
         },
-        date: {
-          type: String
-      },
-        // start_time: {
-        //     type: String
-        // },
-        // end_time: {
-        //     type: String
-        // }
+        start_time: {
+            type: String
+        },
+        end_time: {
+            type: String
+        },
+        shared_event: {
+          type: mongoose.Schema.Types.Boolean,
+          default: false
+        },
     },
 
-    shared_event: {
-      type: mongoose.Schema.Types.Boolean
-    },
 
     rmi: {
       ref: "Rmi",
@@ -47,25 +52,34 @@ const titledFormationSchema = new mongoose.Schema(
       type: mongoose.Schema.Types.Number,
         ref: "Formation_Program"
     },
+    
+    competence: {
+      type: mongoose.Schema.Types.Number,
+      ref: "Competence"
+    },
 
-    competence:{
-
-      competence: {
+    learning_results: {
+      type: mongoose.Schema.Types.Array,
+      learning_result: {
         type: mongoose.Schema.Types.Number,
-        ref: "Competence"
+        ref: "Learning_Result"
       },
+      end_date: {
+        type: mongoose.Schema.Types.Date,
+      },
+    },
 
-      learning_results: {
-        type: mongoose.Schema.Types.Array,
-        learning_result: {
-          type: mongoose.Schema.Types.Number,
-          ref: "Learning_Result"
-        },
-        end_date: {
-          type: mongoose.Schema.Types.Date,
-        },
+    complementary: {
+      type: mongoose.Schema.Types.Array,
+      course_duration: {
+        type: mongoose.Schema.Types.Number,
       },
-    }
+      programming_days: {
+        type: mongoose.Schema.Types.String,
+      },
+    },
+
+    
     
   },
 

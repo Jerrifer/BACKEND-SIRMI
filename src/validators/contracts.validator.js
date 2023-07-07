@@ -13,8 +13,8 @@ const validateContract = [
   check("pay")
     .exists().withMessage("Debe ingresar el valor y forma de pago"),
 
-  check("supervisor")
-    .exists().withMessage("Debe ingresar el nombre del supervisor"),
+  // check("supervisor")
+  //   .exists().withMessage("Debe ingresar el nombre del supervisor"),
 
   check("start_date")
     .exists().withMessage("Debe ingresar la fecha de inicio del contrato"),

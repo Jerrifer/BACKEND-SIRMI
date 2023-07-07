@@ -4,6 +4,7 @@ const rmiSchema = new mongoose.Schema(
   {
     year: {
       type: Number,
+      default: 2023,
     },
     
     month: {

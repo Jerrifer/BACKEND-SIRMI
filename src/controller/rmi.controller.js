@@ -6,7 +6,7 @@ const RMIModel = require("../models/rmi.model");
 const getRmis = async (req, res) => {
   const structureApi = new resposeApi();
   try {
-    const allRmis = await RMIModel.find({rmi: req.params.id})
+    const allRmis = await RMIModel.find({ rmi: req.params.id });
     if (allRmis.length > 0) {
       structureApi.setState(
         "200",
@@ -34,7 +34,7 @@ const getRmis = async (req, res) => {
 const getRmi = async (req, res) => {
   const structureApi = new resposeApi();
   try {
-    const rmi = await rmiModel.findById(req.params.id)
+    const rmi = await rmiModel.findById(req.params.id);
     if (rmi) {
       structureApi.setState(
         "200",
@@ -81,11 +81,9 @@ const createRmi = async (req, res) => {
 const updateRmi = async (req, res) => {
   const structureApi = new resposeApi();
   try {
-    const rmi = await RMIModel.findByIdAndUpdate(
-      req.params.id,
-      req.body,
-      { new: true }
-    );
+    const rmi = await RMIModel.findByIdAndUpdate(req.params.id, req.body, {
+      new: true,
+    });
     structureApi.setState(
       "200",
       "success",
@@ -121,7 +119,7 @@ const deleteRmi = async (req, res) => {
 const rmiByUser = async (req, res) => {
   const structureApi = new resposeApi();
   try {
-    const allRmis = await RMIModel.find({user: req.params.id})
+    const allRmis = await RMIModel.find({ user: req.params.id, year: req.params.year });
     if (allRmis.length > 0) {
       structureApi.setState(
         "200",
@@ -129,6 +127,51 @@ const rmiByUser = async (req, res) => {
         "Reportes mensuales del instructor encontrados"
       );
       structureApi.setResult(allRmis);
+    } else {
+      structureApi.setState(
+        "200",
+        "success",
+        "No hay reportes mensuales del instructor registrados"
+      );
+      structureApi.setResult(allRmis);
+      console.log("jerri");
+    }
+  } catch (error) {
+    structureApi.setState("500", "error", "Error en la solicitud");
+    structureApi.setResult(error);
+    console.log(error);
+  }
+  res.json(structureApi.toResponse());
+};
+
+const yearsByUser = async (req, res) => {
+  const structureApi = new resposeApi();
+  try {
+    const allRmis = await RMIModel.find(
+      { user: req.params.id },
+      {
+        month: false,
+        total_hours_formation: false,
+        total_hours_other_activities: false,
+        total_hours_month: false,
+        user: false,
+        _id: false,
+        createdAt: false,
+        updatedAt: false
+      }
+    );
+    if (allRmis.length > 0) {
+      let rmiMap = allRmis.map(item=>{
+        return [item.year,item]
+      });
+      var rmiMapArr = new Map(rmiMap)
+      let years = [...rmiMapArr.values()]
+      structureApi.setState(
+        "200",
+        "success",
+        "Reportes mensuales del instructor encontrados"
+      );
+      structureApi.setResult(years);
     } else {
       structureApi.setState(
         "200",
@@ -151,10 +194,9 @@ module.exports = {
   createRmi,
   updateRmi,
   deleteRmi,
-  rmiByUser
+  rmiByUser,
+  yearsByUser,
 };
-
-
 
 // {
 //   program_code,
@@ -164,4 +206,4 @@ module.exports = {
 //   thematic_line,
 //   type_program,
 //   program_level,
-// } 
+// }
